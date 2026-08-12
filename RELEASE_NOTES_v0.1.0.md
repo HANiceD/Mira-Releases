@@ -1,16 +1,33 @@
-Mira 首个公开测试版。
+# Mira v0.1.0
 
-### 桌面端
+![Mira 正在晨光中的新工作室整理书籍和植物](https://raw.githubusercontent.com/HANiceD/Mira-Releases/main/notices/assets/v0.1.0-4x1.webp)
 
-- macOS Apple Silicon：正式签名与公证安装包。
-- macOS Intel：正式签名与公证安装包。
-- Windows x64：未签名内测安装包，Windows 可能显示安全提示。
+Mira 的第一个公开测试版。她把 Agent、模型和工具连接到你的真实项目中，让 AI 不只回答问题，而是持续完成工作。
 
-### 安全校验
+## 从真实项目开始
 
-请使用本版本附带的 `SHA256SUMS.txt` 核对下载文件。
+选择工作目录后，Mira 可以读取项目上下文、修改文件、运行工具并交付实际成果。任务和工作过程保存在本机，随时可以继续。
 
-### 源代码
+## 多种 Agent 与模型
 
-对应 [HANiceD/Mira](https://github.com/HANiceD/Mira) 的 `0a164c2e86c3d48633ed8883e2bc2f9dc1f9c079`。
+首批支持 Claude Code 与 Codex，并可连接不同模型。任务进行中也可以切换 Agent 或模型，不必重新解释已有上下文。
 
+## 多 Agent 协同
+
+复杂工作可以拆分、并行推进并交叉检查。计划、执行过程和最终结果都保留在同一个任务中。
+
+## 技能、自动化与工具连接
+
+支持技能、MCP 与自动化，让常用工作方式可以复用，也能连接浏览器、电脑和其他真实工具。
+
+## 灵活的模型使用方式
+
+可以使用 Mira 服务，也可以连接已有的 Coding Plan、自有 API 或本地模型。
+
+## 无需账号也能开始
+
+除了登录 Mira 账号，也可以选择“跳过登录”，直接使用本机 Agent；需要云端支持的能力会清楚标明。
+
+## 首批桌面版本
+
+提供 Apple 芯片 Mac、Intel Mac 和 Windows x64 版本。
