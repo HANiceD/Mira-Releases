@@ -1,0 +1,94 @@
+{
+  "version": "0.1.1",
+  "date": "2026-08-12",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.1-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在沿海列车上记录旅途风景",
+      "en": "Mira recording the view from a seaside train"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "这次更新重点改善 Subagent、长任务性能和跨设备连续性。你可以更清楚地看到工作如何推进，大型任务切换更快，重要名称和状态也不会在重启后丢失。",
+      "topics": [
+        {
+          "id": "subagent-workspace",
+          "title": "Subagent 工作区与计划收口",
+          "text": "新增持久化的 Subagent 工作区，并在右侧悬浮栏提供直接入口。每个 Subagent 的过程和结果都可以回看；未完成的旧计划也会在继续工作前自动对账。"
+        },
+        {
+          "id": "large-task-performance",
+          "title": "大型任务更轻快",
+          "text": "长任务只渲染当前需要查看的内容，切换时先显示界面再平滑载入消息。历史内容很多时，滚动和发送新消息会更流畅。"
+        },
+        {
+          "id": "review-and-remote",
+          "title": "审查与远程工作",
+          "text": "审查面板现在可以安全查看 SSH 或其他设备上的代码变化。生成文件识别更加准确，大批量文件处理也更快。"
+        },
+        {
+          "id": "ios-simulator",
+          "title": "iOS Simulator 接入",
+          "text": "桌面端加入内嵌 iOS Simulator 查看器和连接能力，配合官方插件后，可以在 Mira 内查看并操作模拟器。"
+        },
+        {
+          "id": "plugin-reliability",
+          "title": "插件安装与更新更可靠",
+          "text": "插件来源、权限确认和更新过程更加清楚。应用更新前会等待正在运行的插件安全退出，减少安装失败或重复进程。"
+        },
+        {
+          "id": "identity-and-art",
+          "title": "设备、项目名称与 Art 结果不再丢失",
+          "text": "远程设备会稳定保留身份和用户设置的名称；侧栏项目改名会及时保存；Art 现在可以正常展示由临时地址返回的生成图片。"
+        },
+        {
+          "id": "multi-device-stability",
+          "title": "多端与系统稳定性",
+          "text": "手机端内容更新改善断线重连、离线发送和 Android 宽屏显示；无需重新安装移动端。修复 Windows 登录返回与退出问题。界面语言集中为简体中文和英文，减少未完整翻译造成的不一致。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "This update focuses on Subagents, long-task performance, and continuity across devices. It is easier to follow how work progresses, faster to switch into large tasks, and important names and states now survive restarts.",
+      "topics": [
+        {
+          "id": "subagent-workspace",
+          "title": "Subagent workspace and plan follow-through",
+          "text": "A persistent Subagent workspace now has a direct entry in the floating toolbar on the right. You can revisit each Subagent's process and result, and unfinished plans are reconciled before work continues."
+        },
+        {
+          "id": "large-task-performance",
+          "title": "Large tasks feel faster",
+          "text": "Long tasks render only what you are currently viewing, and the interface appears before messages load smoothly. Scrolling and sending new messages stay responsive even with a long history."
+        },
+        {
+          "id": "review-and-remote",
+          "title": "Review and remote work",
+          "text": "The review panel can now safely show code changes over SSH or from another device. Generated files are identified more accurately and large file sets are handled faster."
+        },
+        {
+          "id": "ios-simulator",
+          "title": "iOS Simulator integration",
+          "text": "The desktop app now includes an embedded iOS Simulator viewer and connection support. With the official plugin, you can view and operate the simulator inside Mira."
+        },
+        {
+          "id": "plugin-reliability",
+          "title": "More reliable plugin installs and updates",
+          "text": "Plugin sources, permission confirmation, and update progress are clearer. Before an app update, Mira waits for running plugins to stop safely, reducing failed installs and duplicate processes."
+        },
+        {
+          "id": "identity-and-art",
+          "title": "Device names, project names, and Art results stay put",
+          "text": "Remote devices keep their identity and user-assigned names, sidebar project renames are saved promptly, and Art can now display generated images returned through temporary URLs."
+        },
+        {
+          "id": "multi-device-stability",
+          "title": "Cross-device and system stability",
+          "text": "A mobile content update improves reconnection, offline sending, and Android wide-screen layouts without requiring a mobile reinstall. Windows sign-in return and quit issues are fixed, and the interface now focuses on Simplified Chinese and English to avoid incomplete translations."
+        }
+      ]
+    }
+  }
+}

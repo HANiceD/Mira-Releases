@@ -1,0 +1,94 @@
+{
+  "version": "0.1.0",
+  "date": "2026-08-11",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.0-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 正在晨光中的新工作室整理书籍和植物",
+      "en": "Mira arranging books and plants in her new sunlit studio"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "Mira 的第一个公开测试版。她把 Agent、模型和工具连接到你的真实项目中，让 AI 不只回答问题，而是持续完成工作。",
+      "topics": [
+        {
+          "id": "real-projects",
+          "title": "从真实项目开始",
+          "text": "选择工作目录后，Mira 可以读取项目上下文、修改文件、运行工具并交付实际成果。任务和工作过程保存在本机，随时可以继续。"
+        },
+        {
+          "id": "agents-and-models",
+          "title": "多种 Agent 与模型",
+          "text": "首批支持 Claude Code 与 Codex，并可连接不同模型。任务进行中也可以切换 Agent 或模型，不必重新解释已有上下文。"
+        },
+        {
+          "id": "multi-agent",
+          "title": "多 Agent 协同",
+          "text": "复杂工作可以拆分、并行推进并交叉检查。计划、执行过程和最终结果都保留在同一个任务中。"
+        },
+        {
+          "id": "skills-and-tools",
+          "title": "技能、自动化与工具连接",
+          "text": "支持技能、MCP 与自动化，让常用工作方式可以复用，也能连接浏览器、电脑和其他真实工具。"
+        },
+        {
+          "id": "model-access",
+          "title": "灵活的模型使用方式",
+          "text": "可以使用 Mira 服务，也可以连接已有的 Coding Plan、自有 API 或本地模型。"
+        },
+        {
+          "id": "skip-login",
+          "title": "无需账号也能开始",
+          "text": "除了登录 Mira 账号，也可以选择“跳过登录”，直接使用本机 Agent；需要云端支持的能力会清楚标明。"
+        },
+        {
+          "id": "desktop-builds",
+          "title": "首批桌面版本",
+          "text": "提供 Apple 芯片 Mac、Intel Mac 和 Windows x64 版本。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira's first public beta connects agents, models, and tools to your real projects, so AI can keep doing the work instead of only answering questions.",
+      "topics": [
+        {
+          "id": "real-projects",
+          "title": "Start with a real project",
+          "text": "Choose a working directory and Mira can read its context, edit files, run tools, and deliver actual results. Tasks and work history stay on your device so you can continue at any time."
+        },
+        {
+          "id": "agents-and-models",
+          "title": "Multiple agents and models",
+          "text": "The first release supports Claude Code and Codex, with connections to different models. You can switch agents or models during a task without explaining the existing context again."
+        },
+        {
+          "id": "multi-agent",
+          "title": "Multi-agent collaboration",
+          "text": "Complex work can be split up, run in parallel, and checked from multiple angles. The plan, work process, and final result all remain in the same task."
+        },
+        {
+          "id": "skills-and-tools",
+          "title": "Skills, automation, and tool connections",
+          "text": "Use skills, MCP, and automation to reuse the ways you work and connect Mira to browsers, computers, and other real tools."
+        },
+        {
+          "id": "model-access",
+          "title": "Flexible ways to use models",
+          "text": "Use Mira's service, connect an existing Coding Plan, bring your own API, or run a local model."
+        },
+        {
+          "id": "skip-login",
+          "title": "Start without an account",
+          "text": "You can sign in to Mira or choose “Skip sign-in” and use a local agent right away. Features that need cloud support are clearly marked."
+        },
+        {
+          "id": "desktop-builds",
+          "title": "Initial desktop builds",
+          "text": "Available for Apple silicon Macs, Intel Macs, and Windows x64."
+        }
+      ]
+    }
+  }
+}
