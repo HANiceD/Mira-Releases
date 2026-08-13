@@ -46,7 +46,7 @@ jobs:
             staged="$remote.next-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
             flyctl ssh sftp put "$file" "$staged" --app "$FLY_APP"
             flyctl ssh console --app "$FLY_APP" --command \
-              "if [ -e '$remote' ]; then cmp -s '$staged' '$remote' || exit 1; rm '$staged'; else mv '$staged' '$remote'; fi"
+              "sh -lc \"if [ -e '$remote' ]; then cmp -s '$staged' '$remote' || exit 1; rm '$staged'; else mv '$staged' '$remote'; fi\""
           done
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
@@ -59,7 +59,7 @@ jobs:
             remote="/app/data/cdn/notice/$relative"
             staged="$remote.next-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
             flyctl ssh sftp put "$file" "$staged" --app "$FLY_APP"
-            flyctl ssh console --app "$FLY_APP" --command "mv '$staged' '$remote'"
+            flyctl ssh console --app "$FLY_APP" --command "sh -lc \"mv '$staged' '$remote'\""
           done
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
