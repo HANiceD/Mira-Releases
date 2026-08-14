@@ -1,0 +1,144 @@
+{
+  "version": "0.1.3",
+  "date": "2026-08-13",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.3-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在成都雨天公交站等车",
+      "en": "Mira waiting at a Chengdu bus stop on a warm rainy evening"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.3 是一次覆盖插件、Agent、协作、多窗口和移动端的完整更新。复杂 Skill 能完整安装，Claude Code 能直接理解图片，Worker 与长任务衔接更稳定，插件升级和独立窗口也更安全。移动端内容可通过热更新获得，无需重新安装。",
+      "topics": [
+        {
+          "id": "complete-skill-bundles",
+          "title": "完整安装复杂 Skill",
+          "text": "包含脚本、参考资料、模板和素材目录的多层 Skill，现在可以完整创建、签名、安装、更新和导出，不会再因目录层级或文件数量遗漏内容。普通插件原有的安全限制保持不变。"
+        },
+        {
+          "id": "plugin-upgrades-preserve-settings",
+          "title": "插件升级保留原有设置",
+          "text": "插件授权改由 Mira 单独、安全地保存，不再依赖安装目录自己证明是否已获批准。旧版插件会自动迁移，原有启用状态、授权和设置继续保留，不需要重新安装或重新确认；授权异常时，插件页面会给出明确状态和恢复入口。"
+        },
+        {
+          "id": "claude-native-image-input",
+          "title": "Claude Code 直接理解图片",
+          "text": "本地图片、远程图片和排队发送的图片都会保留真实来源，并根据图片内容确认格式。有效图片会作为原生图片输入交给 Claude Code；损坏、越界或不可访问的图片会明确提示，不会静默变成路径文字、读错同名文件或直接丢失。"
+        },
+        {
+          "id": "worker-lead-context",
+          "title": "Worker 更了解当前工作",
+          "text": "从界面创建 Worker 并派发首个任务时，Worker 可以按需读取 Lead 的必要背景，不再对“继续处理刚才的问题”这类相对指令无从下手。读取范围受限，不会唤醒 Lead，也不会把无关历史全部带过去。"
+        },
+        {
+          "id": "worker-history-reliability",
+          "title": "Worker 历史和长任务更稳定",
+          "text": "切换或重新打开 Worker 视图时，不会反复加载相同的旧消息。历史窗口、缓存和自动加载额度会保持一致；缓存重建后，也能继续按正确范围补齐内容。"
+        },
+        {
+          "id": "queued-input-after-restart",
+          "title": "排队消息不会因重启卡住",
+          "text": "Codex 等待安全重启期间收到的消息，会在条件恢复后自动继续执行，不再因重启与输入队列互相等待而永久停住，也不会提前发送或重复发送。"
+        },
+        {
+          "id": "reliable-model-switching",
+          "title": "模型切换保持可用",
+          "text": "运行中可以切换到稍后才加载出来的 Claude Code 网关模型，不再被旧的可用模型名单误拦。窗口布局变化后，模型选项面板也能恢复，不会闪退后一直打不开；上下文容量会按当前模型重新确认。"
+        },
+        {
+          "id": "pi-project-skills",
+          "title": "Pi 可以安全使用项目 Skill",
+          "text": "项目获得批准后，Pi Agent 可以使用该项目的 Skill。Mira 会为每个任务创建隔离快照，并在启动前检查项目目录、仓库边界和文件是否发生变化；审批失效、路径漂移或独立审查任务都不会加载这些资源。"
+        },
+        {
+          "id": "bento-and-window-only-plugins",
+          "title": "Bento 和独立插件窗口更顺手",
+          "text": "Bento 演示会在独立窗口打开，不再占用 Mira 主界面，结束演示或关闭窗口后可以立即回到原任务。只支持独立窗口的插件也不会被错误合并回主界面。"
+        },
+        {
+          "id": "multi-window-reliability",
+          "title": "多窗口行为更可靠",
+          "text": "分离侧栏和插件窗口不再重复弹出会话过期提示，也不会各自重发同一条认证失败消息。浏览器标签、固定状态和关闭操作只由真正拥有它的窗口处理，减少窗口之间互相干扰。"
+        },
+        {
+          "id": "ios-workflow-fallback",
+          "title": "iOS 开发流程不再走进死路",
+          "text": "未安装或停用 iOS Simulator 插件时，Agent 可以在正常授权范围内改用 Xcode、Simulator 或命令行流程，不会再被强制指向一个当前不可用的内嵌工具。已启用插件时，原有的实例管理和清理规则仍然有效。"
+        },
+        {
+          "id": "mobile-privacy-boundaries",
+          "title": "移动端隐私边界更明确",
+          "text": "移动端为后续安全诊断补齐账号归属能力，但只有用户同意统计后才允许绑定账号标识；退出登录时会主动清除，避免后续记录错误归到上一个账号。没有对应能力的安装版本会自动忽略，不影响登录和使用。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.3 is a broad update across plugins, agents, collaboration, secondary windows, and mobile. Complex Skills can now be installed intact, Claude Code can understand images directly, Workers and long-running tasks stay more continuous, and plugin upgrades and separate windows are safer. Mobile changes can be delivered as an over-the-air update with no reinstall required.",
+      "topics": [
+        {
+          "id": "complete-skill-bundles",
+          "title": "Complete Skill bundles",
+          "text": "Multi-level Skills containing scripts, references, templates, and assets can now be created, signed, installed, updated, and exported without losing files or folders. Existing limits for ordinary plugins remain unchanged."
+        },
+        {
+          "id": "plugin-upgrades-preserve-settings",
+          "title": "Plugin upgrades keep your setup",
+          "text": "Plugin approval is now stored safely by Mira rather than inferred from the installation directory. Existing plugins migrate automatically while preserving approvals, enabled states, and settings. Reinstallation or repeated permission confirmation is not required, and approval problems now have a clear status and recovery path."
+        },
+        {
+          "id": "claude-native-image-input",
+          "title": "Claude Code understands images directly",
+          "text": "Local, remote, and queued images retain their real source and are identified from their contents. Valid images are delivered to Claude Code as native image input. Damaged, oversized, or unreachable images produce a clear warning instead of silently becoming path text, resolving to the wrong local file, or disappearing."
+        },
+        {
+          "id": "worker-lead-context",
+          "title": "Workers understand the current task",
+          "text": "A Worker created from the interface can retrieve the necessary Lead context when its first assignment depends on earlier work. Access is limited, does not wake the Lead, and does not copy unrelated history."
+        },
+        {
+          "id": "worker-history-reliability",
+          "title": "More reliable Worker history",
+          "text": "Reopening or remounting a Worker view no longer reloads the same old messages repeatedly. History windows, caches, and automatic loading budgets now share the same lifecycle and recover correctly after a cache rebuild."
+        },
+        {
+          "id": "queued-input-after-restart",
+          "title": "Queued input survives deferred restarts",
+          "text": "Messages queued while Codex waits for a safe restart continue automatically after the restart gate clears. They no longer remain stuck because the restart and input queue are waiting on each other."
+        },
+        {
+          "id": "reliable-model-switching",
+          "title": "Reliable model switching",
+          "text": "Claude Code gateway models that become available later can be selected without being rejected by an outdated allowlist. Model options recover after layout changes, and context limits are resolved from the currently selected model."
+        },
+        {
+          "id": "pi-project-skills",
+          "title": "Safe project Skills for Pi",
+          "text": "After a project is approved, Pi can use that project's Skills through an isolated per-task snapshot. Mira rechecks the project path, repository boundary, and file state before launch. Expired approval, path changes, and independent review tasks do not receive project resources."
+        },
+        {
+          "id": "bento-and-window-only-plugins",
+          "title": "Better Bento and plugin windows",
+          "text": "Bento presentations open in a separate window instead of replacing the Mira workspace. Closing or ending a presentation returns you to the main task immediately. Plugins designed for window-only use can no longer be merged into the main layout by mistake."
+        },
+        {
+          "id": "multi-window-reliability",
+          "title": "More dependable multi-window behavior",
+          "text": "Detached sidebars and plugin windows no longer show duplicate session-expiry dialogs or retry the same authentication failure independently. Browser tabs, pinned state, and destructive actions are handled only by the window that owns them."
+        },
+        {
+          "id": "ios-workflow-fallback",
+          "title": "iOS workflows no longer reach a dead end",
+          "text": "When the iOS Simulator plugin is unavailable or disabled, an Agent can use Xcode, Simulator, or command-line tools through the normal permission flow instead of being redirected to an unavailable embedded tool."
+        },
+        {
+          "id": "mobile-privacy-boundaries",
+          "title": "Clearer mobile privacy boundaries",
+          "text": "Mobile account attribution for future security diagnostics is allowed only after analytics consent. The identifier is cleared on sign-out so later records are not assigned to the previous account. Builds without the related native capability ignore the call safely."
+        }
+      ]
+    }
+  }
+}
