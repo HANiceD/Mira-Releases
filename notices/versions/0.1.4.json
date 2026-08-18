@@ -1,0 +1,135 @@
+{
+  "version": "0.1.4",
+  "date": "2026-08-18",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.4-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在成都锦江绿道的暖色黄昏里停下自行车查看手机",
+      "en": "Mira pauses with her bicycle to check her phone by Chengdu's Jin River at golden hour"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.4 让 Mira 更适合跨设备、长时间和多人协作。Pi 现在可以通过 SSH 在远端 Mac 或 Linux 设备上继续工作；图片理解、飞书群聊上下文、审查面板、插件停靠和语音快捷键也一起补齐。Android 可直接获得内容更新，无需重新安装；iOS 因原生身份信息修正，需要从 TestFlight 更新到新的安装版本。",
+      "topics": [
+        {
+          "id": "remote-pi-over-ssh",
+          "title": "Pi 可以在远端设备上工作",
+          "text": "在设置中连接 SSH 设备后，可以让 Pi 直接在远端 Mac 或 Linux 项目中工作。Mira 会记住任务使用的设备，断线或重启后仍可恢复；权限请求也会回到当前设备处理。远端设备需要能够访问 GitHub，暂不支持 Windows 或纯内网远端。"
+        },
+        {
+          "id": "pi-model-routing",
+          "title": "更多模型可以直接交给 Pi",
+          "text": "Pi 会根据已经连接的模型服务生成可用模型列表，并保留各服务的模型信息、上下文容量和自定义设置。新建任务、切换模型或刷新连接时，不再因为旧目录或错误来源选到不可用的模型。"
+        },
+        {
+          "id": "vision-bridge",
+          "title": "纯文本模型也能理解图片",
+          "text": "开启视觉桥后，本身不能读取图片的模型也可以先获得可靠的图片说明，再继续当前任务。图片来源会先校验，损坏、过大或无法访问时会明确说明，不会静默丢失。"
+        },
+        {
+          "id": "feishu-group-context",
+          "title": "飞书群聊能带上相关上下文",
+          "text": "飞书群和话题中的任务可以按当前权限带入必要的近期消息，接管后也能延续原来的交流背景。发送消息、调用插件或执行其他会改变外部状态的操作仍会先请求确认。"
+        },
+        {
+          "id": "review-panel-continuity",
+          "title": "审查面板记得你在看什么",
+          "text": "审查未提交改动、分支差异或消息快照时，Mira 会保留当前来源和进度。关闭再打开面板不必重新选择，旧记录也会自动迁移到统一入口。"
+        },
+        {
+          "id": "sidebar-and-navigation",
+          "title": "侧栏和消息导航更顺手",
+          "text": "侧栏分组标题现在可以直接切换当前设备范围，并显示远端任务是否仍在运行；隐藏的 Agent 也能完整查看。搜索框、折叠布局和长任务消息导航同时修正，定位历史内容更快。"
+        },
+        {
+          "id": "plugin-docking",
+          "title": "插件面板可以上下停靠",
+          "text": "插件面板现在可以在同一侧栏里纵向停靠和调整位置，独立窗口与主界面的归属更清楚。插件也可以在输入框为空时预填自己的命令，安装和升级仍会保留原有授权、启用状态和设置。"
+        },
+        {
+          "id": "push-to-talk-function-keys",
+          "title": "功能键也能按住说话",
+          "text": "Windows 和 Mac 现在都可以把 F1 到 F12 设为按住说话快捷键。即使系统没有把这些按键当作普通文字输入，Mira 也能稳定识别按下与松开。"
+        },
+        {
+          "id": "approval-and-error-handling",
+          "title": "需要确认时不再静默拒绝",
+          "text": "自动审查或权限通道暂时不可用时，Mira 会明确请求你的决定，不再把系统故障记成你拒绝了操作。Windows 命令限制、未知工具确认和插件请求格式检查也更可靠，错误会在真正执行前说明。"
+        },
+        {
+          "id": "model-and-account-continuity",
+          "title": "模型和账号设置更连续",
+          "text": "模型可见范围现在跟随当前账号，不会在切换账号后串用旧设置。自定义模型服务、新任务的默认模型和稍后加载出来的模型都能正确保留；Pi 处理图片失败时也不会堵住后续消息。"
+        },
+        {
+          "id": "desktop-reliability",
+          "title": "桌面使用中的细节更稳定",
+          "text": "修复了 Mac 窗口按钮重复、全屏切换崩溃、删除早期消息后滚动位置跳动、更新公告计时器残留，以及远端设备名称和联系人同步不及时等问题。压缩请求无法解析时也不会跳过正确的模型路由。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.4 is built for longer work across devices and teams. Pi can now continue on a remote Mac or Linux machine over SSH, while image understanding, Feishu group context, the review panel, plugin docking, and push-to-talk shortcuts have all been strengthened. Android receives the content update without a reinstall; iOS requires a new TestFlight build because this release corrects native app identity metadata.",
+      "topics": [
+        {
+          "id": "remote-pi-over-ssh",
+          "title": "Run Pi on a remote machine",
+          "text": "After connecting an SSH host in Settings, Pi can work directly inside a project on a remote Mac or Linux machine. Mira remembers which host each task uses, can recover after a disconnect or restart, and returns approval requests to your current device. The remote host must be able to reach GitHub; Windows and intranet-only remotes are not supported yet."
+        },
+        {
+          "id": "pi-model-routing",
+          "title": "More models work directly with Pi",
+          "text": "Pi now builds its available model list from the services you have connected while preserving provider metadata, context limits, and custom settings. New tasks, model switches, and refreshed connections no longer select unavailable models from an outdated catalog or the wrong source."
+        },
+        {
+          "id": "vision-bridge",
+          "title": "Text-only models can understand images",
+          "text": "With Vision Bridge enabled, a model that cannot read images itself can receive a dependable visual description before continuing the task. Image sources are validated first, and damaged, oversized, or unreachable files produce a clear explanation instead of disappearing silently."
+        },
+        {
+          "id": "feishu-group-context",
+          "title": "Feishu groups keep relevant context",
+          "text": "Tasks started in Feishu groups and topics can include the recent messages allowed by the current access setting, and a takeover can continue with the same conversational background. Sending messages, calling plugins, or performing other actions that change external state still requires confirmation."
+        },
+        {
+          "id": "review-panel-continuity",
+          "title": "The review panel remembers its source",
+          "text": "When reviewing uncommitted work, branch changes, or a message snapshot, Mira preserves the selected source and progress. Reopening the panel no longer requires choosing again, and older review records migrate to the unified entry point."
+        },
+        {
+          "id": "sidebar-and-navigation",
+          "title": "Smoother sidebar and message navigation",
+          "text": "Sidebar section headers can now switch the current device scope directly and show whether remote work is still running, while hidden Agents remain available in the full list. Search placement, collapsed layouts, and long-task message navigation have also been corrected."
+        },
+        {
+          "id": "plugin-docking",
+          "title": "Dock plugin panels vertically",
+          "text": "Plugin panels can be stacked and moved vertically within the same sidebar, with clearer ownership between separate windows and the main workspace. A plugin can also prefill its own command when the composer is empty, while installs and upgrades continue to preserve approvals, enabled states, and settings."
+        },
+        {
+          "id": "push-to-talk-function-keys",
+          "title": "Use function keys for push to talk",
+          "text": "F1 through F12 can now be assigned as push-to-talk shortcuts on Windows and Mac. Mira reliably sees both the press and release even when the operating system does not treat the key as ordinary text input."
+        },
+        {
+          "id": "approval-and-error-handling",
+          "title": "Confirmation failures no longer look like denials",
+          "text": "When automatic review or an approval channel is unavailable, Mira asks for your decision instead of recording a system failure as your refusal. Windows command restrictions, unknown-tool confirmation, and plugin request validation now fail clearly before execution."
+        },
+        {
+          "id": "model-and-account-continuity",
+          "title": "More consistent model and account settings",
+          "text": "Model visibility now follows the active account so settings do not leak across account changes. Custom providers, new-task defaults, and models that arrive later are preserved correctly, and a failed Pi image input no longer blocks the messages behind it."
+        },
+        {
+          "id": "desktop-reliability",
+          "title": "More dependable everyday desktop use",
+          "text": "This release fixes duplicate Mac window controls, fullscreen transition crashes, scroll jumps after deleting earlier messages, lingering release-note timers, and stale remote device or contact names. Compressed requests that cannot be parsed no longer bypass the correct model route."
+        }
+      ]
+    }
+  }
+}
+
