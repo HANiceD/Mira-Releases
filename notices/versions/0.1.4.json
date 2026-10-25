@@ -3,7 +3,7 @@
   "date": "2026-08-18",
   "contributors": [],
   "banner": {
-    "url": "../assets/v0.1.4-4x1.webp",
+    "url": "https://api.heymira.online/notice/assets/v0.1.4-4x1.webp",
     "altByLocale": {
       "zh-CN": "Mira 在成都锦江绿道的暖色黄昏里停下自行车查看手机",
       "en": "Mira pauses with her bicycle to check her phone by Chengdu's Jin River at golden hour"
@@ -132,4 +132,3 @@
     }
   }
 }
-

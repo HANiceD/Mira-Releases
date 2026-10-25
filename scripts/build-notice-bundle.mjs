@@ -8,6 +8,7 @@ const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'
 const versionsDir = path.join(repoRoot, 'notices', 'versions');
 const assetsDir = path.join(repoRoot, 'notices', 'assets');
 const platforms = ['darwin-arm64', 'darwin-x64', 'win32-x64'];
+const noticeBaseUrl = 'https://api.heymira.online/notice';
 
 function fail(message) {
   throw new Error(`release notice validation failed: ${message}`);
@@ -92,7 +93,7 @@ async function loadAndValidateNotices() {
     if (notice.version !== version) fail(`${filename} contains version ${notice.version ?? '<missing>'}`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(notice.date ?? '')) fail(`${version} has an invalid date`);
 
-    const expectedBanner = `../assets/v${version}-4x1.webp`;
+    const expectedBanner = `${noticeBaseUrl}/assets/v${version}-4x1.webp`;
     if (notice.banner?.url !== expectedBanner) {
       fail(`${version} banner must be ${expectedBanner}`);
     }
