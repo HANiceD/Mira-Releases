@@ -1,0 +1,84 @@
+{
+  "version": "0.1.8",
+  "date": "2026-10-08",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.8-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 和两位同伴在成都社区咖啡馆围桌讨论并分工",
+      "en": "Mira discusses and divides work with two companions at a neighborhood café in Chengdu"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.8 让长期伙伴和多 Agent 协同更适合持续工作。伙伴的记忆、工作台、待办和主力电脑更完整，委派与结果回报也更少断线。",
+      "topics": [
+        {
+          "id": "long-term-companions",
+          "title": "长期伙伴有自己的工作方式",
+          "text": "伙伴可以保留称呼、人设、记忆、技能和历史，简单请求直接完成，复杂工作则开启独立任务并带回结果。创建和管理集中在更清晰的入口里。"
+        },
+        {
+          "id": "companion-routines-and-capabilities",
+          "title": "伙伴能安排例行工作",
+          "text": "例行任务可由时间或插件提交的本地事件触发，支持启停、立即运行和历史查看。伙伴也能按需接入已安装的技能、MCP 与内置工具，授权卡片可以稍后完成。"
+        },
+        {
+          "id": "companion-memory-and-import",
+          "title": "记忆可管理，旧伙伴可迁入",
+          "text": "伙伴记忆可以按类型查看、搜索、编辑和删除。Hermes 与 OpenClaw 的既有 Agent 可选择性导入技能、记忆和自动化定义，缺渠道的配置会保留并标为停用。"
+        },
+        {
+          "id": "companion-workbench-and-todos",
+          "title": "工作台和待办接着项目推进",
+          "text": "伙伴工作台会读取项目文档、分支与近期提交，把事项分成等待、进行、待做和完成。独立待办清单可以查看和推进，已完成记录会保留。"
+        },
+        {
+          "id": "remote-workers-and-cloud-companion",
+          "title": "协同可以换电脑继续",
+          "text": "每个 Worker 都能选择同账号的其他电脑运行，Lead 和团队留在发起端，状态与入口按真实位置显示。伙伴也有主力电脑，离线时可查看云端对话并换机继续。"
+        },
+        {
+          "id": "delegation-and-subagents",
+          "title": "委派和 Subagent 更少打扰",
+          "text": "能当场完成的小事不再被拆成后台任务，内部协调不混入正文，完成提醒只出现一次。Pi Subagent 执行中可以插话纠正，协同会话也能在 Codex 与 Claude Code 间切换。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.8 strengthens long-running companions and multi-agent work. Companion memory, the workbench, todos, and the primary computer are more complete, while delegation and result delivery are less likely to break.",
+      "topics": [
+        {
+          "id": "long-term-companions",
+          "title": "Long-term companions keep their own way of working",
+          "text": "Companions retain their names, personas, memories, skills, and history. They can answer simple requests directly or open a separate task for larger work and bring back the result."
+        },
+        {
+          "id": "companion-routines-and-capabilities",
+          "title": "Companions can schedule recurring work",
+          "text": "Routines can run on a schedule or a local event supplied by a plugin, with controls to pause, run now, and review history. Companions can also use installed skills, MCP, and built-in tools with deferred authorization cards."
+        },
+        {
+          "id": "companion-memory-and-import",
+          "title": "Manage memory and import existing companions",
+          "text": "Companion memories can be browsed, searched, edited, and deleted by type. Existing Hermes and OpenClaw agents can be imported selectively with skills, memories, and automations, while configurations without a delivery channel are preserved as disabled."
+        },
+        {
+          "id": "companion-workbench-and-todos",
+          "title": "Move projects forward with the workbench and todos",
+          "text": "The companion workbench reads project documents, branches, and recent commits to organize work into waiting, active, todo, and done. A separate todo list can be reviewed and advanced while preserving completed items."
+        },
+        {
+          "id": "remote-workers-and-cloud-companion",
+          "title": "Continue collaboration on another computer",
+          "text": "Each Worker can run on another computer under the same account while the Lead and team stay at the origin, with status and entry points reflecting the real location. Companions also have a primary computer and can continue elsewhere when it is offline."
+        },
+        {
+          "id": "delegation-and-subagents",
+          "title": "Less friction from delegation and Subagents",
+          "text": "Small jobs are no longer split into background tasks unnecessarily, internal coordination stays out of the reply, and completion is announced only once. Pi Subagents can be corrected mid-run, and collaborative sessions can switch between Codex and Claude Code."
+        }
+      ]
+    }
+  }
+}

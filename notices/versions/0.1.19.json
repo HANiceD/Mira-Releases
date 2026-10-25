@@ -1,0 +1,104 @@
+{
+  "version": "0.1.19",
+  "date": "2026-10-23",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.19-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira在成都湿地公园的开阔观景台看白鹭，清晨水面与步道安静延展。",
+      "en": "Mira watches egrets from an open lookout in a Chengdu wetland park as the morning water and path stretch into the distance."
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.19 让邮件、插件资料和临时追问不再散落在互不相连的窗口里。邮件卡片、跨电脑管理、独立追问和页签分组得到整理，模型与手机端的连续性也进一步补齐。",
+      "topics": [
+        {
+          "id": "19-mail",
+          "title": "在任务里阅读邮件和整理回信",
+          "text": "统一邮件卡片可展开完整正文、往来记录和附件，手机也能打开预览。回信可先在卡片里起草，草稿、收件人和已读状态随邮件保存；发送仍需经过确认，不能把起草请求当成发送授权。"
+        },
+        {
+          "id": "19-plugins",
+          "title": "跨电脑管理插件和技能",
+          "text": "插件与技能可从其他电脑直接管理，市场入口和创建流程更集中，配置页按插件声明显示相关选项。同账号电脑之间可加密交换插件资料，交换时核对授权与交付状态；Windows 文件占用时提供重试和可理解的提示。技能搜索保留中文输入，导航入口与右侧面板的名称也作了区分，已有批准和配置不能因更新丢失。"
+        },
+        {
+          "id": "19-companions",
+          "title": "发现伙伴并看清消息来源",
+          "text": "伙伴新增发现入口，可预览能力、知识、工具与例行任务后再邀请；例行任务默认停用，确认后才开启。个人微信可绑定给伙伴，群聊与手机历史恢复、流式回复和归档搜索也有改进。灵动岛显示伙伴名称、头像和群名，以需要关注与运行中两个计数区分状态，侧栏可展开查看全部成员。"
+        },
+        {
+          "id": "19-content",
+          "title": "选中内容后独立追问",
+          "text": "桌面和手机可从选区开启侧边追问，追问保留独立历史，不把临时问题混进主任务。问题卡片里的文件路径与网址可直接打开，远程任务拖入文件夹时会先传到对端。生成图片的跨设备交付、交互卡片的卸载与消息上下文处理一并修正，代输入保留你的原话与 Agent 补充内容的区别。"
+        },
+        {
+          "id": "19-tabs",
+          "title": "工具页签可分组与独立成窗",
+          "text": "工具页签可按工作需要调整放置位置并拖出为独立窗口，独立窗口也能承载多个页签。插件面板遵循自身声明与已保存的放置偏好，窗口关闭和重新打开的行为保持明确。浏览器重启后保留登录，静态背景切换与下载进度更连续；Mira 已定稿的窗口和侧栏形态仍需保留。"
+        },
+        {
+          "id": "19-sharing",
+          "title": "分享用量按授权范围查看",
+          "text": "供应商分享分别控制剩余配额和历史用量是否可见，明细默认收起，并支持按成员、模型和时间筛选。分享成员可加备注，收到的分享详情提供常驻刷新入口，来源恢复后不必靠重启刷新。远程凭证的确认与取消、共享任务引用文件的来源校验也一并加固。"
+        },
+        {
+          "id": "19-runtime",
+          "title": "模型恢复和远程名额更明确",
+          "text": "Auto 模型按服务端实际目录跟随默认选择，Worker 分别记住各自 Agent 的模型和远程供应商，切换模型后尽量恢复原有推理上下文。可选的远程名额设置在容量紧张时让出闲置任务，需要时接回原会话，默认关闭。归档任务可调整模型，单条排队消息可直接插话，媒体费用、订阅配额、定时任务跨夏令时和 worktree 识别的计算与恢复一并修正。"
+        },
+        {
+          "id": "19-mobile",
+          "title": "上传未完成时先提醒",
+          "text": "手机上传附件期间离开会先确认，避免发送一条缺少图片的消息。设置说明按分组整理，调试选项收进开发者二级页，常用入口和主要动作更清楚。远控消息、模型收藏缓存、远程选择与过期重连提示保持连续，离线打开历史时明确说明当前状态。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.19 keeps mail, plugin data, and follow-up questions from becoming disconnected pieces of work. It organizes mail cards, cross-computer management, side chats, tab groups, and continuity fixes for models and mobile.",
+      "topics": [
+        {
+          "id": "19-mail",
+          "title": "Read mail and prepare replies within a session",
+          "text": "A unified mail card opens the full message, its thread, and attachments, with previews available on mobile too. Replies can be drafted on the card, retaining the draft, recipients, and read state with the message; sending still follows its confirmation flow, rather than treating a request to draft as permission to send."
+        },
+        {
+          "id": "19-plugins",
+          "title": "Manage plugins and skills across computers",
+          "text": "Plugins and skills can be managed from another computer, with more consistent marketplace and creation flows and settings that respect each plugin's declarations. Computers on the same account can exchange encrypted plugin data after authorization and delivery checks, while Windows file-lock failures receive retries and clear feedback. Skill search preserves Chinese composition, navigation entries are distinguished from tool panels, and updates must retain existing approvals and configuration."
+        },
+        {
+          "id": "19-companions",
+          "title": "Discover teammates and recognize their messages",
+          "text": "A discovery entry lets you review a teammate's capabilities, knowledge, tools, and routines before inviting it; routines stay off until you enable them. Personal WeChat can be assigned to a teammate, alongside improvements to group chats, mobile history restoration, streaming, and archived search. Island messages identify the teammate and group, separate attention from running counts, and the sidebar can expand to show all members."
+        },
+        {
+          "id": "19-content",
+          "title": "Ask a side question about selected content",
+          "text": "Desktop and mobile can open a side chat from selected content, preserving a separate history without mixing a temporary question into the main session. File paths and URLs on question cards can open directly, and folders dropped into a remote session are transferred to the other computer. Fixes cover generated-image delivery, interactive-card teardown, and message context, while input handoff keeps your original request distinct from the Agent's additions."
+        },
+        {
+          "id": "19-tabs",
+          "title": "Group tool tabs or move them into a window",
+          "text": "Tool tabs can be arranged for the current work or moved into a separate window that holds multiple tabs. Plugin panels follow their declarations and saved placement preferences, with explicit close and reopen behavior. Browser sign-ins survive restarts, static-background transitions and download progress are smoother, and Mira's approved window and sidebar design remains a required constraint."
+        },
+        {
+          "id": "19-sharing",
+          "title": "View shared usage only within its authorization",
+          "text": "Provider sharing separately controls visibility of remaining quota and usage history, with details collapsed by default and filters for member, model, and time. Members can have notes, and received-share details offer a persistent refresh action so a recovered source does not require a restart. Fixes also strengthen remote-credential confirmation and cancellation and validate the origin of files referenced in shared sessions."
+        },
+        {
+          "id": "19-runtime",
+          "title": "Clearer model recovery and remote capacity",
+          "text": "Auto follows defaults actually supplied by the server, Workers remember model and remote-provider choices per Agent, and model switches better preserve reasoning context. An optional capacity setting releases idle remote sessions when needed and reconnects them later; it is off by default. Archived sessions allow model changes, a single queued message can be steered directly, and fixes cover media charges, subscription quota, daylight-saving schedules, and worktree recognition."
+        },
+        {
+          "id": "19-mobile",
+          "title": "Get a warning before leaving an upload",
+          "text": "Leaving while attachments are uploading asks for confirmation to avoid sending a message with missing images. Settings explanations are grouped, debugging options move under a developer page, and primary actions are clearer. Remote messages, cached favorites, remote-model selections, and reconnection hints remain consistent, while offline history shows an explicit availability state."
+        }
+      ]
+    }
+  }
+}

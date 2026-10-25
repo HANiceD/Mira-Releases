@@ -1,0 +1,94 @@
+{
+  "version": "0.1.13",
+  "date": "2026-10-13",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.13-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在成都独立书店里比较两本空白封面的笔记本",
+      "en": "Mira compares two blank notebooks in an independent bookstore in Chengdu"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.13 整理模型和供应商的选择体验。本机模型多一种运行方式，模型目录、推理强度、上下文与账号来源更清楚，切换时更少被旧设置或错误路由打断。",
+      "topics": [
+        {
+          "id": "llama-cpp-local-models",
+          "title": "本机模型多一种运行方式",
+          "text": "可以直接安装 llama.cpp 运行环境并下载模型，首次使用自动启动，下载支持暂停、继续和取消。已有 Ollama 与本机服务仍按原方式保留，模型文件和推理留在自己的电脑上。"
+        },
+        {
+          "id": "model-selector-usability",
+          "title": "选择器按真实可用性展示",
+          "text": "模型按厂商与版本组织，展示价格、折扣、上下文和订阅余量，并标出推荐引擎与原生或兼容方式。远程和分享来源的模型也能收藏，收藏跟随任务所在电脑。"
+        },
+        {
+          "id": "provider-accounts-and-catalogs",
+          "title": "供应商账号和目录分开管理",
+          "text": "同一品牌的多个账号可以分别命名、查看用量并在任务中切换。自定义模型能指定类型，目录更新不必等客户端发版，失效账号不会静默回退到其他账号。"
+        },
+        {
+          "id": "model-switching-and-effort",
+          "title": "切换模型和推理强度不再打架",
+          "text": "同一任务中途切换模型可以继续已有历史，不必重开。推理强度和 Fast 调整会按顺序生效，恢复默认会清理各来源的旧设置，没有推理档位的模型也能正常建任务。"
+        },
+        {
+          "id": "default-models-and-runtimes",
+          "title": "默认模型和运行组件更好维护",
+          "text": "默认模型会结合订阅、可用能力和上次选择，不再由某个入口写死。Claude Code、Codex 与 Pi 的版本可在关于页查看和升级，Pi 也能恢复到 Mira 正式版。"
+        },
+        {
+          "id": "context-and-pricing",
+          "title": "上下文和价目信息更具体",
+          "text": "模型详情可以展示按次、按量等更细的价目，最大上下文与实际生效预算保持一致。切换到窗口更小的模型前会先确认，避免无意丢失已有上下文。"
+        },
+        {
+          "id": "model-catalog-updates",
+          "title": "模型目录持续补充",
+          "text": "目录会补充新模型资料、上下文窗口、图片输入能力、推理档位与参考价，并修正不可用档位。实际可见范围仍由当前账号、连接服务和生产目录决定。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.13 refines model and provider selection. On-device models gain another runtime, while catalogs, reasoning effort, context, and account sources are clearer and less likely to be disrupted by stale settings or the wrong route.",
+      "topics": [
+        {
+          "id": "llama-cpp-local-models",
+          "title": "A new way to run on-device models",
+          "text": "You can install the llama.cpp runtime and download models directly, with automatic startup and pause, resume, and cancel controls. Existing Ollama and local services remain available, and model files and inference stay on your computer."
+        },
+        {
+          "id": "model-selector-usability",
+          "title": "The selector reflects what is actually available",
+          "text": "Models are organized by vendor and version with pricing, discounts, context, and subscription quotas, plus recommended engines and native or compatible modes. Remote and shared models can be favorited, with favorites following the task’s computer."
+        },
+        {
+          "id": "provider-accounts-and-catalogs",
+          "title": "Manage provider accounts and catalogs independently",
+          "text": "Multiple accounts from the same vendor can be named, checked for usage, and switched within a task. Custom models can declare their type, catalogs can update without a client release, and an expired account no longer fails over silently."
+        },
+        {
+          "id": "model-switching-and-effort",
+          "title": "Switch models and reasoning effort without conflicts",
+          "text": "Switching models mid-task now preserves the conversation instead of forcing a new one. Reasoning and Fast changes apply in order, Reset to Default clears old settings across sources, and models without reasoning levels still work."
+        },
+        {
+          "id": "default-models-and-runtimes",
+          "title": "Easier default-model and runtime maintenance",
+          "text": "Default models now follow subscriptions, available capabilities, and the previous selection instead of being hard-coded by one entry point. Claude Code, Codex, and Pi versions can be viewed and upgraded from About, and Pi can be restored to Mira’s official build."
+        },
+        {
+          "id": "context-and-pricing",
+          "title": "Clearer context limits and pricing",
+          "text": "Model details can show finer per-call and per-volume pricing, with maximum context matching the effective budget. Switching to a smaller context window asks first so existing context is not lost unexpectedly."
+        },
+        {
+          "id": "model-catalog-updates",
+          "title": "The model catalog keeps expanding",
+          "text": "The catalog adds model metadata, context windows, image input, reasoning levels, and reference pricing while correcting unavailable options. What you can actually select still depends on the account, connected services, and production catalog."
+        }
+      ]
+    }
+  }
+}

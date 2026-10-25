@@ -1,0 +1,94 @@
+{
+  "version": "0.1.11",
+  "date": "2026-10-11",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.11-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在成都地铁里靠窗使用手机，电脑收在旁边座位的包里",
+      "en": "Mira uses her phone by the window of a Chengdu metro train, with her laptop packed beside her"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.11 让手机更贴近完整的 Mira 工作体验。导航、消息、协同与个性化一起整理，远程桌面也获得更稳定的画面、输入和断线恢复。",
+      "topics": [
+        {
+          "id": "mobile-navigation-and-composer",
+          "title": "顶栏和输入框更顺手",
+          "text": "任务与伙伴首页使用统一的顶栏，可左右滑动切换并保留各自搜索词和滚动位置。输入框能拖着调高，向下拖动也能收拢键盘与输入区域。"
+        },
+        {
+          "id": "mobile-lists-and-performance",
+          "title": "长列表用久了也更轻快",
+          "text": "超长对话和首页列表按需加载，打开就能看到最新内容，回看历史不跳位。长时间使用后进入任务、展开项目和新建任务不再逐渐变卡。"
+        },
+        {
+          "id": "mobile-offline-messages",
+          "title": "离线、重启和后台刷新不丢消息",
+          "text": "发送内容会先保存在本机，离开页面或重启后仍能恢复，并核对电脑是否真正收到。已看任务可离线缓存，后台刷新不会清掉已加载的历史。"
+        },
+        {
+          "id": "mobile-sharing-and-viewers",
+          "title": "分享和图片查看更完整",
+          "text": "分享长图会保留标题、正文和图片，HEIC/HEIF 照片会自动转成可发送格式。图片查看支持缩放、平移与惯性，视频可以和图片连续翻页。"
+        },
+        {
+          "id": "mobile-collaboration-and-groups",
+          "title": "手机上也能真正参与协同",
+          "text": "手机可以发消息、处理确认、编辑队列，也能开启协同和管理 Worker。伙伴群聊支持发言、@ 分工与设置管理，部分操作停下时会直接推送到手机。"
+        },
+        {
+          "id": "remote-desktop",
+          "title": "远程桌面更适合触屏和弱网",
+          "text": "手机可以查看并操作电脑画面，支持缩放、剪贴板和声音，断线会保留最后画面并重连。画质可选自动、省流或高清，剪贴板即时同步，轻度放大也能拖开被遮挡内容。"
+        },
+        {
+          "id": "mobile-appearance",
+          "title": "外观和编辑更贴近个人习惯",
+          "text": "手机可跟随系统或固定浅色、深色，也能单独选择自己的消息气泡颜色。双击任务标题即可改名，重命名按钮和底部操作会避开键盘。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.11 brings a more complete Mira experience to mobile. Navigation, messaging, collaboration, and personalization are refined together, while remote desktop gains steadier video, input, and reconnect behavior.",
+      "topics": [
+        {
+          "id": "mobile-navigation-and-composer",
+          "title": "Smoother navigation and composer controls",
+          "text": "Task and companion home pages share a consistent top bar, with swipe navigation and preserved search terms and scroll positions. The composer can be dragged taller and pulls down naturally with the keyboard."
+        },
+        {
+          "id": "mobile-lists-and-performance",
+          "title": "Long lists stay responsive over time",
+          "text": "Long conversations and home lists load on demand, opening at the latest content without jumps when browsing history. Entering tasks, expanding projects, and creating tasks no longer slow down over long sessions."
+        },
+        {
+          "id": "mobile-offline-messages",
+          "title": "Messages survive offline use, restarts, and background refreshes",
+          "text": "Outgoing messages are stored locally first so they survive leaving the page or restarting, and delivery to the computer is verified. Viewed tasks can be cached offline, and background refreshes no longer discard loaded history."
+        },
+        {
+          "id": "mobile-sharing-and-viewers",
+          "title": "More complete sharing and image viewing",
+          "text": "Shared long images preserve titles, text, and pictures, while HEIC/HEIF photos are converted automatically. The image viewer supports zooming, panning, and inertia, and videos can be browsed alongside photos."
+        },
+        {
+          "id": "mobile-collaboration-and-groups",
+          "title": "Collaborate fully from mobile",
+          "text": "Mobile users can send messages, respond to confirmations, edit queues, and start or manage collaborative Workers. Companion groups support posting, @ assignments, and settings, with interruptions pushed directly to the phone."
+        },
+        {
+          "id": "remote-desktop",
+          "title": "Remote desktop works better with touch and weak networks",
+          "text": "Mobile can view and control a computer with zoom, clipboard, and audio, preserving the last frame and reconnecting after interruptions. Quality modes include Auto, Saver, and HD, with instant clipboard sync and pannable zoomed content."
+        },
+        {
+          "id": "mobile-appearance",
+          "title": "Personalize appearance and editing",
+          "text": "Mobile can follow the system theme or stay in light or dark mode, and outgoing bubble colors can be customized. Double-tapping a task title starts renaming, with actions kept clear of the keyboard."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "version": "0.1.7",
+  "date": "2026-10-07",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.7-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在成都初秋清晨的开放式厨房里整理周计划并准备手冲咖啡",
+      "en": "Mira organizes a weekly plan while making pour-over coffee in a Chengdu kitchen on an early-autumn morning"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.7 整理任务、项目和自动化的日常使用方式。标签、项目管理、定时任务与用量上限恢复更清楚，查找历史和清理本地数据也更顺手。",
+      "topics": [
+        {
+          "id": "task-tags-and-projects",
+          "title": "用标签和项目整理任务",
+          "text": "任务可以添加标签，并在桌面、手机和工具之间共用同一套目录。Agent 也能协助新建项目、移入已有任务并保留聊天记录。"
+        },
+        {
+          "id": "automation-and-routines",
+          "title": "自动化和例行安排更会接着做",
+          "text": "定时任务在重启、失败与夏令时变化后更容易正确恢复，异常会给出通知。伙伴的例行安排可以按时间或本地事件触发，并支持编辑、启停和查看历史。"
+        },
+        {
+          "id": "usage-limit-auto-continue",
+          "title": "用量重置后自动继续",
+          "text": "任务撞上周期用量上限时，会显示预计继续的时刻并允许取消；到点仍未处理就自动接着运行。目标运行期间收到普通消息也不会再被打断。"
+        },
+        {
+          "id": "task-search",
+          "title": "中文搜索与历史链接更准",
+          "text": "桌面端输入几个中文字就能命中任务内容，摘要显示更准确。引用历史对话时还会附上对应任务链接，并按设备打开。"
+        },
+        {
+          "id": "local-storage-cleanup",
+          "title": "本地数据清理更可控",
+          "text": "可以按归档时间清理旧消息并查看进度，也能选择是否包含活跃任务。对话工作区的存放位置可以调整，清理前后的空间变化更清楚。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.7 tidies up everyday work across tasks, projects, and automation. Tags, project management, schedules, and recovery after usage limits are clearer, while history search and local-data cleanup become easier to use.",
+      "topics": [
+        {
+          "id": "task-tags-and-projects",
+          "title": "Organize tasks with tags and projects",
+          "text": "Tasks can now carry tags that share one catalog across desktop, mobile, and tools. Mira can also help create projects and move existing tasks into them with their history intact."
+        },
+        {
+          "id": "automation-and-routines",
+          "title": "Automation and routines resume more reliably",
+          "text": "Schedules recover more reliably after restarts, failures, and daylight-saving changes, with clear notifications when something goes wrong. Companion routines can run on a timer or local event and can be edited, paused, or reviewed."
+        },
+        {
+          "id": "usage-limit-auto-continue",
+          "title": "Continue automatically after a usage reset",
+          "text": "When a task reaches a periodic usage limit, Mira shows when it can continue and lets you cancel. It resumes automatically if you do nothing, and ordinary messages no longer interrupt an active goal."
+        },
+        {
+          "id": "task-search",
+          "title": "Better Chinese search and history links",
+          "text": "Desktop search can find task content from just a few Chinese characters and presents clearer snippets. References to past conversations include a task link that opens on the correct device."
+        },
+        {
+          "id": "local-storage-cleanup",
+          "title": "More control over local-data cleanup",
+          "text": "You can clear old messages by archive date with visible progress and choose whether active tasks are included. The storage location for chat workspaces is adjustable, with clearer feedback about reclaimed space."
+        }
+      ]
+    }
+  }
+}

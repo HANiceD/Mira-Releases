@@ -1,0 +1,94 @@
+{
+  "version": "0.1.16",
+  "date": "2026-10-16",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.16-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在成都秋雨后的老宅门廊用钥匙开门，门内亮着暖光",
+      "en": "Mira unlocks a traditional Chengdu home after autumn rain, with warm light inside"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.16 集中处理账号、安全和恢复。多账号与登录更稳定，凭据轮换和本人填写更清楚，外部目录、分享与共享任务也都有更明确的权限边界。",
+      "topics": [
+        {
+          "id": "multiple-accounts",
+          "title": "多个账号各归各的任务",
+          "text": "桌面和手机都能添加并切换账号，运行中的任务会在切换前提醒。旧账号任务会停止并标为中断，切回来后由你决定是否继续，后台任务与排队消息不会串号。"
+        },
+        {
+          "id": "login-recovery",
+          "title": "登录失败也有可走的下一步",
+          "text": "同账号令牌续期不再周期性踢回登录页，浏览器登录卡住后可重试。服务连不上时，返回和跳过登录仍可使用；其他实例占用共享锁也不会阻止进入未登录状态。"
+        },
+        {
+          "id": "credential-rotation",
+          "title": "凭据换发后自动接上",
+          "text": "Mira AI 凭据在换发或撤销后，后台功能、IM 和定时任务会自动取得新凭据继续，不必重启。Codex 与已有任务也会使用轮换后的凭据，忙碌进程延后刷新而不是打断。"
+        },
+        {
+          "id": "input-handoff",
+          "title": "需要你亲自填的步骤交还给你",
+          "text": "遇到登录、密码或验证码等只有本人能完成的步骤时，Agent 会发一张填写卡片到你的设备，完成后自动继续。填写值只交给本机执行，不进入模型、记录或推送。"
+        },
+        {
+          "id": "external-file-authorization",
+          "title": "外部目录授权说明读写方向",
+          "text": "可以授权 Agent 写入选定的外部目录，符号链接等越界路径会被拦截。确认卡会写明具体操作与读写方向，授权只对确认时的路径生效；共享任务也按房主权限控制。"
+        },
+        {
+          "id": "sharing-security",
+          "title": "下载和分享不再模糊放行",
+          "text": "未知来源的图片或视频下载会先征求授权，访问内网时展示具体目标。供应商分享使用短时链接和配对码；常见只读操作可减少确认，直接包含密钥的命令仍照常确认。"
+        },
+        {
+          "id": "safe-points-and-recovery",
+          "title": "保存点和历史恢复更可靠",
+          "text": "Git 安全保存点提供可选保护档位，回溯和重新编辑会说明实际影响。旧任务因流中断无法继续时，可以保留原任务并用可读历史新建任务接着对话。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.16 focuses on accounts, security, and recovery. Multiple accounts and sign-in are more dependable, credential rotation and personal input are clearer, and external directories, sharing, and shared tasks have stronger permission boundaries.",
+      "topics": [
+        {
+          "id": "multiple-accounts",
+          "title": "Keep tasks separate across multiple accounts",
+          "text": "Desktop and mobile can add and switch accounts, with a warning before active tasks change accounts. Tasks from the previous account stop as interrupted and resume only when you choose, while background work and queued messages stay separated."
+        },
+        {
+          "id": "login-recovery",
+          "title": "Sign-in failures offer a way forward",
+          "text": "Token refresh no longer periodically returns you to the sign-in page, and stalled browser sign-in can be retried. Back and Skip Sign In remain available when the service is unreachable, and another instance’s shared lock does not block offline use."
+        },
+        {
+          "id": "credential-rotation",
+          "title": "Recover automatically after credential rotation",
+          "text": "After Mira AI credentials rotate or are revoked, background features, IM, and schedules obtain replacements automatically without a restart. Codex and existing tasks adopt the new credentials too, while busy processes refresh later instead of being interrupted."
+        },
+        {
+          "id": "input-handoff",
+          "title": "Hand personal-input steps back to you",
+          "text": "When sign-in, passwords, or verification codes require you, Mira sends an input card to your device and continues after completion. Entered values go only to local execution and never enter the model, logs, or push notifications."
+        },
+        {
+          "id": "external-file-authorization",
+          "title": "External-directory approval explains the operation",
+          "text": "You can authorize Mira to write to selected external directories while symlink escapes are blocked. Approval cards state the operation and direction, apply only to the confirmed path, and shared tasks follow the owner’s permissions."
+        },
+        {
+          "id": "sharing-security",
+          "title": "Downloads and sharing use clearer trust rules",
+          "text": "Image and video downloads from unknown sources ask first, with the exact target shown for private-network access. Provider sharing uses short-lived links and pairing codes; common read-only actions need fewer prompts, while commands containing secrets still require confirmation."
+        },
+        {
+          "id": "safe-points-and-recovery",
+          "title": "More dependable save points and history recovery",
+          "text": "Git save points offer selectable protection levels, and rewind or re-edit explains the real impact. If an old task cannot continue after stream failures, you can preserve it and start a new task from its readable history."
+        }
+      ]
+    }
+  }
+}

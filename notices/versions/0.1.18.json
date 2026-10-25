@@ -1,0 +1,104 @@
+{
+  "version": "0.1.18",
+  "date": "2026-10-23",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.18-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira在成都现代美术馆外廊停步看石雕，午后石材广场留出开阔空间。",
+      "en": "Mira pauses beside a stone sculpture at a contemporary Chengdu gallery, with an open plaza in the afternoon light."
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.18 围绕离开一个窗口或一台电脑之后，工作如何继续。伙伴接续、群聊与跨电脑资料处理得到改进，手机和桌面的恢复体验也一起整理。",
+      "topics": [
+        {
+          "id": "18-companions",
+          "title": "伙伴换电脑仍能接上工作",
+          "text": "伙伴的完整对话、附件、待办与例行任务可随主力电脑交接，同名内容另存而不覆盖；工作记忆保留承诺、纠正和未完线索，重启或上下文压缩后仍可回溯。伙伴可连接自己申请的多个 IM 机器人，主人私聊、群聊和访客交流各自隔离，外部成员不能借此执行管理命令。主动跟进会识别卡住、出错或等待回应的任务，并区分哪些由伙伴处理、哪些需要你确认。"
+        },
+        {
+          "id": "18-groups",
+          "title": "群聊话题显示最近回复",
+          "text": "群聊话题可显示最近两条回复与回复数，回复也可同时发到群聊或贴回主时间线。发送后的文字和图片及时上屏，任务卡按快照呈现，长结果分批发送，减少密集消息中的空档与截断。群聊解散和仅从个人列表移除是不同动作，手机端图片附件可直接打开查看。"
+        },
+        {
+          "id": "18-sharing",
+          "title": "供应商组按电脑管理",
+          "text": "同一台电脑上的多个供应商账号归在一行，组内台数按电脑计算；同账号的其他电脑也可管理组、分享链接与用量。分享审批仍回到生成链接的电脑，经授权的信任设置可减少重复确认，分享供应商的历史用量可单独查看。远程模型余量按任务所在电脑读取，协同 Lead 与 Worker 在本机和远程供应商间切换时保留各自配置。"
+        },
+        {
+          "id": "18-content",
+          "title": "回答承载交互卡片与图表",
+          "text": "标准 MCP Apps 与通用交互卡片可把工具的点选界面放进任务，回答中的组件、图表和视频可随内容连续呈现并适配手机宽度。工具生成的图片和视频保留在结果中，消息链接、文件引用与右键操作也更一致。插件详情可查看个人调用记录、下载量和使用统计，消息计数按完整回复而不是中间片段计算。"
+        },
+        {
+          "id": "18-mobile",
+          "title": "手机相册、草稿和更新更连贯",
+          "text": "选图后先显示预览，再后台读取 iCloud 原图；待发送队列也可预览图片，草稿恢复同时保留文字与附件。项目标题提供新建与搜索动作，键盘、侧滑返回、任务列表短暂空白和文件预览等问题一并整理，截屏不再自动打开分享。Android 应用内更新将发现更新、授权、下载和安装收在同一张卡中，并按版本实际安装要求给出提示。"
+        },
+        {
+          "id": "18-remote",
+          "title": "弱网先显示已有文件预览",
+          "text": "远程文件和网页预览复用统一缓存，弱网时先显示已有内容，再呈现真实下载进度。设备传输复用压缩与长连接，并整理远程桌面操作权、输入异常和连接恢复。任务详情可直接进入远程桌面，远程任务数量也可按单台设备和整机限制。"
+        },
+        {
+          "id": "18-runtime",
+          "title": "中断任务可恢复并带证据诊断",
+          "text": "应用意外退出后可继续被中断的任务，错误详情提供诊断入口，把必要的脱敏信息带到新任务。项目选择支持搜索，Worker 的出错与等待确认汇总到 Lead，并保留明确通知。模型切换、辅助模型的推理开关、回复速度和收尾用量计算一并修正，避免账号或线路变化后沿用旧状态。"
+        },
+        {
+          "id": "18-desktop",
+          "title": "桌面导航与下载管理更集中",
+          "text": "外观设置集中主题、显示模式与回复效果，多个下载可在同一入口查看和管理。侧栏层级、置顶项目排序、插件主视图拖拽区及通知跳转更一致，灵动岛用更紧凑的布局呈现运行与关注状态。菜单栏和静态背景继续保留 Mira 已确认的品牌、素材与页面形态，不把上游人物素材当成新增内容。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.18 focuses on continuing work after leaving a window or computer. It improves teammate continuity, group chats, cross-computer files, and recovery on desktop and mobile.",
+      "topics": [
+        {
+          "id": "18-companions",
+          "title": "Teammates carry work across computers",
+          "text": "A teammate can transfer its full chat history, attachments, todos, and routines when changing its main computer, keeping same-named material separately instead of overwriting it. Working memory retains commitments, corrections, and unfinished leads, while multiple self-managed IM bot connections keep owner, group, and visitor contexts separate and prevent visitors from using management commands. Follow-up identifies stalled work, errors, and requests awaiting a response, making clear what the teammate can handle and what needs your confirmation."
+        },
+        {
+          "id": "18-groups",
+          "title": "Recent replies stay visible in group topics",
+          "text": "Group topics show the latest two replies and their reply count, with options to also post a reply to the main chat. Text and images appear promptly after sending, task cards use snapshots, and long results are sent in batches to reduce gaps and truncation. Dissolving a group remains distinct from removing it only from your own list, and image attachments can open directly on mobile."
+        },
+        {
+          "id": "18-sharing",
+          "title": "Manage provider groups by computer",
+          "text": "Multiple provider accounts on one computer appear under a single computer row, and group size counts computers rather than accounts. Other computers on the same account can manage groups, share links, and usage; approvals still go to the computer that created the link, while authorized trust settings reduce repeated confirmations. Shared-provider usage history is available separately, remote quota comes from the computer running the session, and collaboration Lead and Worker settings remain distinct when switching providers."
+        },
+        {
+          "id": "18-content",
+          "title": "Answers support interactive cards and charts",
+          "text": "Standard MCP Apps and interactive cards can bring tool interfaces into a session, while answer components, charts, and videos render as the reply arrives and adapt to phone widths. Generated images and videos remain attached to results, with more consistent links, file references, and context-menu actions. Plugin details expose personal call records and download and usage statistics, and message counts track complete replies rather than intermediate fragments."
+        },
+        {
+          "id": "18-mobile",
+          "title": "Smoother photos, drafts, and mobile updates",
+          "text": "Selected photos show a preview immediately while iCloud originals load in the background; queued images can also be previewed, and restored drafts keep both text and attachments. Project headers provide creation and search actions, alongside fixes for keyboards, edge-swipe navigation, brief list blanks, and file previews; screenshots no longer automatically open sharing. Android in-app updates combine discovery, permission, download, and installation into one card, with guidance based on the actual installation requirements for each version."
+        },
+        {
+          "id": "18-remote",
+          "title": "Cached previews remain useful on slow connections",
+          "text": "Remote files and web previews share a cache so existing content can appear first on a slow connection, followed by real download progress. Transfers reuse compression and persistent connections, with fixes for remote-desktop control ownership, input, and reconnection. Session details offer a remote-desktop shortcut, and remote-session limits can be set per device and across the computer."
+        },
+        {
+          "id": "18-runtime",
+          "title": "Recover interrupted work and diagnose errors",
+          "text": "After an unexpected exit, interrupted sessions can be resumed, and expanded errors offer a diagnostic entry that carries relevant redacted evidence into a new session. Project selection supports search, while Worker errors and pending confirmations are summarized for the Lead with clear notifications. Fixes also cover model switching, utility-model reasoning settings, reply-speed measurement, and final usage accounting so account or route changes do not retain stale state."
+        },
+        {
+          "id": "18-desktop",
+          "title": "Clearer desktop navigation and download management",
+          "text": "Appearance settings bring themes, display mode, and reply effects together, while multiple downloads can be managed from one entry. Improvements cover sidebar hierarchy, pinned-project ordering, plugin-view drag regions, and notification navigation, with a more compact island status layout. The menu bar and static backgrounds retain Mira's approved identity, artwork, and layout rather than importing upstream character assets."
+        }
+      ]
+    }
+  }
+}

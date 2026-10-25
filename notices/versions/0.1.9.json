@@ -1,0 +1,84 @@
+{
+  "version": "0.1.9",
+  "date": "2026-10-09",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.9-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 和三位朋友在成都现代老茶馆里分享一本相册",
+      "en": "Mira shares a photo album with three friends at a contemporary teahouse in Chengdu"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.9 集中整理共享任务、伙伴群聊和 IM 渠道。邀请、引用回复、附件与权限边界更清楚，后台完成的结果也能回到原来的聊天或话题。",
+      "topics": [
+        {
+          "id": "shared-task-invitations",
+          "title": "共享任务用链接邀请",
+          "text": "房主可以复制带任务名的邀请消息，接收者打开链接即可加入，并看到同一份历史、上下文和附件。协同者也能在权限范围内参与决策。"
+        },
+        {
+          "id": "shared-files-and-permissions",
+          "title": "共享目录能工作，也能管住权限",
+          "text": "访客可以在共享任务的文件浏览器里列目录、读取、搜索和编辑获分享的内容。模型与推理强度收紧为由房主控制，撤权或移动目录后不会再操作旧位置。"
+        },
+        {
+          "id": "mobile-group-chats",
+          "title": "手机直接加入伙伴群聊",
+          "text": "手机可以查看群聊、发言和 @ 伙伴安排分工，未读、成员头像与断线恢复一起补齐。已加入的群还能直连打开，不再要求某台电脑在线转发。"
+        },
+        {
+          "id": "replies-topics-and-reactions",
+          "title": "引用、话题和表情回应各就各位",
+          "text": "群聊可以在当前时间线引用某条消息回答，也可以单独创建话题。表情回应会显示前几位回应者头像，话题回复框支持 @ 伙伴，外观与主群一致。"
+        },
+        {
+          "id": "group-attachments",
+          "title": "附件跟着正确的消息走",
+          "text": "伙伴群聊可以发送图片、文件和视频，分工结果会附上对应附件。飞书、Telegram、Discord 的音视频能交给模型处理，正文不再露出内部附件标记。"
+        },
+        {
+          "id": "im-results-and-guidance",
+          "title": "IM 结果回到原对话，失败说清楚",
+          "text": "自动化或其他任务产生的结果会回到最初收到消息的聊天或话题，图片和文件一并带回。额度类失败会按当前供应商和渠道给出中文原因与处理指引，群历史也带发送时间。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.9 brings shared tasks, companion group chats, and IM channels into focus. Invitations, quote replies, attachments, and permission boundaries are clearer, and background results can return to the original chat or thread.",
+      "topics": [
+        {
+          "id": "shared-task-invitations",
+          "title": "Invite people to shared tasks with a link",
+          "text": "Owners can copy an invitation with the task name so recipients can join from a link and see the same history, context, and attachments. Collaborators can also take part in decisions within their permissions."
+        },
+        {
+          "id": "shared-files-and-permissions",
+          "title": "Shared directories work with clearer permissions",
+          "text": "Guests can list, read, search, and edit shared content in the task file browser. Model and reasoning controls stay with the owner, and revoking access or moving the directory prevents operations on the old location."
+        },
+        {
+          "id": "mobile-group-chats",
+          "title": "Join companion group chats directly on mobile",
+          "text": "Mobile users can read and post in groups and @ companions to divide work, with unread counts, member avatars, and reconnect recovery. Joined groups can open directly without requiring a computer to relay them."
+        },
+        {
+          "id": "replies-topics-and-reactions",
+          "title": "Quotes, threads, and reactions stay distinct",
+          "text": "Group chats can quote a message in the current timeline or start a separate thread. Reactions show the first few reactors’ avatars, and the thread composer supports @ mentions with the same look as the main group."
+        },
+        {
+          "id": "group-attachments",
+          "title": "Attachments stay with the right message",
+          "text": "Companion groups can send images, files, and videos, with delegated results carrying the right attachments. Audio and video from Feishu, Telegram, and Discord can be passed to the model, and internal attachment markers stay out of the message text."
+        },
+        {
+          "id": "im-results-and-guidance",
+          "title": "IM results return home with clearer failures",
+          "text": "Results from automation or other tasks return to the chat or thread that started them, including images and files. Usage failures explain the provider and next step in Chinese, and group history now carries timestamps."
+        }
+      ]
+    }
+  }
+}

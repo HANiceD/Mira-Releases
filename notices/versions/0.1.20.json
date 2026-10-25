@@ -1,0 +1,114 @@
+{
+  "version": "0.1.20",
+  "date": "2026-10-25",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.20-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira提着早餐纸袋站在成都社区面包店门外，晨光照在安静的人行道上。",
+      "en": "Mira stands outside a neighborhood bakery in Chengdu with a plain breakfast bag as morning light falls across the quiet pavement."
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.20 把伙伴话题与日常执行的收尾放在一起：消息各有来处，等待、归档和跨电脑恢复有明确状态。本版同时汇总发布 0.1.7 到 0.1.20 的完整更新内容。",
+      "topics": [
+        {
+          "id": "20-voice",
+          "title": "伙伴可通话、朗读与听写回答",
+          "text": "伙伴支持连续通话、停顿发送、按句朗读和插话，需要执行的工作交回伙伴任务并带回结果；音色、语速和朗读方式可分别设置。提问卡的自由回答支持听写，录入期间暂时锁住切题与提交，快捷键只交给当前卡片，避免内容串到另一题。通义千问、CosyVoice 及托管音色目录与参考音色一并整理，超时和播放中断给出明确提示；实际可选项仍取决于连接与目录。"
+        },
+        {
+          "id": "20-threads",
+          "title": "群聊按序发言，私聊可开话题",
+          "text": "群聊中被点名的伙伴优先回答，未点名时全员按序等待；长队列可收起查看，话题面板可调宽，组件、图表和图片保留在回复中。每个话题有独立上下文、关注与未读状态，同一个伙伴可分别处理不同话题。私聊消息也可开启话题、引用回复并查看对应原消息，手机长按可回复、复制、选字或分享。"
+        },
+        {
+          "id": "20-companions",
+          "title": "伙伴近况集中显示电脑、待办与成果",
+          "text": "伙伴聊天头部的近况集中显示电脑、待办和成品文件，没有内容的分区自动隐藏；手机近况面板也可把待办直接引用到输入框。开始跟进前先确认范围与配额，自动跟进默认关闭，重复邀请和确认提示不再反复出现。伙伴默认模型独立于新任务草稿，模型恢复、技能开关去重与模型列表滚动一并整理。"
+        },
+        {
+          "id": "20-plugins",
+          "title": "插件按授权投递到指定任务",
+          "text": "插件可查询本机任务和伙伴，把文字或图片投递到明确目标；目标范围单独确认，不因插件已安装就默认放开。手机可管理远程插件并打开原配置页，投递与媒体交接继续核对真实任务归属。已有安装、批准、凭证与启停偏好保持兼容，不能用重装代替迁移。"
+        },
+        {
+          "id": "20-sharing",
+          "title": "模型授权与组内配额分开管理",
+          "text": "远程与分享可限定允许调用的模型，并给不同成员分配不同模型范围；使用分享模型的任务也可从历史消息分叉。供应商组按剩余配额与重置时间选择电脑，设置中显示真实进度，耗尽时说明原因并在已知时间继续。切换组内电脑、执行中断或结果写入延迟时，调用与用量结算保持一致，避免重复计算或丢失结果。"
+        },
+        {
+          "id": "20-workers",
+          "title": "Worker 可选择项目与独立目录",
+          "text": "手动和由 Agent 创建 Worker 时，都可选择项目、继承 Lead 的实际工作目录或新建 worktree，并返回实际启动位置。SSH 任务可选择 Pi 模型，跨设备 Worker 的身份识别、结果回报与结算也有修正。创建成功、任务送达与执行完成分别呈现，不把排队当成已完成。"
+        },
+        {
+          "id": "20-opening",
+          "title": "新建提前预热，归档先确认自动化",
+          "text": "新建页开始输入或粘贴时提前准备任务和 Agent，发送时接着使用，减少等待；未发送的草稿按账号隔离。归档绑定自动化的任务前，先列出将暂停的自动化，经确认后再归档，普通任务不增加无关提示。远程绑定查询、手机批量归档与异常退出后的恢复一起核对，避免误停或误恢复。"
+        },
+        {
+          "id": "20-mobile",
+          "title": "手机系统分享与消息状态更明确",
+          "text": "iOS 系统分享的文字与附件可送到任务或伙伴，并尽量保留原文件；发送后立即显示，排队、离线等待和失败可在消息下处理。任务选项与标签管理采用原生分组列表，补齐返回、读屏与保存中的交互，配额条按真实比例显示。通知冷启动跳转、输入控件对齐和 Android 更新断点续传一并整理。本版手机端包含原生更新，iOS 和 Android 都需要安装 0.1.20 完整版本，旧版在线更新不能代替。"
+        },
+        {
+          "id": "20-reliability",
+          "title": "跨设备连接与权限恢复更可靠",
+          "text": "设备之间优先直连，不可用时回退中继；大结果、远控快速滚动、浏览器截图与重启恢复有更明确的完成或失败状态，Windows 锁屏服务核对安装与权限隔离。原生审批通过后不重复复审，链接指向新真实路径时仍重新审核；切换账号后，Codex 配额与速度权限随账号刷新。MCP 卡片、独立窗口文件浏览、消息转义、飞书回复位置和微信主人权限等修复一并收口，模型速度与搜索结果说明以实际可用目录和服务为准。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.20 brings teammate topics together with clearer everyday execution: messages retain their context, and waiting, archiving, and cross-computer recovery have explicit states. This release also publishes the complete update history from 0.1.7 through 0.1.20.",
+      "topics": [
+        {
+          "id": "20-voice",
+          "title": "Call teammates, hear replies, and dictate answers",
+          "text": "Teammates support continuous calls, pause-to-send, sentence-by-sentence playback, and interruption, handing executable work to their session and bringing results back; voice, speed, and playback style can be configured separately. Free-text question cards support dictation, temporarily locking question changes and submission and directing shortcuts only to the active card. Qwen, CosyVoice, hosted voice catalogs, and reference voices are organized with clearer timeout and playback-interruption messages; available options still depend on the connected services and catalog."
+        },
+        {
+          "id": "20-threads",
+          "title": "Order group replies and open private topics",
+          "text": "Mentioned teammates answer first in a group, while an unaddressed question queues everyone in order; long queues can be collapsed, topic panels resized, and replies retain components, charts, and images. Topics keep independent context, follow settings, and unread states so one teammate can work in separate topics. Private messages also support topics, quoted replies, and links to the original message, with mobile long-press actions for reply, copy, selection, and sharing."
+        },
+        {
+          "id": "20-companions",
+          "title": "See computers, todos, and results at a glance",
+          "text": "A teammate's at-a-glance panel brings together computers, todos, and finished files, hiding empty sections; mobile can also quote a todo directly into the composer. Follow-up confirms scope and quota first, stays off by default, and avoids duplicate invitations and confirmations. Teammate defaults remain independent of new-session drafts, alongside fixes for model recovery, duplicate skill switches, and model-list scrolling."
+        },
+        {
+          "id": "20-plugins",
+          "title": "Let plugins deliver to an authorized session",
+          "text": "Plugins can find local sessions and teammates and deliver text or images to a specific destination, with destination access confirmed separately rather than implied by installation. Mobile can manage remote plugins and open their original settings, while delivery and media handoff continue to check the actual session boundary. Existing installations, approvals, credentials, and enabled states must remain compatible instead of requiring a reinstall."
+        },
+        {
+          "id": "20-sharing",
+          "title": "Control shared models and balance group quota",
+          "text": "Remote and shared access can restrict callable models and assign different model ranges to members; sessions using a shared model can also fork from earlier messages. Provider groups choose computers using remaining quota and reset times, show actual progress, and explain exhaustion and scheduled continuation. Accounting stays consistent across computer switches, interruptions, and delayed result storage to prevent duplicated usage or lost results."
+        },
+        {
+          "id": "20-workers",
+          "title": "Choose a project or isolated directory for a Worker",
+          "text": "Workers created manually or by an Agent can select a project, inherit the Lead's actual working directory, or receive a new worktree, with the real launch location returned. SSH sessions can choose Pi models, while cross-device identity, result reporting, and accounting are corrected. Creation, dispatch, and completion remain separate states rather than treating a queued assignment as finished."
+        },
+        {
+          "id": "20-opening",
+          "title": "Warm up new sessions and confirm linked automations",
+          "text": "Typing or pasting on the new-session page prepares the session and Agent ahead of sending, reducing wait time while isolating unsent drafts by account. Archiving a session with linked automations first lists what will pause and asks for confirmation; ordinary sessions do not receive unrelated prompts. Fixes also cover remote linkage checks, mobile bulk archiving, and recovery after unexpected exits to avoid stopping or restoring the wrong work."
+        },
+        {
+          "id": "20-mobile",
+          "title": "Clearer mobile sharing and message states",
+          "text": "The iOS share sheet can send text and attachments to a session or teammate while preserving original files where possible; sent messages appear immediately, with queue, offline, and failure actions beneath them. Session options and tags use native grouped lists with back navigation, accessibility, and saving states, and quota bars reflect actual proportions. Fixes also cover notification cold starts, composer alignment, and resumable Android update downloads. This release includes native mobile changes, so iOS and Android both require the full 0.1.20 installation; an online update on an older installation is not enough."
+        },
+        {
+          "id": "20-reliability",
+          "title": "More reliable device connections and permission recovery",
+          "text": "Devices prefer a direct connection and fall back to relay when needed, with clearer completion or failure states for large results, fast remote scrolling, browser captures, and restart recovery; Windows lock-screen services verify installation and permission isolation. Completed native approvals are not reviewed twice, but links to a new real path still require review, and Codex quota and speed entitlements refresh with account changes. Fixes also cover MCP cards, detached file browsers, escaped message text, Feishu reply placement, and WeChat owner permissions; model-speed and search availability remain governed by the actual catalog and services."
+        }
+      ]
+    }
+  }
+}
