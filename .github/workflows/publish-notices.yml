@@ -37,9 +37,9 @@ jobs:
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
           FLY_APP: ${{ vars.FLY_APP }}
-      - name: Upload immutable notices and per-version banners
+      - name: Upload immutable per-version banners
         run: |
-          find /tmp/mira-notices -type f ! -name index.json -print0 | while IFS= read -r -d '' file; do
+          find /tmp/mira-notices/assets -type f -print0 | while IFS= read -r -d '' file; do
             relative="${file#/tmp/mira-notices/}"
             [[ "$relative" =~ ^[A-Za-z0-9._/-]+$ ]] || exit 1
             remote="/app/data/cdn/notice/$relative"
@@ -47,6 +47,19 @@ jobs:
             flyctl ssh sftp put "$file" "$staged" --app "$FLY_APP" </dev/null
             flyctl ssh console --app "$FLY_APP" --command \
               "sh -lc \"if [ -e '$remote' ]; then cmp -s '$staged' '$remote' || exit 1; rm '$staged'; else mv '$staged' '$remote'; fi\"" </dev/null
+          done
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+          FLY_APP: ${{ vars.FLY_APP }}
+      - name: Replace per-version notices
+        run: |
+          find /tmp/mira-notices -mindepth 2 -type f -name '*.json' ! -name index.json -print0 | while IFS= read -r -d '' file; do
+            relative="${file#/tmp/mira-notices/}"
+            [[ "$relative" =~ ^[A-Za-z0-9._/-]+$ ]] || exit 1
+            remote="/app/data/cdn/notice/$relative"
+            staged="$remote.next-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+            flyctl ssh sftp put "$file" "$staged" --app "$FLY_APP" </dev/null
+            flyctl ssh console --app "$FLY_APP" --command "sh -lc \"mv '$staged' '$remote'\"" </dev/null
           done
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}

@@ -16,7 +16,7 @@ Mira 的官方安装包与版本记录。
 ## 更新公告
 
 `notices/versions/` 保存客户端内展示的中英文公告，`notices/assets/` 保存每个版本独享的
-4:1 Mira 场景横幅。每个版本必须同时提供公告与横幅；发布前运行：
+4:1 Mira 场景横幅。每个版本必须同时提供公告、横幅和指向线上横幅的完整 HTTPS 地址；发布前运行：
 
 ```bash
 node scripts/build-notice-bundle.mjs --out /tmp/mira-notices
