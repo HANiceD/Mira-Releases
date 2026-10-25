@@ -1,0 +1,74 @@
+{
+  "version": "0.1.12",
+  "date": "2026-10-12",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.12-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在成都初秋清晨的公园凉亭里站着用手机复核工作内容",
+      "en": "Mira reviews her work on a phone while standing in a Chengdu park pavilion on an early-autumn morning"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.12 整理审查、反馈与记忆检索。复核能回到原任务继续处理，远程工作和问题反馈更完整，查找历史与审查记忆也更少断点。",
+      "topics": [
+        {
+          "id": "inline-review",
+          "title": "复核回到原任务里",
+          "text": "/review 只在来源任务里显示一张复核卡，不再占用任务列表、搜索和通知。发现的问题会由复核者署名回流，原来的 Agent 接着核对修复，并覆盖任务改动过的每个仓库和目录。"
+        },
+        {
+          "id": "review-freshness-and-permissions",
+          "title": "审查结论知道何时过期",
+          "text": "只在执行 /review 时按需恢复，不再每次启动扫描历史；文件或子模块变化后，旧结论会标记过期并保留。成果授权改为应用内确认，运行中可随时停止，Windows 也能正常发起审查。"
+        },
+        {
+          "id": "remote-review",
+          "title": "远程工作也能检查改动",
+          "text": "电脑互联后，远程任务里可以查看生成的文件和改动，打开该轮差异并撤销或重新应用。被控端也能直接发起 /review，截图交付到手机更可靠。"
+        },
+        {
+          "id": "issue-feedback-and-logs",
+          "title": "问题反馈带上必要的脱敏证据",
+          "text": "/issue 会按你描述的实际问题继续追问，也可以选择附上脱敏后的相关日志，只有确认后才采集。启动或登录异常时可以直接提交日志，减少来回补充信息的成本。"
+        },
+        {
+          "id": "memory-search-and-review",
+          "title": "记忆检索能回到原任务",
+          "text": "对话搜索结果会附上任务链接，找到内容后可以直接回到出处。memory_review 改走共享辅助模型链，默认模型不可用时不再让整理记忆直接失败。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.12 refines review, feedback, and memory search. Reviews return to the source task for follow-up, remote work and issue feedback are more complete, and finding or reviewing past context has fewer interruptions.",
+      "topics": [
+        {
+          "id": "inline-review",
+          "title": "Review returns to the source task",
+          "text": "/review now appears as an inline card in the source task instead of taking over task lists, search, and notifications. Findings return under the reviewer’s name so the original Agent can verify and fix them across every changed repository and directory."
+        },
+        {
+          "id": "review-freshness-and-permissions",
+          "title": "Review results know when they are stale",
+          "text": "Review state restores only when requested instead of scanning history at every launch. File or submodule changes mark old conclusions stale while preserving them, artifact approval happens in-app with stop control, and review works on Windows."
+        },
+        {
+          "id": "remote-review",
+          "title": "Review changes on remote computers too",
+          "text": "Across connected computers, remote tasks can show generated files and changes, open the diff for a turn, and undo or reapply it. The controlled computer can also start /review directly, with more reliable screenshot delivery to mobile."
+        },
+        {
+          "id": "issue-feedback-and-logs",
+          "title": "Issue feedback can include necessary redacted evidence",
+          "text": "/issue asks follow-up questions based on the actual problem and can attach relevant redacted logs only after confirmation. Startup and sign-in failures also offer direct log submission, reducing back-and-forth diagnosis."
+        },
+        {
+          "id": "memory-search-and-review",
+          "title": "Memory search leads back to the original task",
+          "text": "Conversation search results now include task links so you can jump back to the source. memory_review uses the shared helper-model chain, preventing a default-model permission failure from blocking memory maintenance."
+        }
+      ]
+    }
+  }
+}

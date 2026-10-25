@@ -1,0 +1,84 @@
+{
+  "version": "0.1.15",
+  "date": "2026-10-15",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.15-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在成都公园的银杏小径旁查看相机，旁边放着画册和照片",
+      "en": "Mira checks her camera beside a ginkgo path in a Chengdu park, with an album and photos nearby"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.15 整理文档、媒体和个性化视觉。Office 文件、PDF、媒体来源、图片查看与分享更完整，壁纸和移动端外观也更贴近个人偏好。",
+      "topics": [
+        {
+          "id": "office-documents-and-pdf",
+          "title": "任务里直接产出和阅读文档",
+          "text": "可以直接在任务中生成 PDF、Word、PPT 和 Excel，并使用统一排版模板与预览。大体积 PDF 的滚动加载更流畅，大幅面页面不会错位或消失。"
+        },
+        {
+          "id": "media-model-sources",
+          "title": "媒体生成能选自己的来源",
+          "text": "在供应商连接中开启支持的图片或视频协议后，图片生成、编辑、视频生成和图生视频都能选择自己的来源。结果未知或下载失败时不会自动重新付费生成。"
+        },
+        {
+          "id": "image-viewing-and-annotation",
+          "title": "图片查看、标注和恢复更自然",
+          "text": "图片标注与桌面端共用效果，圈选位置会一并告诉模型；Mac 支持双指缩放和平移。生成的截图会持久保存，加载时有占位与淡入，旧消息里可恢复的图片也能重新显示。"
+        },
+        {
+          "id": "sharing-images",
+          "title": "分享图保留完整内容",
+          "text": "手机分享长图会保留标题、列表、代码块和已选图片，导出异常时回退到原方式。桌面端分享为图片时也会包含聊天里的图片，不再只留下文字。"
+        },
+        {
+          "id": "wallpapers-and-cache",
+          "title": "壁纸资源按需获取并复用",
+          "text": "可以使用自己的图片并调节蒙层深浅，保证文字清晰。壁纸资源改为按需下载并跨升级复用缓存，减少安装包占用；Mira 继续使用自己的静态场景资产。"
+        },
+        {
+          "id": "mobile-visual-preferences",
+          "title": "手机外观由你决定",
+          "text": "显示模式可跟随系统或固定浅色、深色，浅色和深色文字层级一起重排。自己的消息气泡颜色可以跟随主题，也能从预设或自定义颜色中选择。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.15 refines documents, media, and personal visuals. Office files, PDFs, media sources, image viewing, and sharing are more complete, while wallpapers and mobile appearance offer more personal choice.",
+      "topics": [
+        {
+          "id": "office-documents-and-pdf",
+          "title": "Create and read documents within a task",
+          "text": "You can create PDF, Word, PowerPoint, and Excel files directly in a task with consistent templates and previews. Large PDFs load more smoothly, and oversized pages no longer shift or disappear while scrolling."
+        },
+        {
+          "id": "media-model-sources",
+          "title": "Use your own sources for media generation",
+          "text": "After enabling a supported image or video protocol in a provider connection, you can use your own source for image generation, editing, video generation, and image-to-video. Unknown outcomes and download failures do not trigger another paid generation automatically."
+        },
+        {
+          "id": "image-viewing-and-annotation",
+          "title": "More natural image viewing, annotation, and recovery",
+          "text": "Image annotation shares the desktop behavior and sends the selected region to the model, with pinch-to-zoom and panning on Mac. Generated screenshots persist, loading uses a placeholder and fade-in, and recoverable images in old messages can reappear."
+        },
+        {
+          "id": "sharing-images",
+          "title": "Shared images keep the full conversation",
+          "text": "Mobile long-image sharing preserves titles, lists, code blocks, and selected pictures, with a fallback if export fails. Desktop conversation images now include the pictures from the chat instead of text alone."
+        },
+        {
+          "id": "wallpapers-and-cache",
+          "title": "Wallpapers download on demand and reuse cache",
+          "text": "You can use your own wallpaper and adjust its overlay for readable text. Wallpaper assets now download on demand and reuse cache across upgrades to reduce installer size, while Mira continues to use its own static scene artwork."
+        },
+        {
+          "id": "mobile-visual-preferences",
+          "title": "Choose how mobile looks",
+          "text": "The appearance setting can follow the system or stay in light or dark mode, with text hierarchy revised for both. Outgoing bubble colors can follow the theme or use a preset or custom color."
+        }
+      ]
+    }
+  }
+}

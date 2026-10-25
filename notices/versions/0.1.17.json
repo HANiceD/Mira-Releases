@@ -1,0 +1,94 @@
+{
+  "version": "0.1.17",
+  "date": "2026-10-17",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.17-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在成都郊外林间木屋阳台抱着合上的笔记本看向夕阳山林",
+      "en": "Mira holds a closed laptop and looks at the sunset hills from a timber cabin balcony outside Chengdu"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.17 把桌面端的性能、状态展示和日常可靠性一起收口。长任务更轻快，生成速度和用量更易查看，启动更新、插件加载与旧任务恢复也更稳定。",
+      "topics": [
+        {
+          "id": "large-history-performance",
+          "title": "大任务和大目录更轻快",
+          "text": "超大聊天记录的读写、搜索和流式输出更顺畅，长回复与大段代码差异不再让界面卡住。归档后自动释放大型工具输出，任务列表加载也更快。"
+        },
+        {
+          "id": "generation-speed-and-usage",
+          "title": "回复速度和用量看得见",
+          "text": "生成过程中会显示实时速度、首响应与流内等待，工具执行时明确标出，不把等待算作生成。用量历史支持活跃热力图、每日柱图与按模型和任务的明细。"
+        },
+        {
+          "id": "menu-bar-usage",
+          "title": "菜单栏直接查看余量",
+          "text": "macOS 菜单栏可以查看各订阅余量、重置时间、余额和近期用量，也能看到同账号其他电脑的状态。面板在小屏上自动切换紧凑布局，较长文字不溢出。"
+        },
+        {
+          "id": "startup-and-updates",
+          "title": "启动和更新少打断工作",
+          "text": "可以开启登录时自动启动，更新检查不再拖慢启动。让 Agent 更新 Mira 时会先确认并说明受影响的后台工作，重启后把结果写回原任务；Windows 更新失败也能手动重试。"
+        },
+        {
+          "id": "desktop-settings-and-navigation",
+          "title": "设置和桌面导航更好找",
+          "text": "设置侧栏可以跨分类搜索并直接跳到具体项，Esc 能逐层返回。文件树、长文件名、下拉菜单、侧栏状态与窗口全屏行为一起修正，窄面板下也更易读。"
+        },
+        {
+          "id": "plugin-and-startup-performance",
+          "title": "插件不再拖住启动和列表",
+          "text": "插件初始化移到后台并隔离超时，不再拖住进入应用。插件列表刷新不会随安装数量急剧变慢，安装较多插件时也能快速打开。"
+        },
+        {
+          "id": "desktop-recovery-and-cleanup",
+          "title": "旧任务和退出过程更干净",
+          "text": "旧任务无法从流中断恢复时，可保留原任务并用可读历史继续。退出时会回收 Codex 工具启动的后代进程，远程 Claude 断线重发也能沿用上一个成功会话的历史。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.17 brings desktop performance, status visibility, and everyday reliability together. Long tasks are lighter, generation speed and usage are easier to read, and startup, updates, plugin loading, and recovery are more dependable.",
+      "topics": [
+        {
+          "id": "large-history-performance",
+          "title": "Large tasks and directories feel lighter",
+          "text": "Reading, searching, and streaming very large conversations is smoother, and long replies or large code diffs no longer stall the interface. Archiving releases large tool outputs automatically, and task lists load faster."
+        },
+        {
+          "id": "generation-speed-and-usage",
+          "title": "See generation speed and usage clearly",
+          "text": "Live generation shows speed, first response, and streaming waits, with tool execution labeled instead of counted as output. Usage history includes an activity heatmap, daily bars, and breakdowns by model and task."
+        },
+        {
+          "id": "menu-bar-usage",
+          "title": "Check remaining quota from the menu bar",
+          "text": "The macOS menu bar shows subscription quotas, reset times, balance, and recent usage, including other computers on the account. The panel switches to a compact layout on smaller screens without overflowing longer text."
+        },
+        {
+          "id": "startup-and-updates",
+          "title": "Startup and updates interrupt less work",
+          "text": "You can enable launch at sign-in, and update checks no longer slow startup. Asking Mira to update itself requires confirmation and lists affected background work, with the result returning to the original task; failed Windows updates can be retried."
+        },
+        {
+          "id": "desktop-settings-and-navigation",
+          "title": "Settings and desktop navigation are easier to find",
+          "text": "Settings now supports cross-category search with direct jumps and Esc to go back step by step. File trees, long names, dropdowns, sidebar status, and fullscreen behavior are refined for readability in narrow panels."
+        },
+        {
+          "id": "plugin-and-startup-performance",
+          "title": "Plugins no longer slow startup and lists",
+          "text": "Plugin initialization now runs in the background with isolated timeouts so it no longer blocks app launch. Plugin lists no longer slow down sharply as installations grow and remain responsive with many plugins."
+        },
+        {
+          "id": "desktop-recovery-and-cleanup",
+          "title": "Cleaner recovery and shutdown",
+          "text": "When an old task cannot recover from a stream interruption, you can preserve it and continue from readable history. Shutdown reaps descendant processes started by Codex tools, and a resent remote Claude turn reuses the last successful session."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "version": "0.1.14",
+  "date": "2026-10-14",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.14-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在成都明亮手工坊里只用右手把成品木盒放上木架",
+      "en": "Mira places a finished wooden box on a shelf with one hand in a bright Chengdu workshop"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.14 集中整理插件和技能。技能发布与本地管理更完整，插件作品库、权限和启动体验更可靠，项目资源与工具调用也更容易衔接。",
+      "topics": [
+        {
+          "id": "skillhub-and-official-skills",
+          "title": "技能可以搜索、发布和沉淀",
+          "text": "技能中心支持按公开、组织和本地来源浏览，并能直接搜索、上传和更新 SkillHub 技能。官方技能也可以协助创建、更新技能，或把任务与既有技能蒸馏成可复用内容。"
+        },
+        {
+          "id": "local-skill-management",
+          "title": "本地技能可以启停和恢复",
+          "text": "本地技能可以启用、禁用或卸载，卸载会移入回收站而不是直接消失。预装和插件技能由 Mira 的私有目录管理，升级自动迁移，不写入你的个人技能目录。"
+        },
+        {
+          "id": "project-skills-and-plugin-manuals",
+          "title": "项目技能和插件手册更容易找到",
+          "text": "本地 Pi 任务可以加载项目里的 Skill、提示词模板和扩展，斜杠命令面板会同步列出项目命令。只有手册、没有工具的插件也能被发现并按需读取，不再被整体隐藏。"
+        },
+        {
+          "id": "plugin-library-files-and-recovery",
+          "title": "作品库文件可取回，也能接回旧目录",
+          "text": "作品库文件可以在系统文件夹中显示位置，或另存到指定位置。重装插件后会自动接回原作品库和目录绑定，列表刷新与读写也不会随插件数量明显变慢。"
+        },
+        {
+          "id": "plugin-onboarding-and-permissions",
+          "title": "插件安装与授权更清楚",
+          "text": "缺少能力时会先复用已装插件，再按需进入市场，不会重复安装。权限增加会先确认，拒绝后不再反复弹出；大文件下载支持进度、取消和断网续传。"
+        },
+        {
+          "id": "plugin-settings-and-startup",
+          "title": "插件设置更简，启动更轻",
+          "text": "插件详情的模型设置合并为一个字段，不选时跟随系统辅助模型；macOS Node 插件可复用宿主已有的系统权限。启动时插件在后台加载，旧组织来源也能重新验证并恢复使用。"
+        },
+        {
+          "id": "plugin-commands-and-tool-calls",
+          "title": "指令和工具调用更干净",
+          "text": "插件指令不再带难以理解的企业后缀，只有同名时才加区分并标注团队共享。无参工具省略 args 不再被拒收，通用 call_tool 信封能自纠错，工具行也不再显示内部 ID。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.14 focuses on plugins and skills. Skill publishing and local management are more complete, plugin libraries, permissions, and startup are more dependable, and project resources connect more smoothly with tool calls.",
+      "topics": [
+        {
+          "id": "skillhub-and-official-skills",
+          "title": "Find, publish, and distill skills",
+          "text": "The skill center separates public, organization, and local sources and supports searching, uploading, and updating SkillHub entries directly. Official skills can also help create or update skills and distill tasks or existing skills into reusable ones."
+        },
+        {
+          "id": "local-skill-management",
+          "title": "Enable, disable, and restore local skills",
+          "text": "Local skills can be enabled, disabled, or uninstalled, with uninstalls moving to the trash instead of disappearing. Built-in and plugin skills live in Mira’s private directory and migrate automatically without writing into your personal skill folder."
+        },
+        {
+          "id": "project-skills-and-plugin-manuals",
+          "title": "Find project skills and plugin manuals more easily",
+          "text": "Local Pi tasks can load project skills, prompt templates, and extensions, with project commands appearing in the slash-command panel. Manual-only plugins can now be discovered and read instead of being hidden entirely."
+        },
+        {
+          "id": "plugin-library-files-and-recovery",
+          "title": "Retrieve library files and reconnect old directories",
+          "text": "Library files can be revealed in the system file manager or saved elsewhere. Reinstalling a plugin reconnects its original library and directory binding, and library reads and list refreshes no longer slow down sharply as plugin count grows."
+        },
+        {
+          "id": "plugin-onboarding-and-permissions",
+          "title": "Clearer plugin installation and authorization",
+          "text": "Missing capabilities reuse installed plugins before going to the marketplace, avoiding duplicate installs. Added permissions require confirmation and rejected prompts do not repeat endlessly, while large downloads show progress and support cancel and resume."
+        },
+        {
+          "id": "plugin-settings-and-startup",
+          "title": "Simpler plugin settings and lighter startup",
+          "text": "Plugin settings now use one model field that follows the system helper model by default, and macOS Node plugins can reuse existing host permissions. Plugins load in the background at startup, and legacy organization sources can be revalidated and restored."
+        },
+        {
+          "id": "plugin-commands-and-tool-calls",
+          "title": "Cleaner commands and tool calls",
+          "text": "Plugin commands no longer expose cryptic organization suffixes; disambiguation appears only for duplicate names and is labeled as team-shared. Omitting args for no-argument tools is accepted, generic call_tool envelopes self-correct, and internal IDs stay out of tool rows."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "version": "0.1.10",
+  "date": "2026-10-10",
+  "contributors": [],
+  "banner": {
+    "url": "../assets/v0.1.10-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在成都办公楼顶露台使用笔记本，旁边放着平板、手机和另一台电脑",
+      "en": "Mira works on a laptop beside a tablet, phone, and second computer on a rooftop terrace in Chengdu"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.10 让多台电脑之间的任务与模型资源更容易接续。供应商分享、分组换机、信任规则和远程定时任务一起补齐，运行位置与用量信息也更真实。",
+      "topics": [
+        {
+          "id": "provider-sharing",
+          "title": "把供应商分享给另一个账号",
+          "text": "可以把本机开放远程调用的供应商分享给其他 Mira 账号，链接短时有效并用配对码确认。Agent 仍在你的电脑上运行，对方的文件与命令留在对方电脑，随时可暂停或收回。"
+        },
+        {
+          "id": "provider-groups-and-failover",
+          "title": "供应商组自动换一台继续",
+          "text": "同账号多台电脑上的同一个供应商可以合成一组，遇到用量上限、登录失效或断连时自动换机。只有全组不可用才提示错误，换机过程不残留误导性的红点。"
+        },
+        {
+          "id": "provider-group-strategies",
+          "title": "按配额和用量选择电脑",
+          "text": "供应商组可以优先使用较快重置的配额，也能按用量均衡分配并跳过已用尽的电脑。换机途中选择全部停止会真正停止，用量按使用方和真实运行电脑展示。"
+        },
+        {
+          "id": "remote-agents-and-workers",
+          "title": "远程 Agent 和 Worker 用真实位置",
+          "text": "远程新建任务可以选择同账号其他电脑开放的供应商，手机端也一样。协同 Worker 可以分别选择运行电脑与供应商，侧栏和手机会显示真实运行位置。"
+        },
+        {
+          "id": "sharing-trust-and-resharing",
+          "title": "信任和再次分享由你决定",
+          "text": "分享来的供应商可以按分享者开启信任，减少敏感信息读取时的重复确认；也可只对当前任务持续允许。经供应商组再次分享时，需要原分享者逐个同意。"
+        },
+        {
+          "id": "remote-schedules-and-files",
+          "title": "远程定时任务和文件操作更可控",
+          "text": "Agent 可以查看和管理其他电脑上的定时任务，并向那台电脑上的任务发消息，改动按权限档确认。跨电脑复制任务会列出跳过项，远程取回与下载提示也支持中途取消。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.10 makes it easier to continue tasks and model resources across computers. Provider sharing, grouped failover, trust controls, and remote schedules arrive together, with more accurate location and usage information.",
+      "topics": [
+        {
+          "id": "provider-sharing",
+          "title": "Share a provider with another account",
+          "text": "You can share a provider exposed for remote use with another Mira account using a short-lived link and pairing code. Mira still runs on your computer, while the other person’s files and commands stay on theirs, and sharing can be paused or revoked."
+        },
+        {
+          "id": "provider-groups-and-failover",
+          "title": "Provider groups fail over to another computer",
+          "text": "The same provider across several computers can form a group that fails over after usage limits, expired sign-ins, or disconnects. An error appears only when the whole group is unavailable, without leaving misleading alerts behind."
+        },
+        {
+          "id": "provider-group-strategies",
+          "title": "Choose computers by quota and usage",
+          "text": "Provider groups can prefer the quota that resets soonest or balance work by usage while skipping exhausted computers. Stop All genuinely stops a pending switch, and usage is shown for the actual user and running computer."
+        },
+        {
+          "id": "remote-agents-and-workers",
+          "title": "Remote Agents and Workers use their real location",
+          "text": "New remote tasks can use providers exposed by another computer under the same account, including from mobile. Each collaborative Worker can choose its computer and provider, with the real location shown in the sidebar and on mobile."
+        },
+        {
+          "id": "sharing-trust-and-resharing",
+          "title": "You control trust and resharing",
+          "text": "A shared provider can be trusted per sharer to reduce repeated sensitive-data prompts, or allowed only for the current task. Resharing through a provider group requires the original owner’s approval for each recipient."
+        },
+        {
+          "id": "remote-schedules-and-files",
+          "title": "More control over remote schedules and files",
+          "text": "Mira can inspect and manage schedules on another computer and message tasks there, with changes confirmed at the current permission level. Cross-computer task copies list skipped items, and remote file retrieval and downloads can be cancelled."
+        }
+      ]
+    }
+  }
+}
