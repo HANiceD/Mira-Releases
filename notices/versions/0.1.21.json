@@ -5,8 +5,8 @@
   "banner": {
     "url": "https://api.heymira.online/notice/assets/v0.1.21-4x1.webp",
     "altByLocale": {
-      "zh-CN": "",
-      "en": ""
+      "zh-CN": "Mira站在成都街边的银杏道旁，十月晨光穿过金色树冠落在空荡的人行道上。",
+      "en": "Mira stands beside a ginkgo-lined street in Chengdu as October morning light falls through the golden canopy onto the empty pavement."
     }
   },
   "contentByLocale": {
@@ -36,7 +36,7 @@
         {
           "id": "21-task-flow",
           "title": "需求优化使用辅助模型，审查结果回到原任务",
-          "text": "需求优化改用辅助模型链，不再占用当前对话所选的模型；没有可用辅助模型时保留原草稿。代码审查的结果可在任务中直接查看，并带回发起审查的任务，查看审查详情后也能返回来源，减少在独立任务之间来回寻找。"
+          "text": "需求优化改用辅助模型链，不再占用当前对话所选的模型；没有可用辅助模型时保留原草稿。代码审查的结果可在任务中直接查看，并带回发起审查的任务，查看审查详情后也能返回来源，减少在独立任务之间来回寻找。 Claude Code 运行时更新到 2.1.300，官方在该版本修复了恢复过程中重复执行已批准工具，以及恢复后丢失压缩摘要的问题；这些路径正是后台任务与中断恢复所使用的。"
         },
         {
           "id": "21-desktop",
@@ -86,7 +86,7 @@
         {
           "id": "21-task-flow",
           "title": "Use Auxiliary Models for Refinement and Return Reviews to Their Source",
-          "text": "Requirement refinement now uses the auxiliary model chain rather than the model selected for the conversation, keeping the original draft when no auxiliary model is available. Code review results can be read inside the task and returned to the task that requested the review. After opening review details, you can return to the source instead of searching through separate tasks."
+          "text": "Requirement refinement now uses the auxiliary model chain rather than the model selected for the conversation, keeping the original draft when no auxiliary model is available. Code review results can be read inside the task and returned to the task that requested the review. After opening review details, you can return to the source instead of searching through separate tasks. The Claude Code runtime moves to 2.1.300, which upstream released to fix re-running already-approved tools during recovery and losing the compaction summary after a resume — the paths background tasks and interrupted sessions rely on."
         },
         {
           "id": "21-desktop",
