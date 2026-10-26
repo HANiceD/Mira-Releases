@@ -1,0 +1,114 @@
+{
+  "version": "0.1.21",
+  "date": "2026-10-26",
+  "contributors": [],
+  "banner": {
+    "url": "https://api.heymira.online/notice/assets/v0.1.21-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "",
+      "en": ""
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.21 把需要亲手填写的步骤接回任务，也把模型选择、群聊引用和手机操作一起整理。Mira 提供的模型恢复可用，三张场景壁纸重新绘制，并可按需开启动态版本。",
+      "topics": [
+        {
+          "id": "21-models",
+          "title": "模型恢复可用，收藏可跨电脑选择",
+          "text": "修复新注册用户看不到 Mira 模型列表的问题，Mira 提供的模型恢复可用；权限目录临时不可用时会重试，不再直接判定为功能关闭，已有凭证也不会因同步失败被清空。Kimi K3.1 系列补齐模型资料、能力与默认思考档位，同账号其他电脑上的收藏模型也可在选择器中选用，模型详情可展示分项价格；实际可选模型、档位与价格仍取决于账号授权、电脑连接和供应商目录。"
+        },
+        {
+          "id": "21-input-handoff",
+          "title": "需要本人填写的步骤可交回桌面与手机",
+          "text": "任务遇到需要本人填写或验证的步骤时，可在桌面或手机打开代输入卡片，先看填写位置，再处理表单、图片、二维码或登录码。填写后由本人提交，任务接着处理后续步骤，也可取消本次交接；跨电脑输入仍需相应连接与权限。填写内容不作为普通聊天消息交给模型，支持的步骤以卡片实际显示为准。"
+        },
+        {
+          "id": "21-groups",
+          "title": "群聊引用回复与创建话题分开",
+          "text": "电脑端群聊可引用一条消息继续回复，并从引用处查看原消息；原来的回复入口改为创建话题，避免把群内接话和独立讨论混在一起。手机会显示引用的作者与摘要，原消息已删除时给出说明。话题内唤醒伙伴时带上对应讨论的上下文，打开群聊时先显示群框架，减少等待空白。"
+        },
+        {
+          "id": "21-plugins",
+          "title": "插件作品库与团队入口保持清楚",
+          "text": "修复插件作品库读写变慢，以及重装后原作品库看起来为空的问题，继续核对作品库与原插件的对应关系。插件指令不再附带企业标识，同名时以团队共享区分来源；企业目录被拒绝时说明原因，公开插件仍可查看。Mira 插件标识的兼容处理也已补齐，已有安装与授权继续沿用，插件可执行的操作仍受原有权限限制。"
+        },
+        {
+          "id": "21-task-flow",
+          "title": "需求优化使用辅助模型，审查结果回到原任务",
+          "text": "需求优化改用辅助模型链，不再占用当前对话所选的模型；没有可用辅助模型时保留原草稿。代码审查的结果可在任务中直接查看，并带回发起审查的任务，查看审查详情后也能返回来源，减少在独立任务之间来回寻找。"
+        },
+        {
+          "id": "21-desktop",
+          "title": "桌面侧栏展开稳定，设置可逐层返回",
+          "text": "右侧栏展开时内容保持稳定，不再跟着滑动反复挤压和抖动，并修复窗口最大化后出现空白的问题。设置页可按 Esc 逐层返回，侧栏更多入口支持悬停展开。启动或登录异常时提供日志反馈入口，让无法进入主界面的问题也有可用的反馈路径。"
+        },
+        {
+          "id": "21-mobile",
+          "title": "手机输入区可拖动，伙伴聊天与群设置更连贯",
+          "text": "手机输入框顶边和聊天记录都可接续拖动以调高输入区，拖到底可收起键盘；iOS 的首页与聊天顶栏统一，任务和伙伴可左右滑动切换。有管理权限且主机在线时，可在手机修改已有伙伴群的名称与成员。已缓存的伙伴仍可打开查看，远程读取失败后可恢复；进入伙伴聊天不再误报主力电脑离线。打开过的定时任务也会保留在普通任务列表中，切到后台不再清空正文。"
+        },
+        {
+          "id": "21-wallpapers",
+          "title": "三张 Mira 场景壁纸提供可选动态版本",
+          "text": "林间温室、深蓝水族馆和沙海晨间三张 Mira 场景壁纸重新设计，静态画面之外可按需选择动态视频版本。壁纸资源改由 CDN 投递，下载与动态版本的可用状态按实际资源显示；原有对应壁纸选择会接续到新的 Mira 场景。"
+        },
+        {
+          "id": "21-brand",
+          "title": "安装、远控与分享画面统一为 Mira",
+          "text": "安装包背景和远程桌面的隐私遮罩素材换成 Mira。桌面端与手机端导出的分享图，页脚统一使用 Mira 图标与文字标识，让分享出去的内容与应用内的名称一致。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.21 brings steps that need your input back into the task, alongside updates to model selection, group replies, and mobile controls. Mira-provided models are available again, and three redrawn scene wallpapers offer optional motion versions.",
+      "topics": [
+        {
+          "id": "21-models",
+          "title": "Restore Model Access and Choose Favorites Across Computers",
+          "text": "Mira-provided models are available again after a fix for new accounts that could not see the model list. Temporary entitlement catalog outages now trigger retries instead of being treated as a feature shutdown, and failed synchronization leaves existing credentials intact. The Kimi K3.1 family has updated model details, capabilities, and default reasoning levels. The picker can also use favorite models from other computers on the same account, and model details can show itemized pricing; available models, reasoning levels, and prices still depend on account access, connected computers, and provider catalogs."
+        },
+        {
+          "id": "21-input-handoff",
+          "title": "Complete Personal Input Steps on Desktop or Mobile",
+          "text": "When a task needs you to fill something in or complete a verification step, an input handoff card can open on desktop or mobile. Check where the input will go, then handle the form, image, QR code, or sign-in code shown. You submit the step before the task continues, or cancel the handoff; input sent to another computer still requires the relevant connection and permissions. Your entries are not sent to the model as ordinary chat messages, and the card shows which steps are supported."
+        },
+        {
+          "id": "21-groups",
+          "title": "Separate Quoted Replies From New Group Topics",
+          "text": "Desktop group chats can quote a message in a reply and navigate from the quote to the original. The previous reply action is now labeled Create Topic, separating a reply in the group from a separate discussion. Mobile shows the quoted author and summary, with a notice when the original has been deleted. Waking a teammate inside a topic now includes that discussion’s context, and opening a group shows its frame before the remaining content loads."
+        },
+        {
+          "id": "21-plugins",
+          "title": "Keep Plugin Libraries and Team Sources Clear",
+          "text": "Fixes address slow plugin library reads and writes, and libraries that appeared empty after reinstalling, while retaining the link between a library and its original plugin. Plugin commands no longer include an organization identifier; matching names use a Team Shared label to distinguish their source. If access to an organization catalog is denied, the reason is shown and public plugins remain available. Mira plugin identifiers also receive compatibility fixes that preserve existing installations and approvals; plugin actions remain subject to their existing permissions."
+        },
+        {
+          "id": "21-task-flow",
+          "title": "Use Auxiliary Models for Refinement and Return Reviews to Their Source",
+          "text": "Requirement refinement now uses the auxiliary model chain rather than the model selected for the conversation, keeping the original draft when no auxiliary model is available. Code review results can be read inside the task and returned to the task that requested the review. After opening review details, you can return to the source instead of searching through separate tasks."
+        },
+        {
+          "id": "21-desktop",
+          "title": "Keep Desktop Panels Steady and Navigate Back Through Settings",
+          "text": "Content stays steady as the right sidebar opens, avoiding repeated squeezing and jitter, and a fix addresses blank space after maximizing the window. Esc moves back through settings one level at a time, and hovering over More in the sidebar opens its submenu. Startup and sign-in error screens now offer a log feedback entry, including when the main interface cannot be reached."
+        },
+        {
+          "id": "21-mobile",
+          "title": "Resize Mobile Input and Manage Teammate Groups",
+          "text": "Drag the top edge of the mobile composer or continue a drag from chat history to make the input area taller; dragging to its lower limit dismisses the keyboard. On iOS, home and chat use consistent top navigation, with horizontal swipes between tasks and teammates. With management permission and the host online, you can rename existing teammate groups and change their members from mobile. Cached teammates remain accessible and failed remote reads can recover; opening a teammate chat no longer incorrectly reports the main computer as offline. Scheduled tasks you have opened also stay in the regular task list, and their content remains when the app goes into the background."
+        },
+        {
+          "id": "21-wallpapers",
+          "title": "Choose Optional Motion for Three Mira Scene Wallpapers",
+          "text": "The Forest Greenhouse, Deep Blue Aquarium, and Dune Morning Mira wallpapers have been redrawn, with optional video versions alongside the still images. Wallpaper assets are delivered through a CDN, and download and motion availability reflect the resources actually available. Existing selections for the corresponding wallpapers carry over to the new Mira scenes."
+        },
+        {
+          "id": "21-brand",
+          "title": "Use Mira Artwork in Installation, Remote Control, and Sharing",
+          "text": "Installer backgrounds and remote desktop privacy covers now use Mira artwork. Share images exported on desktop and mobile use the Mira icon and wordmark together in the footer, matching the name used in the app."
+        }
+      ]
+    }
+  }
+}
