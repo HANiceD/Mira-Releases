@@ -1,0 +1,124 @@
+{
+  "version": "0.1.21",
+  "date": "2026-10-26",
+  "contributors": [],
+  "banner": {
+    "url": "https://api.heymira.online/notice/assets/v0.1.21-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在秋日成都的街边跳蚤集市，身穿橄榄色外套、斜挎帆布包，手里捧着一只青花茶杯；身旁是旧书和唱片摊，身后可见白色摊棚与金色树冠。",
+      "en": "At an outdoor flea market in autumn Chengdu, Mira wears an olive jacket and a canvas crossbody bag while holding a blue-and-white teacup, with books and records beside her and white stall tents beneath the golden trees."
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.21 将伙伴并入手机任务首页，新增跨平台聊天通知，并改进模型使用、协作与远程操作。iOS 和 Android 必须安装 0.1.21 完整新版，不能只靠内容热更新。",
+      "topics": [
+        {
+          "id": "21-mobile-home",
+          "title": "伙伴并入手机任务首页",
+          "text": "伙伴与任务现在共用手机首页，查找和切换更方便，折叠屏与平板布局也更稳定。手机消息操作和语音输入更顺手，Android 更新可在 Wi-Fi 下自动下载、断网续传，登录返回时保留已填内容。"
+        },
+        {
+          "id": "21-notifications",
+          "title": "跨平台聊天通知",
+          "text": "桌面与手机新增跨平台聊天通知，点开即可回到对应消息。该功能需要系统通知权限，并依赖服务端推送上线；服务端未上线前不会收到这类通知。"
+        },
+        {
+          "id": "21-teammates",
+          "title": "伙伴协作与消息找回更方便",
+          "text": "伙伴可重新关联项目，设置随账号跨电脑使用，群协作的身份、权限和分工更清楚。跨渠道聊天更容易找回，邮件草稿恢复与群附件交付也更完整，已有资料和授权继续沿用。"
+        },
+        {
+          "id": "21-automation",
+          "title": "自动化可使用其他电脑与共享模型",
+          "text": "自动化可在支持此功能的其他电脑上执行，并使用团队共享的模型供应商。Worker 分工、图片派发和失败重试更方便，浏览器操作反馈也更清楚，减少等待和任务中断。"
+        },
+        {
+          "id": "21-models",
+          "title": "模型选择与任务延续更可靠",
+          "text": "Mira 提供的模型恢复可用，Kimi K3.1 补齐图片输入支持，最近使用的模型和任务上下文档位也更好选择。需求优化改用辅助模型并保护原草稿，切换模型、恢复历史与继续任务更可靠；Claude Code 和 Pi 的相关更新可独立获取。"
+        },
+        {
+          "id": "21-providers",
+          "title": "供应商设置与额度更清楚",
+          "text": "共享和远程供应商的可用额度、企业今日消费与模型报价更容易查看。添加自定义供应商更方便，用量与速度统计也更准确。"
+        },
+        {
+          "id": "21-simulator",
+          "title": "设备模拟器支持 Android 与 Vision Pro",
+          "text": "设备模拟器插件 0.2.33 新增 Android 和 Vision Pro 支持，需要 Mira 0.1.21 及以上。Duo 旋转、横屏截图与画面恢复也有改进，已有插件安装和授权保持兼容。"
+        },
+        {
+          "id": "21-local-agent",
+          "title": "本机 Agent API 使用独立授权",
+          "text": "桌面新增本机 Agent API，本地工具可经独立授权调用 Claude Code、Codex 或 Pi，并可逐项撤销，工具调用的权限检查也更严格。从 0.1.21 降级后，旧版无法读取新版授权记录。"
+        },
+        {
+          "id": "21-workbench",
+          "title": "桌面操作与远程连接更稳定",
+          "text": "文件浏览、终端和侧栏操作更顺畅，长任务历史、附件与远程连接的恢复更可靠。macOS 菜单栏新增远程控制状态：本机被远程控制时，最大的星星变为橙色。"
+        },
+        {
+          "id": "21-wallpapers",
+          "title": "桌面场景与 Mira 视觉更新",
+          "text": "林间温室、深蓝水族馆和沙海晨间三张桌面壁纸重新绘制，可选动态版本，下载后可离线使用。macOS 安装盘、远程桌面隐私遮罩与分享图更新为 Mira 视觉，随包伙伴文案也同步整理。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Mira 0.1.21 brings teammates into the mobile task home, adds cross-platform chat notifications, and improves model use, collaboration, and remote work. iOS and Android require the full 0.1.21 app; a content-only update is not sufficient.",
+      "topics": [
+        {
+          "id": "21-mobile-home",
+          "title": "Teammates join the mobile task home",
+          "text": "Teammates and tasks now share the mobile home, making them easier to find and switch between, with steadier layouts on foldables and tablets. Mobile messaging and voice input are easier to use, while Android updates can download automatically over Wi-Fi and resume after interruptions, and going back during sign-in preserves your entries."
+        },
+        {
+          "id": "21-notifications",
+          "title": "Cross-platform chat notifications",
+          "text": "Desktop and mobile gain cross-platform chat notifications that open the relevant message. System notification permission is required, and notifications will not arrive until the server push service is live."
+        },
+        {
+          "id": "21-teammates",
+          "title": "Easier teammate collaboration and message recovery",
+          "text": "Teammates can be linked to projects again, with settings that follow your account across computers and clearer group identities, permissions, and assignments. Cross-channel chats are easier to find, email draft recovery and group attachments work more reliably, and existing data and approvals carry over."
+        },
+        {
+          "id": "21-automation",
+          "title": "Automations can use other computers and shared models",
+          "text": "Automations can run on other computers that support this capability and use team-shared model providers. Worker assignments, image dispatches, and retries are easier to manage, with clearer browser action feedback and fewer delays and interruptions."
+        },
+        {
+          "id": "21-models",
+          "title": "More reliable model selection and task continuity",
+          "text": "Mira-provided models are available again, Kimi K3.1 gains image input support, and recent models and per-task context budgets are easier to select. Requirement refinement uses auxiliary models while protecting your draft, model switching and history recovery are more reliable, and the related Claude Code and Pi updates are available independently."
+        },
+        {
+          "id": "21-providers",
+          "title": "Clearer provider setup and quotas",
+          "text": "Quotas for shared and remote providers, organization spending for today, and model prices are easier to check. Custom providers are easier to add, with more accurate usage and speed statistics."
+        },
+        {
+          "id": "21-simulator",
+          "title": "Device simulator adds Android and Vision Pro",
+          "text": "Device simulator plugin 0.2.33 adds Android and Vision Pro support and requires Mira 0.1.21 or later. Duo rotation, landscape screenshots, and video recovery are improved, with compatibility preserved for existing plugin installations and approvals."
+        },
+        {
+          "id": "21-local-agent",
+          "title": "Separate authorization for the local Agent API",
+          "text": "Desktop adds a local Agent API so local tools can use Claude Code, Codex, or Pi with separate, individually revocable authorization and stricter permission checks for tool calls. After downgrading from 0.1.21, older versions cannot read the new authorization records."
+        },
+        {
+          "id": "21-workbench",
+          "title": "Steadier desktop work and remote connections",
+          "text": "File browsing, terminals, and side panels are smoother, with more reliable recovery of long task histories, attachments, and remote connections. The macOS menu bar gains a remote control indicator: the largest star turns orange while this computer is being controlled remotely."
+        },
+        {
+          "id": "21-wallpapers",
+          "title": "Updated desktop scenes and Mira visuals",
+          "text": "The Forest Conservatory, Deep Blue Aquarium, and Desert Morning desktop wallpapers have been redrawn, with optional animated versions available offline after download. The macOS installer background, remote desktop privacy mask, and share images use Mira visuals, with updated copy for bundled teammates."
+        }
+      ]
+    }
+  }
+}
