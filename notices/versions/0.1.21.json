@@ -11,282 +11,112 @@
   },
   "contentByLocale": {
     "zh-CN": {
-      "intro": "0.1.21 将伙伴并入手机任务首页，补上跨平台聊天通知，并整理模型、自动化与设备模拟器体验。桌面和手机还带来语音、文件与可靠性改进；手机本版需要安装完整应用，不能仅靠内容热更新。",
+      "intro": "0.1.21 将伙伴并入手机任务首页，新增跨平台聊天通知，并改进模型使用、协作与远程操作。iOS 和 Android 必须安装 0.1.21 完整新版，不能只靠内容热更新。",
       "topics": [
         {
           "id": "21-mobile-home",
           "title": "伙伴并入手机任务首页",
-          "text": "手机伙伴并入任务首页，可展开完整列表或收起为头像条，搜索、刷新、未读和返回首页都在同一处完成，不再需要在独立的任务与伙伴首页之间切换。"
+          "text": "伙伴与任务现在共用手机首页，查找和切换更方便，折叠屏与平板布局也更稳定。手机消息操作和语音输入更顺手，Android 更新可在 Wi-Fi 下自动下载、断网续传，登录返回时保留已填内容。"
         },
         {
           "id": "21-notifications",
           "title": "跨平台聊天通知",
-          "text": "桌面与手机新增跨平台聊天通知，可回到对应消息，并按设置显示引用与预览内容。该能力依赖服务端推送链路和系统通知权限；服务端未上线前不会收到这类通知。"
+          "text": "桌面与手机新增跨平台聊天通知，点开即可回到对应消息。该功能需要系统通知权限，并依赖服务端推送上线；服务端未上线前不会收到这类通知。"
         },
         {
           "id": "21-teammates",
-          "title": "伙伴跨电脑保持一致",
-          "text": "伙伴可重新关联项目，设置也可随账号跨电脑使用，切换电脑时可携带技能、工具、记忆、模型偏好和回复附件。服务器群恢复分工接力，可重新指定负责人、项目文件夹和分工卡，自动交接保持默认关闭。关联项目只提供工作上下文，不扩大原有权限，已有伙伴资料、插件批准和凭证无需重做。"
-        },
-        {
-          "id": "21-collaboration",
-          "title": "群协作分清身份、权限与进度",
-          "text": "群头像与账号头像分开，群昵称、仅 @ 回复和运行中权限切换按各自上下文生效；伙伴跟进会明确本轮代表谁，不能冒充主人。群聊可交付 PDF 等附件，保留进度文字和最新群简介，刷新失败后自动补读。伙伴夜间学习支持闲置不跑、每周频率与逐条撤销，例行任务启停和时间显示也更直接。"
-        },
-        {
-          "id": "21-channels",
-          "title": "消息渠道与邮件找回更完整",
-          "text": "飞书等消息平台新建任务补齐伙伴头像，隐藏任务可查看详情和搜索定位，任务列表支持归档与默认折叠。邮件插件修复安装归属、草稿阅读编辑恢复，并支持外部图片、链接和参与人头像。跨渠道聊天可按归属和活动时间找回，项目别名同步到手机搜索与消息定位。"
+          "title": "伙伴协作与消息找回更方便",
+          "text": "伙伴可重新关联项目，设置随账号跨电脑使用，群协作的身份、权限和分工更清楚。跨渠道聊天更容易找回，邮件草稿恢复与群附件交付也更完整，已有资料和授权继续沿用。"
         },
         {
           "id": "21-automation",
-          "title": "自动化与 Worker 执行更清楚",
-          "text": "自动化可选择其他电脑及团队共享的供应商，按目标电脑解析目录与模型来源；目标电脑需支持该能力，校验失败时不会改成本机同名来源。Worker 可独立选择模型路由、修改角色名与标识，派发时可附带图片，切换 Worker 不再同步等待冷启动。模型恢复、排队交付、失败重试和等待提醒按实际执行状态处理，自动运行时可恢复已归档任务并保留原 Agent 会话。"
+          "title": "自动化可使用其他电脑与共享模型",
+          "text": "自动化可在支持此功能的其他电脑上执行，并使用团队共享的模型供应商。Worker 分工、图片派发和失败重试更方便，浏览器操作反馈也更清楚，减少等待和任务中断。"
         },
         {
           "id": "21-models",
-          "title": "模型目录与 Kimi K3.1 更新",
-          "text": "Mira 提供的模型恢复可用，权限目录临时故障会重试，同步失败也不会清空已有凭证。模型目录支持多种接口与回退，Kimi K3.1 系列补齐客户端资料、图片输入和默认推理强度。GLM、Model Studio 等预设端点与接口声明得到补齐，不再列出没有已启用供应商的本机模型。"
+          "title": "模型选择与任务延续更可靠",
+          "text": "Mira 提供的模型恢复可用，Kimi K3.1 补齐图片输入支持，最近使用的模型和任务上下文档位也更好选择。需求优化改用辅助模型并保护原草稿，切换模型、恢复历史与继续任务更可靠；Claude Code 和 Pi 的相关更新可独立获取。"
         },
         {
           "id": "21-providers",
-          "title": "供应商配额与设置更明确",
-          "text": "分享供应商显示每周配额，远程供应商提供只读配额卡，企业成员可查看今日消费；只在企业开启日配额时显示对应内容。自定义供应商添加可自动识别端点，Pi 预设连接允许修改 base URL，订阅账号和供应商组可统一关闭 Fast。模型主报价支持多单位显示，用量榜单、平均速度、峰值统计和当前实际协议也有修正。"
-        },
-        {
-          "id": "21-model-workflow",
-          "title": "最近模型与任务上下文档位",
-          "text": "模型选择器新增“最近”，保留最多 5 个实际用过的完整模型配置，只保存在本机。任务可按需选择上下文窗口档位，不会超过模型或供应商目录上限；降低档位可能更早触发压缩。Codex 切模型优先保留原生历史，Pi 按目标模型和显式意图调整推理强度，Subagent可明确指定供应商。"
+          "title": "供应商设置与额度更清楚",
+          "text": "共享和远程供应商的可用额度、企业今日消费与模型报价更容易查看。添加自定义供应商更方便，用量与速度统计也更准确。"
         },
         {
           "id": "21-simulator",
           "title": "设备模拟器支持 Android 与 Vision Pro",
-          "text": "设备模拟器插件 0.2.33 新增 Android Emulator 与 Vision Pro 支持，并改进 Duo 旋转、横屏截图和画面恢复。此版本需要 Mira 0.1.21 及以上。Apple 平台模拟需要 macOS 15、Apple Silicon 和完整 Xcode；Android 支持 Mac、Windows x64 与 Linux x64，安装环境前需确认许可。"
+          "text": "设备模拟器插件 0.2.33 新增 Android 和 Vision Pro 支持，需要 Mira 0.1.21 及以上。Duo 旋转、横屏截图与画面恢复也有改进，已有插件安装和授权保持兼容。"
         },
         {
           "id": "21-local-agent",
           "title": "本机 Agent API 使用独立授权",
-          "text": "桌面新增本机 Agent API，本地工具可在独立授权下调用 Claude Code、Codex 或 Pi，并可逐项撤销。授权与现有任务、插件分开，只接受本机连接。从 0.1.21 降级后，旧版无法读取新版授权记录。"
-        },
-        {
-          "id": "21-refinement",
-          "title": "需求优化使用辅助模型",
-          "text": "需求优化改用辅助模型，不再占用当前任务所选模型；没有可用结果时保留原草稿，也不会自动发送。辅助模型链支持 Pi 运行时路由，并修复 OpenCode Go 辅助模型选择和直接 HTTP 调用。"
-        },
-        {
-          "id": "21-plugins",
-          "title": "插件标识与旧安装保持兼容",
-          "text": "插件发布与自动化协议兼容 Mira 和 Cindy 标识，已有安装、批准、凭证和旧脚本继续有效。插件命名空间不匹配与插件不存在会分别说明；设备模拟器补充旧安装身份迁移能力，是否执行取决于服务端支持。"
+          "text": "桌面新增本机 Agent API，本地工具可经独立授权调用 Claude Code、Codex 或 Pi，并可逐项撤销，工具调用的权限检查也更严格。从 0.1.21 降级后，旧版无法读取新版授权记录。"
         },
         {
           "id": "21-workbench",
-          "title": "文件树、终端与侧栏操作更顺畅",
-          "text": "文件树改用虚拟滚动并恢复滚动位置，大目录浏览更流畅，也可按需显示被忽略的目录。终端可独立设置字体和字号，调整时不会清空输出；插件侧栏可直接追问，更新提示会说明重启将打断的活动。选中任务摘要和登录文字对比度也已修正。"
-        },
-        {
-          "id": "21-files",
-          "title": "文件、技能与分支管理更稳妥",
-          "text": "本地技能可发现一层命名空间，文件按编号自然排序，分支标签可手动对齐远程分支。Markdown 表格内搜索不再漏高亮，重复解析和分词缓存得到控制；本地音视频、网页截图和 PDF 等附件展示也有修复。归档后 worktree 会真正删除并加强恢复核对，不再整包备份；worktree 任务也不能移到其他项目，避免目录归属错乱。"
-        },
-        {
-          "id": "21-browser-automation",
-          "title": "浏览器自动化更新配方与校验",
-          "text": "浏览器自动化更新操作配方，按实际用到的能力进行校验，并补充操作观察与截图回传。凭据、上传、文件写出和远程地址访问继续受权限边界限制。"
-        },
-        {
-          "id": "21-desktop",
-          "title": "桌面侧栏与新建任务更稳定",
-          "text": "右侧栏展开时内容保持稳定，不再反复挤压和抖动，并修复窗口最大化后的空白。新建任务预热不再造成任务消失或侧栏来回滚动，置顶项目内任务跟随现有排序，提问提示保留换行。长截图先显示顶部预览，流程图按可读性选择表达方式，进行中的进度文字也会保留。"
-        },
-        {
-          "id": "21-menubar",
-          "title": "菜单栏显示远程控制状态",
-          "text": "macOS 菜单栏的 Mira 双星芒新增远程控制状态，最大的星星变为橙色，并显示正在控制本机的设备名称。伙伴未读计数也会显示在菜单栏，可从面板进入远程连接设置。"
-        },
-        {
-          "id": "21-mobile",
-          "title": "手机消息与多屏布局更连贯",
-          "text": "手机排队消息可调整发送顺序，任务可右滑标记已读；伙伴聊天恢复直接选字，群聊图片按授权显示缩略图。项目别名和电脑项目名同步到手机搜索与远程控制端，任务行会显示正在跟进的伙伴。Duo、iPad 与 iPhone 的双栏、折叠、旋转和返回布局一并整理，减少列表重绘、侧栏抖动和联机图标闪断。"
-        },
-        {
-          "id": "21-voice",
-          "title": "语音输入与提问卡收尾更自然",
-          "text": "伙伴输入区可在通话与发送间切换，输入框长按语音默认开启并提前准备麦克风。语音识别空结果会自动重试，Gateway Qwen 语音适配与模型添加流程得到简化。提问卡可在语音输入期间提交，收尾锁定和麦克风可见性更稳定，语音结束时的光标位置也已修正。"
-        },
-        {
-          "id": "21-android-updates",
-          "title": "Android 更新下载与登录返回改进",
-          "text": "Android 在 Wi-Fi 下可自动下载更新，移动网络下暂停，切回 Wi-Fi 后续传，下载完成后才提示安装。企业登录分步页的系统返回键会回到上一步并保留输入，不再直接退出；协议、区域和账号弹层会优先处理返回。"
+          "title": "桌面操作与远程连接更稳定",
+          "text": "文件浏览、终端和侧栏操作更顺畅，长任务历史、附件与远程连接的恢复更可靠。macOS 菜单栏新增远程控制状态：本机被远程控制时，最大的星星变为橙色。"
         },
         {
           "id": "21-wallpapers",
-          "title": "三张桌面场景壁纸可选动态版本",
-          "text": "林间温室、深蓝水族馆和沙海晨间三张桌面壁纸重新绘制，旧选择会接续到对应新场景。静态图随包提供，可选动态视频从 CDN 按需下载；已下载内容可离线复用。"
-        },
-        {
-          "id": "21-brand",
-          "title": "安装、分享与随包伙伴统一为 Mira",
-          "text": "macOS 安装盘背景和远程桌面隐私遮罩改用 Mira 素材，桌面与手机导出的分享图也统一使用 Mira 图标与文字页脚。随包伙伴内的品牌文案和所需插件引用同步整理，已有安装、授权与配置保持沿用。"
-        },
-        {
-          "id": "21-reliability",
-          "title": "历史、连接与异常恢复更可靠",
-          "text": "电脑与手机在同一局域网内优先直连，不可用时回退中继，不绕过原有授权。长任务历史向上读取和后台补读保持连续，多图任务重连不再因请求超限反复中断；登录刷新、冷启动超时和数据库维护锁异常也有修复。Windows 锁屏控制、外置 Xcode 的 Git 凭据询问、页面销毁后的退出清理和升级重启窗口处理一并收口。"
-        },
-        {
-          "id": "21-security",
-          "title": "审批、披露与调用权限按边界执行",
-          "text": "原生审批优先，平台审批保底并先判断风险；工具披露确认允许一次自愈，并记录工具调用以防并行绕过。MCP 请求按当前调用隔离上下文并核验授权，协同派活使用交付级凭证，权限变化时默认拒绝。工具披露记录按配置指纹和任务分别保存，Pi 升级后不再全部失效。"
-        },
-        {
-          "id": "21-runtime",
-          "title": "Claude Code 与 Pi 运行时独立更新",
-          "text": "Claude Code 更新至 2.1.300，修复恢复任务时可能重复执行已批准工具，以及压缩摘要和历史恢复不全的问题。Pi 更新至 1.0.2，Intel Mac 补齐相应运行时与 Codex 0.145.0 兼容项。桌面受管运行时独立更新，不要求先安装 0.1.21。"
-        },
-        {
-          "id": "21-mobile-update",
-          "title": "手机需要安装 0.1.21 完整版本",
-          "text": "iOS 和 Android 都需要安装 0.1.21 完整版本，旧版内容热更新不能代替。本版包含新的原生模块，首页、通知等手机改动不能仅靠更新内容获得。Mac 和 Windows 可安装完整安装包，桌面端也会收到在线更新。"
+          "title": "桌面场景与 Mira 视觉更新",
+          "text": "林间温室、深蓝水族馆和沙海晨间三张桌面壁纸重新绘制，可选动态版本，下载后可离线使用。macOS 安装盘、远程桌面隐私遮罩与分享图更新为 Mira 视觉，随包伙伴文案也同步整理。"
         }
       ]
     },
     "en": {
-      "intro": "Mira 0.1.21 brings teammates into the mobile task home, adds cross-platform chat notifications, and updates models, automations, and the device simulator. Desktop and mobile also receive voice, file, and reliability improvements; mobile requires the full app for this release rather than a content-only update.",
+      "intro": "Mira 0.1.21 brings teammates into the mobile task home, adds cross-platform chat notifications, and improves model use, collaboration, and remote work. iOS and Android require the full 0.1.21 app; a content-only update is not sufficient.",
       "topics": [
         {
           "id": "21-mobile-home",
           "title": "Teammates join the mobile task home",
-          "text": "Teammates now appear on the mobile task home, where you can expand the full list or collapse it to avatars and handle search, refresh, unread states, and returning home in one place instead of separate task and teammate home screens."
+          "text": "Teammates and tasks now share the mobile home, making them easier to find and switch between, with steadier layouts on foldables and tablets. Mobile messaging and voice input are easier to use, while Android updates can download automatically over Wi-Fi and resume after interruptions, and going back during sign-in preserves your entries."
         },
         {
           "id": "21-notifications",
           "title": "Cross-platform chat notifications",
-          "text": "Desktop and mobile add cross-platform chat notifications that can open the relevant message and show quotes and previews according to your settings. This requires the server push service and system notification permission; these notifications will not arrive until that service is live."
+          "text": "Desktop and mobile gain cross-platform chat notifications that open the relevant message. System notification permission is required, and notifications will not arrive until the server push service is live."
         },
         {
           "id": "21-teammates",
-          "title": "Keep teammate settings consistent across computers",
-          "text": "Teammates can be associated with projects again, and their settings can follow your account across computers, including skills, tools, memory, model preferences, and reply attachments. Server groups restore division of work and handoffs, with owners, project folders, and assignment cards restored; automatic handoff remains off by default. Associated projects provide work context without expanding permissions, and existing teammate data, plugin approvals, and credentials do not need to be recreated."
-        },
-        {
-          "id": "21-collaboration",
-          "title": "Clearer identities, permissions, and progress in groups",
-          "text": "Group avatars are separate from account avatars, while group nicknames, reply-only-when-mentioned behavior, and mid-run permission changes follow their own contexts; teammate follow-ups identify whose behalf they are acting on and cannot impersonate the owner. Groups can deliver PDFs and other attachments, retain progress text and the latest group introduction, and automatically catch up after refresh failures. Nightly teammate learning supports idle skipping, weekly frequency, and per-item revocation, while routine tasks have simpler controls and clearer schedules."
-        },
-        {
-          "id": "21-channels",
-          "title": "More complete message channels and email recovery",
-          "text": "New tasks from messaging platforms such as Feishu include teammate avatars, hidden tasks can be opened and found in search, and task lists support archiving and default collapsing. The email plugin fixes installation ownership and draft reading, editing, and recovery, with support for external images, links, and participant avatars. Cross-channel chats can be found by ownership and activity time, and project aliases carry over to mobile search and message navigation."
+          "title": "Easier teammate collaboration and message recovery",
+          "text": "Teammates can be linked to projects again, with settings that follow your account across computers and clearer group identities, permissions, and assignments. Cross-channel chats are easier to find, email draft recovery and group attachments work more reliably, and existing data and approvals carry over."
         },
         {
           "id": "21-automation",
-          "title": "Clearer automation and Worker execution",
-          "text": "Automations can use another computer and team-shared providers, resolving directories and model sources on the target; the target must support this capability, and validation failures do not switch to a local source with the same name. Workers can have independent model routes and editable role names and identifiers, receive images with dispatches, and switch without waiting synchronously for a cold start. Model restoration, queued delivery, failure retries, and waiting reminders reflect actual execution state, while automatic runtime recovery can restore archived tasks with their original Agent sessions."
+          "title": "Automations can use other computers and shared models",
+          "text": "Automations can run on other computers that support this capability and use team-shared model providers. Worker assignments, image dispatches, and retries are easier to manage, with clearer browser action feedback and fewer delays and interruptions."
         },
         {
           "id": "21-models",
-          "title": "Model catalog and Kimi K3.1 updates",
-          "text": "Mira-provided models are available again, with retries for temporary entitlement catalog failures and existing credentials preserved when synchronization fails. The model catalog supports multiple interfaces with fallback, while the Kimi K3.1 family gains complete client metadata, image input, and default reasoning levels. Preset endpoints and interface declarations are added for providers including GLM and Model Studio, and local models without an enabled provider no longer appear."
+          "title": "More reliable model selection and task continuity",
+          "text": "Mira-provided models are available again, Kimi K3.1 gains image input support, and recent models and per-task context budgets are easier to select. Requirement refinement uses auxiliary models while protecting your draft, model switching and history recovery are more reliable, and the related Claude Code and Pi updates are available independently."
         },
         {
           "id": "21-providers",
-          "title": "Clearer provider quotas and settings",
-          "text": "Shared providers show weekly quotas, remote providers offer read-only quota cards, and organization members can view today’s spending; daily quota content appears only when enabled for the organization. Custom provider setup can detect endpoints automatically, preset Pi connections allow a custom base URL, and subscribed accounts and provider groups can disable Fast together. Model list prices support multiple units, with fixes to usage rankings, average and peak speeds, and the active protocol display."
-        },
-        {
-          "id": "21-model-workflow",
-          "title": "Recent models and per-task context budgets",
-          "text": "The model picker now has a Recent section with up to five complete model configurations you have actually used, stored only on the current computer. Each task can choose a context window budget within model and provider limits; a lower budget may trigger compaction earlier. Codex preserves native history first when switching models, Pi adjusts reasoning to the target model and explicit intent, and subagents can specify a provider explicitly."
+          "title": "Clearer provider setup and quotas",
+          "text": "Quotas for shared and remote providers, organization spending for today, and model prices are easier to check. Custom providers are easier to add, with more accurate usage and speed statistics."
         },
         {
           "id": "21-simulator",
           "title": "Device simulator adds Android and Vision Pro",
-          "text": "Device simulator plugin 0.2.33 adds Android Emulator and Vision Pro support, with improvements to Duo rotation, landscape screenshots, and video recovery. This version requires Mira 0.1.21 or later. Apple platform simulation requires macOS 15, Apple Silicon, and a full Xcode installation; Android supports Mac, Windows x64, and Linux x64, with license acceptance required before environment setup."
+          "text": "Device simulator plugin 0.2.33 adds Android and Vision Pro support and requires Mira 0.1.21 or later. Duo rotation, landscape screenshots, and video recovery are improved, with compatibility preserved for existing plugin installations and approvals."
         },
         {
           "id": "21-local-agent",
-          "title": "Local Agent API uses separate authorization",
-          "text": "Desktop adds a local Agent API so local tools can use Claude Code, Codex, or Pi under separate, individually revocable authorization. Authorization is separate from existing tasks and plugins, and only local connections are accepted. After downgrading from 0.1.21, older versions cannot read the new authorization records."
-        },
-        {
-          "id": "21-refinement",
-          "title": "Requirement refinement uses auxiliary models",
-          "text": "Requirement refinement now uses auxiliary models rather than the model selected for the current task, preserving the original draft and avoiding automatic submission when no result is available. The auxiliary model chain supports Pi runtime routing, with fixes for OpenCode Go auxiliary model selection and direct HTTP calls."
-        },
-        {
-          "id": "21-plugins",
-          "title": "Plugin identifiers and existing installs stay compatible",
-          "text": "Plugin publishing and automation protocols accept both Mira and Cindy identifiers, preserving existing installations, approvals, credentials, and legacy scripts. A namespace mismatch is explained separately from a missing plugin; the device simulator provides legacy installation identity migration capability, executed only when supported by the server."
+          "title": "Separate authorization for the local Agent API",
+          "text": "Desktop adds a local Agent API so local tools can use Claude Code, Codex, or Pi with separate, individually revocable authorization and stricter permission checks for tool calls. After downgrading from 0.1.21, older versions cannot read the new authorization records."
         },
         {
           "id": "21-workbench",
-          "title": "Smoother file trees, terminals, and side panels",
-          "text": "The file tree uses virtual scrolling and restores scroll position, making large directories easier to browse, with an option to show ignored directories. Terminal font and size can be set independently without clearing output; plugin side panels support follow-up questions, and update prompts explain which activities a restart will interrupt. Contrast is also fixed for selected task summaries and sign-in text."
-        },
-        {
-          "id": "21-files",
-          "title": "More dependable files, skills, and branch management",
-          "text": "Local skills can discover one namespace level, files sort naturally by number, and branch labels can be aligned manually with remote branches. Markdown table search no longer misses highlights, repeated parsing and tokenization caches are constrained, and local media, web screenshots, and attachments such as PDFs receive fixes. Archiving now deletes the worktree instead of keeping a full backup and verifies recovery more carefully; worktree tasks cannot move to another project, protecting directory ownership."
-        },
-        {
-          "id": "21-browser-automation",
-          "title": "Browser automation updates recipes and validation",
-          "text": "Browser automation updates its operation recipes, validates the capabilities actually used, and adds operation observation and screenshot return. Credentials, uploads, file writes, and remote address access remain subject to permission boundaries."
-        },
-        {
-          "id": "21-desktop",
-          "title": "Steadier desktop panels and new-task setup",
-          "text": "Content stays steady as the right sidebar opens, avoiding repeated squeezing and jitter, and a fix addresses blank space after maximizing the window. New-task prewarming no longer causes tasks to disappear or the sidebar to scroll back and forth, pinned tasks follow the existing project order, and question prompts preserve line breaks. Long screenshots open with a top preview, diagrams choose a readable presentation, and progress text remains visible while work is underway."
-        },
-        {
-          "id": "21-menubar",
-          "title": "Menu bar shows remote-control status",
-          "text": "The Mira double-star mark in the macOS menu bar gains a remote-control state, turning the largest star orange and showing the name of the device controlling this Mac. Teammate unread counts also appear in the menu bar, with a path from the panel to Remote Connection settings."
-        },
-        {
-          "id": "21-mobile",
-          "title": "Smoother mobile messages and multi-screen layouts",
-          "text": "Queued mobile messages can be reordered, tasks can be marked read with a swipe, teammate chats restore direct text selection, and group images show authorized thumbnails. Project aliases and computer project names carry over to mobile search and remote control, and task rows show the teammates currently following them. Duo, iPad, and iPhone layouts receive fixes for dual panes, folding, rotation, and navigation, with fewer list redraws, sidebar jitters, and connection indicator flickers."
-        },
-        {
-          "id": "21-voice",
-          "title": "More natural voice input and question-card completion",
-          "text": "The teammate composer can switch between calling and sending, while long-press voice input is enabled by default and prepares the microphone in advance. Empty speech recognition results retry automatically, and Gateway Qwen voice support and model setup are simplified. Question cards can submit during voice input, with steadier completion locking and microphone visibility, and the cursor no longer jumps into the middle of text when speech ends."
-        },
-        {
-          "id": "21-android-updates",
-          "title": "Android update downloads and sign-in navigation",
-          "text": "Android can automatically download updates over Wi-Fi, pause on mobile data, resume after returning to Wi-Fi, and wait for the download to finish before offering installation. The system Back action in organization sign-in returns to the previous step with input preserved instead of leaving the app; agreement, region, and account sheets handle Back first."
+          "title": "Steadier desktop work and remote connections",
+          "text": "File browsing, terminals, and side panels are smoother, with more reliable recovery of long task histories, attachments, and remote connections. The macOS menu bar gains a remote control indicator: the largest star turns orange while this computer is being controlled remotely."
         },
         {
           "id": "21-wallpapers",
-          "title": "Three desktop scene wallpapers offer optional motion",
-          "text": "The Forest Greenhouse, Deep Blue Aquarium, and Dune Morning desktop wallpapers have been redrawn, and previous selections carry over to the corresponding new scenes. Still images ship with the app, while optional motion videos download on demand from the CDN; downloaded content can be reused offline."
-        },
-        {
-          "id": "21-brand",
-          "title": "Mira branding across installation, sharing, and bundled teammates",
-          "text": "The macOS installer background and remote desktop privacy covers now use Mira artwork, and share images exported on desktop and mobile use the Mira icon and wordmark in the footer. Brand copy and required plugin references inside bundled teammates are updated as well, preserving existing installations, approvals, and configuration."
-        },
-        {
-          "id": "21-reliability",
-          "title": "More reliable history, connections, and recovery",
-          "text": "Computers and phones on the same local network connect directly when possible, falling back to relay without bypassing existing authorization. Reading older history and catching up in the background preserve continuity in long tasks, multi-image tasks no longer repeatedly fail after reconnecting due to request limits, and fixes cover sign-in refresh, cold-start timeouts, and database maintenance lock errors. Windows lock-screen control, Git credential prompts with an external Xcode installation, cleanup after a page is destroyed, and upgrade-restart window handling are also addressed."
-        },
-        {
-          "id": "21-security",
-          "title": "Approvals, disclosures, and calls enforce their boundaries",
-          "text": "Native approval takes priority, with platform approval as a fallback and risk assessed first; tool disclosure confirmation permits one self-recovery and records tool calls to prevent parallel bypasses. MCP requests isolate context for each call and verify authorization, coordinated dispatches use delivery-level credentials, and permission changes fail closed. Tool disclosure records are stored by configuration fingerprint and task, so Pi upgrades no longer invalidate them all."
-        },
-        {
-          "id": "21-runtime",
-          "title": "Independent Claude Code and Pi runtime updates",
-          "text": "Claude Code updates to 2.1.300, fixing approved tools that could run again during task recovery and incomplete restoration of compaction summaries and history. Pi updates to 1.0.2, with the corresponding runtime and Codex 0.145.0 compatibility entries added for Intel Mac. Managed desktop runtimes update independently and do not require installing 0.1.21 first."
-        },
-        {
-          "id": "21-mobile-update",
-          "title": "Mobile requires the full 0.1.21 app",
-          "text": "iOS and Android both require the full 0.1.21 app; a content-only update from an older version is not enough. This release contains new native modules, so mobile changes such as the home screen and notifications cannot be obtained through content updates alone. Mac and Windows can use the full installer, and desktop will also receive an online update."
+          "title": "Updated desktop scenes and Mira visuals",
+          "text": "The Forest Conservatory, Deep Blue Aquarium, and Desert Morning desktop wallpapers have been redrawn, with optional animated versions available offline after download. The macOS installer background, remote desktop privacy mask, and share images use Mira visuals, with updated copy for bundled teammates."
         }
       ]
     }
