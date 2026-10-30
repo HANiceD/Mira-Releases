@@ -1,0 +1,124 @@
+{
+  "version": "0.1.22",
+  "date": "2026-10-30",
+  "contributors": [],
+  "banner": {
+    "url": "https://api.heymira.online/notice/assets/v0.1.22-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "秋日午后的森林小屋里，Mira 与身旁的狐狸一起看着信笺，猫头鹰停在桌边，木桌上摊着地图，窗外是秋林。",
+      "en": "On an autumn afternoon in a forest cabin, Mira and a fox look at a letter beside an owl. A map lies open on the wooden table, with autumn woods outside the window."
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.22 改进聊天记录恢复、伙伴协作和模型使用，减少日常操作中的等待与打断。",
+      "topics": [
+        {
+          "id": "chat-history",
+          "title": "重开聊天先看到已有记录",
+          "text": "重新打开伙伴或群聊时，会先显示当前账号已保存的聊天记录，再更新内容，减少空白等待。话题和图片也可跨重启复用，不必每次重新加载。"
+        },
+        {
+          "id": "companion-work",
+          "title": "伙伴与群聊更可靠",
+          "text": "伙伴忙碌且需要更新可用能力时，消息会留在队列，更新完成后发送一次，无需手动重发。手机可直接管理云端群聊，管理电脑离线时仍能修改群资料和成员。"
+        },
+        {
+          "id": "routine-automation",
+          "title": "例行任务可选择独立上下文",
+          "text": "伙伴例行任务可沿用同一任务，也可每次触发新建任务，让互不相关的检查各自运行。同一自动化的历史任务可批量归档，正在运行或置顶的任务会保留。"
+        },
+        {
+          "id": "model-usage",
+          "title": "模型价格与繁忙提示更准确",
+          "text": "Mira AI 上游繁忙时会提示「当前模型暂时繁忙，请更换模型继续」，不再误导余额充足的用户充值。官方模型报价补齐更多计价项目，统一以美元展示，方便比较。"
+        },
+        {
+          "id": "context-controls",
+          "title": "上下文设置集中到圆环",
+          "text": "上下文圆环集中显示用量、压缩操作和当前任务的窗口档位，查看和调整更方便。自动压缩比例改为按供应商连接和模型保存，默认统一为 90%，可设置为 50%–90%；原来的全局自定义比例不再生效。"
+        },
+        {
+          "id": "mobile-input",
+          "title": "手机阅读与发送更顺手",
+          "text": "手机代码块可一键复制全文，保留换行与缩进。Android 修复键盘展开时发送无响应的问题，减少先收起键盘再发送的来回操作。"
+        },
+        {
+          "id": "simulator",
+          "title": "模拟器双指操作更跟手",
+          "text": "Mac 触控板的双指缩放、旋转和平移更自然，操作反向时响应更及时。需要更新配套设备模拟器插件，具体手势取决于目标设备支持。"
+        },
+        {
+          "id": "plugin-updates",
+          "title": "Mira Ping 与伙伴形象更新",
+          "text": "Mira Ping 的专用图标和 11 张表情改为 Mira Q 版人物，原有快捷键、配置与使用方式保留。发现伙伴里的 10 个岗位伙伴换成统一画风的森林动物头像。OpenDesign 的预览与编辑也有改进，更新对应插件后即可使用。"
+        },
+        {
+          "id": "update-availability",
+          "title": "更新方式与安装说明",
+          "text": "已安装 0.1.21 的 iOS 和 Android 用户可通过内容更新获得本版改进，无需重装。Mac 提供 Apple 芯片和 Intel 安装包。Windows 继续提供未签名内测版，安装时可能提示未知发布者。"
+        },
+        {
+          "id": "reliability-details",
+          "title": "可靠性与细节",
+          "text": "本版还集中修复了任务恢复、消息交付、语音输入和远程操作中的稳定性问题，减少中断与状态异常。文件操作和共享任务恢复中的安全问题也已修复，已有资料、插件授权与配置继续沿用。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Version 0.1.22 improves chat restoration, companion collaboration, and model use, reducing everyday waits and interruptions.",
+      "topics": [
+        {
+          "id": "chat-history",
+          "title": "Restore Existing Chats First",
+          "text": "Reopening a companion chat or group shows the current account’s saved conversation before refreshing it, reducing blank waits. Topics and images can also be reused across restarts instead of loading from scratch."
+        },
+        {
+          "id": "companion-work",
+          "title": "More Reliable Companions and Group Chats",
+          "text": "When a busy companion needs to refresh its available capabilities, messages stay queued and are sent once afterward without manual resending. Mobile users can manage cloud groups directly, including group details and members, even when the management computer is offline."
+        },
+        {
+          "id": "routine-automation",
+          "title": "Choose How Routines Keep Context",
+          "text": "Companion routines can reuse one task or start a fresh task each time, keeping unrelated checks separate. Past tasks from the same automation can be archived together while running and pinned tasks stay in place."
+        },
+        {
+          "id": "model-usage",
+          "title": "Clearer Model Prices and Busy Messages",
+          "text": "When Mira AI’s upstream model is busy, the message says “The current model is temporarily busy. Switch models to continue,” instead of asking users with sufficient credit to top up. Official model quotes include more pricing details and consistently display USD for easier comparison."
+        },
+        {
+          "id": "context-controls",
+          "title": "Context Controls in One Place",
+          "text": "The context ring brings together usage, compaction, and the current task’s window size. Automatic compaction is now saved per provider connection and model, defaults to 90%, and can be set from 50% to 90%; previous global custom percentages no longer apply."
+        },
+        {
+          "id": "mobile-input",
+          "title": "Easier Reading and Sending on Mobile",
+          "text": "Copy a complete code block on mobile in one tap, preserving line breaks and indentation. Android fixes unresponsive Send while the keyboard is open, removing the need to dismiss the keyboard first."
+        },
+        {
+          "id": "simulator",
+          "title": "More Responsive Simulator Gestures",
+          "text": "Two-finger zoom, rotation, and panning feel more natural on a Mac trackpad, with quicker response when reversing a gesture. Update the companion simulator plugin to use these improvements; gestures depend on the target device."
+        },
+        {
+          "id": "plugin-updates",
+          "title": "Mira Ping and Companion Artwork Updates",
+          "text": "Mira Ping’s icon and 11 expressions feature Mira’s chibi character while retaining shortcuts, settings, and behavior. The 10 role-based companions in the discovery list have forest animal avatars in a consistent art style. OpenDesign previews and editing are also improved; update the corresponding plugins to use these changes."
+        },
+        {
+          "id": "update-availability",
+          "title": "Updates and Installation",
+          "text": "Users on iOS or Android 0.1.21 can receive these changes through a content update without reinstalling. Mac packages cover Apple Silicon and Intel. Windows remains an unsigned internal-test build and may show an unknown-publisher warning during installation."
+        },
+        {
+          "id": "reliability-details",
+          "title": "Reliability and Details",
+          "text": "Further fixes improve task recovery, message delivery, voice input, and remote operations, reducing interruptions and incorrect status displays. Security issues in file operations and shared-task recovery are also fixed, while existing data, plugin authorizations, and settings are preserved."
+        }
+      ]
+    }
+  }
+}
