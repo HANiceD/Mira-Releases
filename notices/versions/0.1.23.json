@@ -1,0 +1,104 @@
+{
+  "version": "0.1.23",
+  "date": "2026-10-31",
+  "contributors": [],
+  "banner": {
+    "url": "https://api.heymira.online/notice/assets/v0.1.23-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "秋日午后的成都陶艺室，Mira 举起刚做好的小杯检查杯沿，戴金星吊牌的橘猫盖碗坐在旁边看着她。",
+      "en": "On an autumn afternoon in a Chengdu ceramics studio, Mira checks the rim of a handmade cup while Gaiwan, an orange tabby with a gold star tag, watches beside her."
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.23 带来陪在桌面的 Mira、截图录屏，以及更顺畅的伙伴协作和跨电脑接续。",
+      "topics": [
+        {
+          "id": "desktop-pet",
+          "title": "把 Mira 留在桌面上",
+          "text": "Mac 和 Windows 新增可选桌宠，可以聊天、传图片、选择伙伴，也能抚摸、拖动和查看模型余量。工作时用动作陪伴，完成、需要你回复或出错时才短暂提醒，点击即可回到对应任务；首次开启会下载动作素材，朗读和会产生模型费用的碎碎念可按需开启。"
+        },
+        {
+          "id": "capture",
+          "title": "截图、长截图和录屏一次完成",
+          "text": "桌面新增截图、滚动长截图、区域录屏和 GIF。截图可标注、贴在屏幕上，或直接交给 Mira 翻译、解释和提取文字；录屏与 GIF 可预览、保存和复制。"
+        },
+        {
+          "id": "companions-and-groups",
+          "title": "伙伴与群聊更及时、更可靠",
+          "text": "手机伙伴对话持续更新，读取失败时保留已有内容和「同步」入口；修复群聊重开或同步后打不开的问题，单个群失败也不再影响其他群。桌面伙伴对话可用大纲定位历史，话题未读更准确，近况补齐近期任务和临近到期的待办。桌面与手机还新增 16 张伙伴头像，包括戴金星吊牌的橘猫盖碗，已有伙伴头像继续保留。"
+        },
+        {
+          "id": "message-delivery",
+          "title": "插话、排队与交接更顺畅",
+          "text": "修复排队消息无法继续、发送状态不准确，以及伙伴接力时重复要求确认的问题，继续和重试会保留你已核实的原话范围。选择 @ 对象不再覆盖原有文字，学习命令识别也有修复。飞书主人身份、Telegram 引用和消息渠道历史取图更可靠，无人值守的定时任务也减少了等待普通提问而无法收尾的情况。"
+        },
+        {
+          "id": "task-controls",
+          "title": "任务更好找，通知可以单独关闭",
+          "text": "桌面和手机可按伙伴筛选任务，也可隐藏全部伙伴任务，只看个人任务；桌面输入框「+」面板可以直接搜索文件和任务。桌面本机任务新增「消息免打扰」，关闭这条任务的通知和提示音，工作仍照常进行，同时修复重复提醒和残留未读数。已连接的本机应用也可经你开启，将工作保存成 Mira 中可见、可继续交流的任务。"
+        },
+        {
+          "id": "mobile-sharing",
+          "title": "从其他 App 把文件交给 Mira",
+          "text": "修复 iOS 系统分享接收文件的问题，并为 Android 开启接收文件。分享后先选择任务、检查输入框里的文件，再由你决定发送；手机输入法组字、语音起始收音、聊天长图分享和横屏菜单也有改进。接收文件需要安装本次新的手机安装包。"
+        },
+        {
+          "id": "remote-continuity",
+          "title": "换电脑继续，远控也更安心",
+          "text": "在同账号电脑间继续任务时，会优先保留完整对话和工作记录，无法完整接续时先询问是否改用摘要。远程桌面可设置闲置后自动断开并锁屏，控制端电脑锁屏或睡眠时也会结束连接。远程项目显示所在电脑，断线恢复更可靠；需要自建中转的用户可在自己的电脑或服务器配置，并让手机配对加入。"
+        },
+        {
+          "id": "everyday-reliability",
+          "title": "模型、邮件与日常操作更稳",
+          "text": "自动辅助模型在 Mira AI 不可用时，可继续尝试你已连接的轻量模型；模型设置保存、分享用量限制和价格说明更清楚。邮件同步、深色阅读、附件与复杂回复显示集中修复，Windows 顶栏对齐、项目查找和任务恢复也有改善。暂时的网络故障会保留登录并继续恢复，已有插件、资料、授权和配置继续沿用。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "0.1.23 brings Mira to your desktop, adds screen capture, and makes teammate collaboration and work across computers smoother.",
+      "topics": [
+        {
+          "id": "desktop-pet",
+          "title": "Keep Mira on your desktop",
+          "text": "An optional desktop pet comes to Mac and Windows: chat, share images, choose a teammate, pet or drag Mira, and check model usage. It keeps you company through its actions while work runs, then briefly reminds you when work finishes, needs your reply or encounters an error; click to open the task. Animations download on first use, while read-aloud and model-powered musings are optional; musings incur charges."
+        },
+        {
+          "id": "capture",
+          "title": "Capture screenshots, long pages and recordings",
+          "text": "Desktop adds screenshots, scrolling captures, region recording and GIFs. Annotate or pin a screenshot, or send it straight to Mira for translation, explanation or text extraction; recordings and GIFs can be previewed, saved and copied."
+        },
+        {
+          "id": "companions-and-groups",
+          "title": "More reliable teammates and group chats",
+          "text": "Teammate chats on mobile keep updating and retain cached content and a Sync action if reading fails; fixes also help groups reopen and sync without one failed group blocking the others. Desktop teammate chats gain history navigation through the conversation outline, more accurate topic unread counts, and recent tasks and upcoming to-dos in activity. Desktop and mobile add 16 teammate portraits, including Gaiwan the orange tabby with a gold star tag, while existing portraits are kept."
+        },
+        {
+          "id": "message-delivery",
+          "title": "Smoother queued messages and handoffs",
+          "text": "Fixes stalled queued messages, inaccurate delivery states and repeated confirmation requests during teammate handoffs, while continuing and retrying preserves your verified request. Mentions no longer overwrite surrounding draft text, and learning commands are recognized more reliably. Feishu owner recognition, personal Telegram reply context and access to earlier channel images are improved, and unattended scheduled work is less likely to stall on an ordinary question."
+        },
+        {
+          "id": "task-controls",
+          "title": "Find tasks faster and mute individual notifications",
+          "text": "Filter tasks by teammate on desktop and mobile, or hide all teammate tasks to focus on your own; the desktop composer’s “+” panel now searches files and tasks directly. Local desktop tasks can mute notifications and sounds without stopping the work, with fixes for repeated alerts and lingering unread counts. Connected local apps can also save work as visible Mira tasks for you to continue when you opt in."
+        },
+        {
+          "id": "mobile-sharing",
+          "title": "Share files to Mira from other apps",
+          "text": "Fixes receiving files through the iOS share sheet and adds incoming file sharing on Android. Choose a task, review the files in the composer and send when you are ready; mobile also improves text composition, voice-input startup, shared conversation images and landscape menus. Receiving files requires the new mobile app package."
+        },
+        {
+          "id": "remote-continuity",
+          "title": "Continue across computers with safer remote control",
+          "text": "Tasks moving between computers on the same account preserve full conversation and work history when possible, asking before falling back to a summary. Remote desktop can disconnect and lock after inactivity, and ends when the controlling computer locks or sleeps. Remote projects show their computer’s name, connections recover more reliably, and you can configure your own relay on a computer or server and pair your phone with it."
+        },
+        {
+          "id": "everyday-reliability",
+          "title": "Steadier models, email and everyday work",
+          "text": "Automatic auxiliary tasks can try lightweight models you have connected when Mira AI is unavailable, with clearer settings saves, shared usage limits and pricing labels. Email syncing, dark-mode reading, attachments and rich replies receive fixes, alongside Windows title-bar alignment, project lookup and task recovery. Temporary network failures keep your sign-in while recovery continues, and existing plugins, data, approvals and settings carry over."
+        }
+      ]
+    }
+  }
+}
