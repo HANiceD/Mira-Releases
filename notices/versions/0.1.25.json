@@ -1,0 +1,114 @@
+{
+  "version": "0.1.25",
+  "date": "2026-11-03",
+  "contributors": [],
+  "banner": {
+    "url": "https://api.heymira.online/notice/assets/v0.1.25-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "成都公园的秋日午后，Mira 在草地野餐垫旁打开水果盒，戴金星吊牌的橘猫盖碗在一旁看着她。",
+      "en": "On an autumn afternoon in a Chengdu park, Mira opens a fruit box beside a picnic blanket while Gaiwan, an orange tabby with a gold star tag, watches her."
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.25 更新任务导入、群聊、伙伴与自动化，并为 iPhone 和 Android 带来余量小组件。长对话、跨电脑连接和存储迁移也有集中改进。插件相关改进需同时更新对应插件，部分群功能会在服务支持后显示。",
+      "topics": [
+        {
+          "id": "task-workflow",
+          "title": "导入记录，继续手头的任务",
+          "text": "任务导入统一整理来自 11 种工具的记录，导入后可以继续工作；桌面也能编辑和回退首条及尚未得到回复的消息。新任务可选择项目或不绑定项目，PR 链接可明确关联任务并置顶管理。电脑与手机的文档、图片和视频预览更一致，Markdown 预览支持搜索，对话大纲可设置显示条数。"
+        },
+        {
+          "id": "groups-and-calls",
+          "title": "话题、群聊和通话更连贯",
+          "text": "话题补齐附件、关注、未读追赶和贴回群聊，引用、提及与发送状态在电脑和手机上更一致。群内可设置自己的 AI 回复方式，群消息通知在服务支持时可选择全部、仅提及或关闭。桌面语音通话可在切换任务或页面后继续，同一时间保留一通通话，语音输入还新增西班牙语和声纹过滤提示。"
+        },
+        {
+          "id": "teammates-and-automations",
+          "title": "伙伴安排和自动化更好管理",
+          "text": "伙伴的核心技能、系统技能和学会的技能分开呈现，每日待办检查也可像其他例行任务一样编辑。自动化可在其他已连接并开启远程控制的电脑上创建或迁移，执行前可选插件检查，结果会回到原来的私聊、群聊或话题。新任务可设置默认权限，伙伴排队、等待确认、停止和续跑的状态更清楚，已收到的消息也减少误作废。"
+        },
+        {
+          "id": "plugin-experiences",
+          "title": "插件可以直接呈现可操作的页面",
+          "text": "支持对应插件在对话中提供可操作页面、单独确认页面权限，并在切换任务或页面时保留已打开的内容；插件也可提供模型选项或从文件导入供应商配置，按需启用的决策闸门可在任务、自动化或例行任务开始前检查是否执行或选择模型，使用你配置的服务并可能产生费用。iCloud 邮件补齐跟随界面语言的提示，发送或保存结果不确定时先提醒检查已发送或草稿，减少重复操作。Google 邮箱、日历、云端硬盘、表格，以及 Outlook 和 Yahoo 邮箱插件不再提供新安装和更新；已安装的插件与资料不会被删除。"
+        },
+        {
+          "id": "contacts",
+          "title": "通讯录按关系整理，介绍改写由你开启",
+          "text": "联系人能力由通讯录插件承接，可按关系分层查看人物、往来记录和待跟进事项；旧通讯录原件保留，已有插件资料时由你选择是否导入。人物页、macOS 名片补充和大资料库同步都有改进。AI 介绍改写默认关闭，只有你主动开启或点击改写才会把姓名、摘要、要点和介绍交给当前快捷模型，并消耗相应用量。"
+        },
+        {
+          "id": "browser-and-remote",
+          "title": "自己的浏览器与跨电脑连接更顺畅",
+          "text": "已启用「我的浏览器」的用户可随对应插件更新获得更完整的嵌入网页、字幕和大文件上传支持，并增加 Tabbit、Brave Origin 与 Dia 的兼容。自建中转可保存多台部署、切换和改名，连接恢复、远程任务接回及共享大文件下载也更可靠。远程桌面的隐私屏和退出锁屏默认开启，Mac 全屏工具栏、锁屏提示与停止后的收尾都有改进。"
+        },
+        {
+          "id": "quota-and-widgets",
+          "title": "在手机桌面查看订阅余量",
+          "text": "iPhone 和 Android 新增桌面小组件，可查看所选电脑的订阅余量与每日用量，并选择排在前面或隐藏的账号。电脑菜单栏、桌宠与手机小组件使用一致的余量数据，保留八家来源、原有币种、重置时刻和隐私设置，缺失数据不会显示成零。Kimi Code 剩余配额、每周订阅窗口，以及按模型和渠道查看费用明细也更清楚。"
+        },
+        {
+          "id": "models-and-engines",
+          "title": "模型连接、选择和恢复更稳",
+          "text": "添加模型时会推荐更合适的连接方式和运行引擎，上下文长度与本地模型图片输入也可更准确地设置。随附的 Claude Code、Codex 和 Pi 更新，并修复慢启动、连接中断、压缩后续接及工具结果重复等问题。自定义模型标识、费用估算和错误提示更准确，暂时过载不会再被当成用量耗尽。"
+        },
+        {
+          "id": "performance-and-storage",
+          "title": "长对话和存储整理更顺手",
+          "text": "长对话读取、历史搜索、发送前快照和持续输出的开销降低，启动与切换页面也有改进。存储设置可安排在重启后搬移伙伴文件与媒体，核对复制完成后再切换位置；默认伙伴目录改名造成的发送失败和历史路径问题一并修复。伙伴头像与壁纸有所整理，桌宠动作颜色重新校准，升级前的数据备份保护、插件升级和 Windows 恢复也更可靠。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "0.1.25 updates task importing, groups, teammates and automations, and brings usage widgets to iPhone and Android. Long conversations, cross-computer connections and storage moves also improve. Plugin improvements require the matching plugin update, and some group features appear when supported by the service.",
+      "topics": [
+        {
+          "id": "task-workflow",
+          "title": "Import past work and keep going",
+          "text": "The unified task importer brings in records from 11 tools so you can continue working, while desktop now lets you edit and rewind the first message and messages that have not received a reply. Choose a project for a new task or leave it unassigned, and explicitly link and pin pull requests to tasks. Document, image and video previews are more consistent across desktop and mobile, with search in Markdown previews and a configurable conversation outline length."
+        },
+        {
+          "id": "groups-and-calls",
+          "title": "Smoother topics, groups and calls",
+          "text": "Topics gain attachments, following, unread catch-up and posting replies back to the group, with more consistent quotes, mentions and sending states across desktop and mobile. Choose your own AI reply mode in a group, and select all notifications, mentions only or none when the service supports it. Desktop voice calls continue as you switch tasks or pages, with one call at a time; voice input also adds Spanish and a notice when voice filtering excludes another speaker."
+        },
+        {
+          "id": "teammates-and-automations",
+          "title": "Manage teammates and automations",
+          "text": "Teammate capabilities distinguish core, system and learned skills, and daily to-do checks can be edited like other routines. Create or move automations on another connected computer with remote control enabled, optionally run a plugin check before execution, and receive results in the original private chat, group or topic. Set a default permission level for new tasks, with clearer queued, waiting, stopped and resumed states and fewer valid queued messages being discarded."
+        },
+        {
+          "id": "plugin-experiences",
+          "title": "Use interactive plugin pages",
+          "text": "Compatible plugins can offer interactive pages in conversations, request separate page permissions and keep open content as you switch tasks or pages; plugins can also supply model choices or import provider settings from files, while the optional Decision Gate can check whether a task, automation or routine should run, or select a model before it starts, using your configured service and potentially incurring charges. iCloud Mail follows the interface language and asks you to check Sent or Drafts when a send or save cannot be confirmed, helping prevent duplicate actions. The Google Gmail, Calendar, Drive and Sheets plugins and the Outlook and Yahoo Mail plugins are no longer offered for new installs or updates; existing installations and their data are not removed."
+        },
+        {
+          "id": "contacts",
+          "title": "Organize contacts and choose when AI rewrites",
+          "text": "The Contacts plugin takes over contact features with relationship-based views, exchange history and open follow-ups; legacy originals are kept, and you choose whether to import them when the plugin already contains data. Person pages, additional macOS contact fields and syncing large libraries are improved. AI introduction rewriting is off by default: only enabling it or choosing Rewrite sends names, summaries, facts and introductions to the current quick model and consumes its usage allowance."
+        },
+        {
+          "id": "browser-and-remote",
+          "title": "Improve browser and cross-computer connections",
+          "text": "Users who enable My Browser can update the matching plugin for better embedded-page access, captions and large uploads, plus compatibility with Tabbit, Brave Origin and Dia. Keep multiple self-hosted relay deployments, switch between them and rename them, with more reliable reconnection, remote task recovery and large shared-file downloads. Remote desktop enables the privacy screen and lock-on-exit by default, with improvements to the Mac fullscreen toolbar, lock-screen notices and shutdown cleanup."
+        },
+        {
+          "id": "quota-and-widgets",
+          "title": "See subscription usage on your phone home screen",
+          "text": "New iPhone and Android home-screen widgets show subscription allowances and daily usage from a selected computer, with accounts you can prioritize or hide. The computer menu bar, desktop pet and mobile widgets use consistent readings across eight sources, preserving currencies, reset times and privacy settings without treating missing data as zero. Kimi Code remaining allowances, weekly subscription windows and cost details by model and channel are clearer too."
+        },
+        {
+          "id": "models-and-engines",
+          "title": "Steadier model connections and recovery",
+          "text": "Model connections choose compatibility modes and recommended engines based on interface capabilities, with more precise context-length settings and image-input overrides for local models. Bundled Claude Code, Codex and Pi are updated, with fixes for slow startup, interrupted connections, continuing after compression and duplicate tool results. Custom model identifiers, cost estimates and error messages are more accurate, and temporary overload is no longer mistaken for an exhausted allowance."
+        },
+        {
+          "id": "performance-and-storage",
+          "title": "Smoother long conversations and storage moves",
+          "text": "Long-history reading, search, pre-send snapshots and streaming replies do less work, alongside improvements to startup and page switching. Storage settings can schedule teammate files and media to move after a restart, switching locations only after copied data is verified; fixes also address failed sends and old paths after the default teammate folder was renamed. Teammate portraits and wallpapers are refreshed, desktop-pet animation colors are corrected, and backup protection before database upgrades, plugin upgrades and Windows recovery are more reliable."
+        }
+      ]
+    }
+  }
+}
