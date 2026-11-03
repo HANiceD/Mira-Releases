@@ -31,7 +31,7 @@
         {
           "id": "plugin-experiences",
           "title": "插件可以直接呈现可操作的页面",
-          "text": "支持对应插件在对话中提供可操作页面、单独确认页面权限，并在切换任务或页面时保留已打开的内容；插件也可提供模型选项或从文件导入供应商配置，按需启用的决策闸门可在任务、自动化或例行任务开始前检查是否执行或选择模型，使用你配置的服务并可能产生费用。iCloud 邮件补齐跟随界面语言的提示，发送或保存结果不确定时先提醒检查已发送或草稿，减少重复操作。Google 邮箱、日历、云端硬盘、表格，以及 Outlook 和 Yahoo 邮箱插件不再提供新安装和更新；已安装的插件与资料不会被删除。"
+          "text": "支持对应插件在对话中提供可操作页面、单独确认页面权限，并在切换任务或页面时保留已打开的内容；插件也可提供模型选项或从文件导入供应商配置，按需启用的决策闸门可在任务、自动化或例行任务开始前检查是否执行或选择模型，使用你配置的服务并可能产生费用。iCloud 邮件补齐跟随界面语言的提示，发送或保存结果不确定时先提醒检查已发送或草稿，减少重复操作。"
         },
         {
           "id": "contacts",
@@ -81,7 +81,7 @@
         {
           "id": "plugin-experiences",
           "title": "Use interactive plugin pages",
-          "text": "Compatible plugins can offer interactive pages in conversations, request separate page permissions and keep open content as you switch tasks or pages; plugins can also supply model choices or import provider settings from files, while the optional Decision Gate can check whether a task, automation or routine should run, or select a model before it starts, using your configured service and potentially incurring charges. iCloud Mail follows the interface language and asks you to check Sent or Drafts when a send or save cannot be confirmed, helping prevent duplicate actions. The Google Gmail, Calendar, Drive and Sheets plugins and the Outlook and Yahoo Mail plugins are no longer offered for new installs or updates; existing installations and their data are not removed."
+          "text": "Compatible plugins can offer interactive pages in conversations, request separate page permissions and keep open content as you switch tasks or pages; plugins can also supply model choices or import provider settings from files, while the optional Decision Gate can check whether a task, automation or routine should run, or select a model before it starts, using your configured service and potentially incurring charges. iCloud Mail follows the interface language and asks you to check Sent or Drafts when a send or save cannot be confirmed, helping prevent duplicate actions."
         },
         {
           "id": "contacts",
