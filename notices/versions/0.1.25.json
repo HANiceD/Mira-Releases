@@ -11,22 +11,22 @@
   },
   "contentByLocale": {
     "zh-CN": {
-      "intro": "0.1.25 更新任务导入、群聊、伙伴与自动化，并为 iPhone 和 Android 带来余量小组件。长对话、跨电脑连接和存储迁移也有集中改进。插件相关改进需同时更新对应插件，部分群功能会在服务支持后显示。",
+      "intro": "0.1.25 更新任务导入、群聊、伙伴与自动化，并为 iPhone 和 Android 带来余量小组件。长对话、模型连接、跨电脑连接和存储迁移也有集中改进。插件相关改进需同时更新对应插件，部分群功能会在服务支持后显示。",
       "topics": [
         {
           "id": "task-workflow",
           "title": "导入记录，继续手头的任务",
-          "text": "任务导入统一整理来自 11 种工具的记录，导入后可以继续工作；桌面也能编辑和回退首条及尚未得到回复的消息。新任务可选择项目或不绑定项目，PR 链接可明确关联任务并置顶管理。电脑与手机的文档、图片和视频预览更一致，Markdown 预览支持搜索，对话大纲可设置显示条数。"
+          "text": "任务导入统一整理来自 11 种工具的记录，导入后可以继续工作；桌面也能编辑和回退首条及尚未得到回复的消息。新任务可选择已有项目、直接新建项目或不绑定项目，PR 链接可明确关联任务并置顶管理。电脑与手机的文档、图片和视频预览更一致，文档阅读支持宽度自适应、页码跳转和滚轮缩放，Markdown 预览支持搜索，对话大纲可设置显示条数。"
         },
         {
           "id": "groups-and-calls",
           "title": "话题、群聊和通话更连贯",
-          "text": "话题补齐附件、关注、未读追赶和贴回群聊，引用、提及与发送状态在电脑和手机上更一致。群内可设置自己的 AI 回复方式，群消息通知在服务支持时可选择全部、仅提及或关闭。桌面语音通话可在切换任务或页面后继续，同一时间保留一通通话，语音输入还新增西班牙语和声纹过滤提示。"
+          "text": "话题补齐附件、关注、未读追赶和贴回群聊，引用、提及与发送状态在电脑和手机上更一致，手机端各话题的运行状态与停止控制互相独立，排队等待不再计入运行时长。群内可设置自己的 AI 回复方式，群消息通知在服务支持时可选择全部、仅提及或关闭；群聊在伙伴列表中有明确标记，手机上讨论队列与工作计划分开呈现，群计划卡片可直接跟进。桌面语音通话可在切换任务或页面后继续，同一时间保留一通通话，语音输入还新增西班牙语和声纹过滤提示。"
         },
         {
           "id": "teammates-and-automations",
           "title": "伙伴安排和自动化更好管理",
-          "text": "伙伴的核心技能、系统技能和学会的技能分开呈现，每日待办检查也可像其他例行任务一样编辑。自动化可在其他已连接并开启远程控制的电脑上创建或迁移，执行前可选插件检查，结果会回到原来的私聊、群聊或话题。新任务可设置默认权限，伙伴排队、等待确认、停止和续跑的状态更清楚，已收到的消息也减少误作废。"
+          "text": "伙伴的核心技能、系统技能和学会的技能分开呈现，技能文件会随伙伴一起迁移到其他电脑，每日待办检查也可像其他例行任务一样编辑。自动化可在其他已连接并开启远程控制的电脑上创建或迁移，执行前可选插件检查，结果会回到原来的私聊、群聊或话题。新任务可设置默认权限，伙伴排队、等待确认、停止和续跑的状态更清楚，已收到的消息也减少误作废。"
         },
         {
           "id": "plugin-experiences",
@@ -41,7 +41,7 @@
         {
           "id": "browser-and-remote",
           "title": "自己的浏览器与跨电脑连接更顺畅",
-          "text": "已启用「我的浏览器」的用户可随对应插件更新获得更完整的嵌入网页、字幕和大文件上传支持，并增加 Tabbit、Brave Origin 与 Dia 的兼容。自建中转可保存多台部署、切换和改名，连接恢复、远程任务接回及共享大文件下载也更可靠。远程桌面的隐私屏和退出锁屏默认开启，Mac 全屏工具栏、锁屏提示与停止后的收尾都有改进。"
+          "text": "已启用「我的浏览器」的用户可随对应插件更新获得更完整的嵌入网页、字幕和大文件上传支持，并增加 Tabbit、Brave Origin 与 Dia 的兼容。自建中转可保存多台部署、切换和改名，连接恢复、远程任务接回及共享大文件下载也更可靠，任务中的 Agent 还能查看账号下所有电脑与 SSH 主机的实时资源。远程桌面的隐私屏和退出锁屏默认开启，Mac 全屏工具栏、锁屏提示与停止后的收尾都有改进，手机端键盘重新设计并在折叠态提供完整键盘与触控板，网页登录的接管窗口被最小化后也能恢复继续。"
         },
         {
           "id": "quota-and-widgets",
@@ -51,32 +51,32 @@
         {
           "id": "models-and-engines",
           "title": "模型连接、选择和恢复更稳",
-          "text": "添加模型时会推荐更合适的连接方式和运行引擎，上下文长度与本地模型图片输入也可更准确地设置。随附的 Claude Code、Codex 和 Pi 更新，并修复慢启动、连接中断、压缩后续接及工具结果重复等问题。自定义模型标识、费用估算和错误提示更准确，暂时过载不会再被当成用量耗尽。"
+          "text": "添加模型时会推荐更合适的连接方式和运行引擎，也能按自定义接口名称搜索供应商，上下文长度与本地模型图片输入可更准确地设置。随附的 Claude Code、Codex 和 Pi 更新，并修复慢启动、连接中断、压缩后续接及工具结果重复等问题。自定义模型标识、费用估算和错误提示更准确，暂时过载不会再被当成用量耗尽；明确的模型选择在自动回退后仍会保留，共享的供应商组在调整模型时保持可用，远程电脑支持的模型也会在选择时标明。"
         },
         {
           "id": "performance-and-storage",
           "title": "长对话和存储整理更顺手",
-          "text": "长对话读取、历史搜索、发送前快照和持续输出的开销降低，启动与切换页面也有改进。存储设置可安排在重启后搬移伙伴文件与媒体，核对复制完成后再切换位置；默认伙伴目录改名造成的发送失败和历史路径问题一并修复。伙伴头像与壁纸有所整理，桌宠动作颜色重新校准，升级前的数据备份保护、插件升级和 Windows 恢复也更可靠。"
+          "text": "长对话读取、历史搜索、发送前快照和持续输出的开销降低，手机端流式输出更顺滑，启动时远程设备先显示为检查中而不是离线，过长的请求会自动压缩后重试。存储设置可安排在重启后搬移伙伴文件与媒体，核对复制完成后再切换位置；默认伙伴目录改名造成的发送失败和历史路径问题一并修复。伙伴头像与壁纸有所整理，桌宠动作颜色重新校准，截图翻译响应更快并可选择语言，Windows 审查高亮不再卡顿，升级前的数据备份保护、插件升级和恢复也更可靠。"
         }
       ]
     },
     "en": {
-      "intro": "0.1.25 updates task importing, groups, teammates and automations, and brings usage widgets to iPhone and Android. Long conversations, cross-computer connections and storage moves also improve. Plugin improvements require the matching plugin update, and some group features appear when supported by the service.",
+      "intro": "0.1.25 updates task importing, groups, teammates and automations, and brings usage widgets to iPhone and Android. Long conversations, model connections, cross-computer connections and storage moves also improve. Plugin improvements require the matching plugin update, and some group features appear when supported by the service.",
       "topics": [
         {
           "id": "task-workflow",
           "title": "Import past work and keep going",
-          "text": "The unified task importer brings in records from 11 tools so you can continue working, while desktop now lets you edit and rewind the first message and messages that have not received a reply. Choose a project for a new task or leave it unassigned, and explicitly link and pin pull requests to tasks. Document, image and video previews are more consistent across desktop and mobile, with search in Markdown previews and a configurable conversation outline length."
+          "text": "The unified task importer brings in records from 11 tools so you can continue working, while desktop now lets you edit and rewind the first message and messages that have not received a reply. Choose an existing project for a new task, create one on the spot, or leave it unassigned, and explicitly link and pin pull requests to tasks. Document, image and video previews are more consistent across desktop and mobile, documents gain width-fit reading, page jumps and wheel zoom, with search in Markdown previews and a configurable conversation outline length."
         },
         {
           "id": "groups-and-calls",
           "title": "Smoother topics, groups and calls",
-          "text": "Topics gain attachments, following, unread catch-up and posting replies back to the group, with more consistent quotes, mentions and sending states across desktop and mobile. Choose your own AI reply mode in a group, and select all notifications, mentions only or none when the service supports it. Desktop voice calls continue as you switch tasks or pages, with one call at a time; voice input also adds Spanish and a notice when voice filtering excludes another speaker."
+          "text": "Topics gain attachments, following, unread catch-up and posting replies back to the group, with more consistent quotes, mentions and sending states across desktop and mobile; on mobile, each topic keeps its own running status and stop controls, and queued waiting no longer counts toward work time. Choose your own AI reply mode in a group, and select all notifications, mentions only or none when the service supports it; group chats are clearly marked in the teammate list, and discussion queues and work plans appear separately on mobile, with plan cards you can act on directly. Desktop voice calls continue as you switch tasks or pages, with one call at a time; voice input also adds Spanish and a notice when voice filtering excludes another speaker."
         },
         {
           "id": "teammates-and-automations",
           "title": "Manage teammates and automations",
-          "text": "Teammate capabilities distinguish core, system and learned skills, and daily to-do checks can be edited like other routines. Create or move automations on another connected computer with remote control enabled, optionally run a plugin check before execution, and receive results in the original private chat, group or topic. Set a default permission level for new tasks, with clearer queued, waiting, stopped and resumed states and fewer valid queued messages being discarded."
+          "text": "Teammate capabilities distinguish core, system and learned skills, skill files now travel with a teammate to other computers, and daily to-do checks can be edited like other routines. Create or move automations on another connected computer with remote control enabled, optionally run a plugin check before execution, and receive results in the original private chat, group or topic. Set a default permission level for new tasks, with clearer queued, waiting, stopped and resumed states and fewer valid queued messages being discarded."
         },
         {
           "id": "plugin-experiences",
@@ -91,7 +91,7 @@
         {
           "id": "browser-and-remote",
           "title": "Improve browser and cross-computer connections",
-          "text": "Users who enable My Browser can update the matching plugin for better embedded-page access, captions and large uploads, plus compatibility with Tabbit, Brave Origin and Dia. Keep multiple self-hosted relay deployments, switch between them and rename them, with more reliable reconnection, remote task recovery and large shared-file downloads. Remote desktop enables the privacy screen and lock-on-exit by default, with improvements to the Mac fullscreen toolbar, lock-screen notices and shutdown cleanup."
+          "text": "Users who enable My Browser can update the matching plugin for better embedded-page access, captions and large uploads, plus compatibility with Tabbit, Brave Origin and Dia. Keep multiple self-hosted relay deployments, switch between them and rename them, with more reliable reconnection, remote task recovery and large shared-file downloads; agents in tasks can also see live resource readings for every computer on the account and for SSH hosts. Remote desktop enables the privacy screen and lock-on-exit by default, with improvements to the Mac fullscreen toolbar, lock-screen notices and shutdown cleanup, a redesigned mobile keyboard that offers a full keyboard and trackpad when folded, and sign-in takeover windows that recover even after being minimized."
         },
         {
           "id": "quota-and-widgets",
@@ -101,12 +101,12 @@
         {
           "id": "models-and-engines",
           "title": "Steadier model connections and recovery",
-          "text": "Model connections choose compatibility modes and recommended engines based on interface capabilities, with more precise context-length settings and image-input overrides for local models. Bundled Claude Code, Codex and Pi are updated, with fixes for slow startup, interrupted connections, continuing after compression and duplicate tool results. Custom model identifiers, cost estimates and error messages are more accurate, and temporary overload is no longer mistaken for an exhausted allowance."
+          "text": "Model connections choose compatibility modes and recommended engines based on interface capabilities, and you can now search providers by custom endpoint names, with more precise context-length settings and image-input overrides for local models. Bundled Claude Code, Codex and Pi are updated, with fixes for slow startup, interrupted connections, continuing after compression and duplicate tool results. Custom model identifiers, cost estimates and error messages are more accurate, and temporary overload is no longer mistaken for an exhausted allowance; an explicit model choice survives automatic fallback, shared provider groups stay usable when models change, and models available on remote computers are marked in the picker."
         },
         {
           "id": "performance-and-storage",
           "title": "Smoother long conversations and storage moves",
-          "text": "Long-history reading, search, pre-send snapshots and streaming replies do less work, alongside improvements to startup and page switching. Storage settings can schedule teammate files and media to move after a restart, switching locations only after copied data is verified; fixes also address failed sends and old paths after the default teammate folder was renamed. Teammate portraits and wallpapers are refreshed, desktop-pet animation colors are corrected, and backup protection before database upgrades, plugin upgrades and Windows recovery are more reliable."
+          "text": "Long-history reading, search, pre-send snapshots and streaming replies do less work, mobile streaming is smoother, remote devices show as checking rather than offline during startup, and oversized requests retry automatically after compaction. Storage settings can schedule teammate files and media to move after a restart, switching locations only after copied data is verified; fixes also address failed sends and old paths after the default teammate folder was renamed. Teammate portraits and wallpapers are refreshed, desktop-pet animation colors are corrected, screenshot translation responds faster with a language choice, Windows review highlights no longer stutter, and backup protection before database upgrades, plugin upgrades and recovery are more reliable."
         }
       ]
     }
