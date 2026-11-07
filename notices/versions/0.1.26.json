@@ -1,0 +1,114 @@
+{
+  "version": "0.1.26",
+  "date": "2026-11-07",
+  "contributors": [],
+  "banner": {
+    "url": "https://api.heymira.online/notice/assets/v0.1.26-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "秋日花店前，Mira俯身挑选鲜花，橘猫坐在身旁。",
+      "en": "Mira chooses flowers outside an autumn flower shop, with an orange cat beside her."
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "0.1.26 把自媒体工作台、账号入口、插件操作和跨电脑接续的改进一起带来。伙伴定时安排、浏览器操作、录屏与手机阅读输入也有更新，插件相关能力需对应插件和服务配套到位。",
+      "topics": [
+        {
+          "id": "media-workbench",
+          "title": "自媒体工作台：从灵感、写稿到出图与排期",
+          "text": "电脑端自媒体工作台把图片灵感、稿件、出图和排期放在一起，稿件可交给 Mira 继续处理并保留原稿。新灵感或排期到期可触发你配置的例行工作，直接出图可查看进度、取消未开始的图片并保存结果。使用前需更新对应插件并批准所需权限，所选模型可能产生费用；首次出图会请你确认模型、张数与费用，无法预估时也会说明。"
+        },
+        {
+          "id": "account-access",
+          "title": "密码登录与邮箱注册",
+          "text": "邮箱验证码登录继续保留，同一个账号也可设置密码登录，忘记密码时用邮箱验证码找回。新用户可验证邮箱创建账号，初始余额为零；已有账号仍使用原来的余额与资料。"
+        },
+        {
+          "id": "plugin-controls",
+          "title": "插件操作更直观，授权更清楚",
+          "text": "支持的插件可在本机电脑界面提供操作入口和模型选择，修改外观前每次都会请你确认。GitHub 卡片和 GitLab 任务关联让代码合并状态更好跟进。GitHub 合并后自动归档 Mira 任务暂不支持。"
+        },
+        {
+          "id": "device-migration",
+          "title": "换电脑与跨电脑接续更方便",
+          "text": "迁移助理可把支持的设置、模型连接和插件配置带到同账号的新电脑，保留目标电脑已有的自定义设置。敏感内容需你在来源电脑确认后才会传送，登录与授权按提示重新完成。符合条件的协同任务也可切换执行电脑与模型来源。"
+        },
+        {
+          "id": "teamwork-schedules",
+          "title": "伙伴接续与定时安排更可靠",
+          "text": "伙伴处理后台工作时仍可接收新消息，中断后继续会保留已接收的请求，减少重复确认与投递。定时任务可设置自动触发的截止时间，编辑安排也不会替换已完成的结果。群聊的跳过计划、停止操作和跨设备已读状态也更准确。"
+        },
+        {
+          "id": "browser-automation",
+          "title": "浏览器自动操作，减少打扰",
+          "text": "Mac 用户可在「设置 → 自动操作」选择 ego lite，安装并登录后按它自己的设置和登录身份处理网页任务。「我的浏览器」默认使用 Mira 自己打开的后台页面，减少打断你正在看的标签页。发信、付款和删除等操作仍需你确认。"
+        },
+        {
+          "id": "screen-recording",
+          "title": "录屏也能收录声音",
+          "text": "电脑端区域录屏可同时收录电脑声音和麦克风，方便把操作演示与讲解一起录下来。暂停录制时也会停止收音。"
+        },
+        {
+          "id": "mobile-reading-input",
+          "title": "手机上的阅读与输入改善",
+          "text": "手机群聊可更完整地阅读代码、表格、公式和图表。编辑最后一条消息时，只有发送修改才会中断正在运行的任务，取消编辑则继续工作。本批手机改动需要安装新的手机版本。"
+        },
+        {
+          "id": "reliability-compatibility",
+          "title": "稳定性修复与升级资料保护",
+          "text": "桌宠自动动作会完整播放，素材加载失败后的恢复也有修复。修复 Windows 长路径及部分插件升级问题，模拟器继续使用原有资料位置，不会在启动时自动搬动资料。官方 Slack、Telegram 机器人入口退役，个人渠道继续保留。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "0.1.26 brings together Media Desk, account access, plugin controls and work across computers. Teammate scheduling, browser automation, recording and mobile reading and input also improve, with plugin features requiring the matching plugins and services.",
+      "topics": [
+        {
+          "id": "media-workbench",
+          "title": "Media Desk: from ideas and drafts to images and schedules",
+          "text": "The desktop Media Desk brings picture ideas, drafts, image generation and publishing schedules together, with drafts you can hand to Mira for further work while keeping the originals. New ideas and due schedules can trigger routines you configure, and direct image generation offers progress, cancellation of unstarted items and saved results. Update the matching plugin and approve its permissions first; your chosen model may incur charges, and the first image request asks you to confirm the model, image count and charges, explaining when an estimate is unavailable."
+        },
+        {
+          "id": "account-access",
+          "title": "Password sign-in and email registration",
+          "text": "Email-code sign-in remains available, and you can set a password for the same account, with email-code recovery if you forget it. New users can verify their email to create an account with a zero starting balance; existing accounts keep their balance and data."
+        },
+        {
+          "id": "plugin-controls",
+          "title": "Clearer plugin controls and permissions",
+          "text": "Compatible plugins can offer controls and model selection on the local desktop, with confirmation before every appearance change. GitHub cards and GitLab task links make merge status easier to follow. Automatically archiving Mira tasks after a GitHub merge is not supported yet."
+        },
+        {
+          "id": "device-migration",
+          "title": "Easier setup and work across computers",
+          "text": "Migration Assistant can move supported settings, model connections and plugin configuration to another computer on the same account while preserving its existing custom settings. Sensitive data transfers only after you confirm on the source computer, with sign-ins and permissions completed as prompted. Eligible collaborative tasks can also switch execution computers and model sources."
+        },
+        {
+          "id": "teamwork-schedules",
+          "title": "More reliable teammate work and schedules",
+          "text": "Teammates can receive new messages while background work runs, and continuing interrupted work preserves accepted requests to reduce repeated confirmations and deliveries. Schedules can set a deadline for automatic runs, and editing a schedule does not replace completed results. Group plan skipping, stopping and read state across devices are also more precise."
+        },
+        {
+          "id": "browser-automation",
+          "title": "Browser automation with fewer interruptions",
+          "text": "On Mac, choose ego lite under Settings → Automation, install it and sign in to handle web tasks using its own settings and signed-in identity. My Browser defaults to background pages opened by Mira, reducing interruptions to the tabs you are using. Actions such as sending messages, making payments and deleting content still require your confirmation."
+        },
+        {
+          "id": "screen-recording",
+          "title": "Capture audio with screen recordings",
+          "text": "Desktop region recording can capture computer audio and the microphone together, so demonstrations and narration can be recorded at the same time. Pausing the recording also stops audio capture."
+        },
+        {
+          "id": "mobile-reading-input",
+          "title": "Better reading and input on mobile",
+          "text": "Mobile group chats offer more complete reading of code, tables, formulas and diagrams. Editing the last message interrupts a running task only when you send the changes; cancelling the edit lets work continue. These mobile changes require a new app installation."
+        },
+        {
+          "id": "reliability-compatibility",
+          "title": "Reliability fixes and data protection during upgrades",
+          "text": "Automatic desktop-pet actions play through fully, with fixes for recovery after media fails to load. Fixes address long Windows paths and some plugin upgrade issues; the simulator keeps its existing data location without automatically moving data at startup. Official Slack and Telegram bot entry points are retired while personal channels remain available."
+        }
+      ]
+    }
+  }
+}
