@@ -1,0 +1,114 @@
+{
+  "version": "0.1.28",
+  "date": "2026-11-13",
+  "contributors": [],
+  "banner": {
+    "url": "https://api.heymira.online/notice/assets/v0.1.28-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "Mira 在银杏树下读信",
+      "en": "Mira reading a letter beneath a ginkgo tree"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "这一版重点改进伙伴的工作方式、插件能力与外观、自动化，以及新手引导和换电脑迁移；模型与账号用量也更清楚。手机端包含底层变化，需要安装新版。",
+      "topics": [
+        {
+          "id": "companion-projects",
+          "title": "伙伴的工作接入项目与普通任务",
+          "text": "伙伴的资料、记忆与工作安排接入项目和普通任务。升级时保留旧资料；无法直接转换的安排会保留原件并说明暂停原因，避免丢失内容或擅自重新执行。伙伴忙碌时仍能接收新消息，中断后恢复的消息只执行一次，结果不确定时不会自动重发。"
+        },
+        {
+          "id": "plugin-host-ui",
+          "title": "插件可以出现在更多位置",
+          "text": "支持的插件可以在任务标题、输入框工具栏、状态栏、消息旁等位置提供操作入口，也可以打开独立页面，还能帮你起草输入框里的内容。新增的界面权限会逐项请你确认；已安装插件的原有批准、设置和资料保持不变，不需要重装，插件修改外观前仍然每次请你确认。插件需要确认时，确认卡会显示在发起它的任务里。插件还可以声明适用的电脑平台，安装时会检查是否适合当前设备，已安装的插件不会因此停用。Windows 上 Mira Chrome 的商店入口改为 Mira 自有扩展页面。"
+        },
+        {
+          "id": "event-automation",
+          "title": "自动化可以响应 Webhook 和插件事件",
+          "text": "自动化增加 Webhook 触发方式，可设置发送方和事件筛选，密集到达的事件会合并处理。项目自动化还可以订阅插件事件，例如自媒体工作台的新灵感和排期到期：接到事件后创建一次可见的普通运行，重复投递不会重复执行。没有设置对应自动化时，插件会显示“未承接”，不会显示成已完成。插件事件不能自行指定伙伴、模型或权限，也不会自动调用付费出图。使用前需要更新对应插件，Webhook 需要登录账号和可用的事件接收服务。"
+        },
+        {
+          "id": "first-run-migration",
+          "title": "第一次使用和换电脑更顺手",
+          "text": "新登录时提供一次性上手引导，恢复登录不会重复弹出。迁移设置时最多检查三个来源；敏感内容仍需你明确选择和确认，不复制登录凭据，也不覆盖本机已改过的设置。任务导入默认不勾选，原文件只读。"
+        },
+        {
+          "id": "models-accounts",
+          "title": "模型、账号与用量",
+          "text": "新增模型组，可为同一模型选择来源，不会改动已有任务。订阅账号的 5 小时和每周额度分开显示；账号池只有全部账号都用尽时才提示，暂停的账号不再计入。补充 Claude Fable 5.2 的识别与使用支持，可用型号以账号实际开放的范围为准。Claude Code、Codex 和 Pi 可选择官方最新版或 Mira 正式版，Pi 正式版更新到 1.5.2。账号可用状态、订阅恢复，以及 Codex、本机 Ollama、llama.cpp 的任务续接也有改进。"
+        },
+        {
+          "id": "collaboration-browser-channels",
+          "title": "协同、浏览器和消息渠道",
+          "text": "逐题保留已经填写的回答，明确显示撤回与等待状态；协同中的待发消息可按已有权限改写、撤回或合并。浏览器连续多步操作的检查和失败反馈更清楚，代输入、权限说明和语音启动体验也有改进。个人飞书的长回复按内容边界分卡，保留代码与表格；Discord 增加服务器频道与话题的设置和权限处理，原有指定范围不会在升级时自动扩大。"
+        },
+        {
+          "id": "desktop-interface",
+          "title": "桌面界面更顺手",
+          "text": "主界面、主题和右侧栏跟进了新的布局与功能，保留 Mira 的悬浮输入框和暖色默认主题。展开长内容时保持阅读位置；Windows 窗口的透明效果和最大化恢复更稳定，Mac 菜单栏显示为 Mira Menu Bar。设置页返回位置、启动进度和文件预览提示也有改进。"
+        },
+        {
+          "id": "mobile-avatars",
+          "title": "手机头像、通知和日常操作",
+          "text": "改善手机伙伴头像加载失败后的恢复，并修正默认通知的头像信息。手机端改进任务归档撤销、模型收藏、远程模型选择记忆、任务移动到项目，以及菜单与分享画面的呈现。"
+        },
+        {
+          "id": "data-and-authorization",
+          "title": "保留已有资料和授权边界",
+          "text": "修复旧实例记录可能导致伙伴文件夹搬迁中断的问题，并补强账号切换、远程结果接收和旧插件兼容处理。远程运行 Claude 时，不再沿用电脑上另一套登录。已有授权不会因新增能力而自动扩大，跨账号能力仍取决于服务是否支持。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "This release focuses on how companions work, plugin capabilities and appearance, automations, and onboarding and moving to a new computer; model and account usage is also clearer. The mobile apps include low-level changes and need to be updated by installing the new version.",
+      "topics": [
+        {
+          "id": "companion-projects",
+          "title": "Companions work through projects and tasks",
+          "text": "Companion files, memory and work schedules now use projects and regular tasks. Existing material is kept when you upgrade; schedules that cannot be converted directly keep their originals and explain why they are paused, so nothing is lost or rerun on its own. Companions can still receive new messages while busy, messages resumed after an interruption run only once, and results that are uncertain are never resent automatically."
+        },
+        {
+          "id": "plugin-host-ui",
+          "title": "Plugins can appear in more places",
+          "text": "Supported plugins can add actions to the task title, the input toolbar, the status bar and alongside messages, open their own pages, and help draft text in the input box. New interface permissions are confirmed one by one; existing plugin approvals, settings and data stay as they are with no reinstall needed, and plugins still ask every time before changing the appearance. When a plugin needs confirmation, the card appears in the task that started it. Plugins can also declare which computer platforms they support, and installation checks whether your device fits; plugins already installed are not disabled by this. On Windows, the Mira Chrome store link now opens Mira's own extension page."
+        },
+        {
+          "id": "event-automation",
+          "title": "Automations respond to Webhooks and plugin events",
+          "text": "Automations add Webhook triggers with sender and event filters, and bursts of events are grouped. Project automations can also subscribe to plugin events, such as new ideas and due schedules in the media workbench: each event creates one visible regular run, and repeated deliveries do not run twice. When no matching automation is set up, the plugin shows the event as not handled rather than completed. Plugin events cannot choose a companion, model or permission on their own, and never start paid image generation automatically. Update the related plugin before use; Webhooks need a signed-in account and an available event-receiving service."
+        },
+        {
+          "id": "first-run-migration",
+          "title": "Easier first use and moving computers",
+          "text": "A one-time getting-started guide appears after a new sign-in and does not reappear when a session is restored. Setting migration checks at most three sources; sensitive content still needs your explicit choice and confirmation, sign-in credentials are not copied, and settings you already changed on this computer are not overwritten. Task import selects nothing by default and leaves the original files untouched."
+        },
+        {
+          "id": "models-accounts",
+          "title": "Models, accounts and usage",
+          "text": "Model groups let you choose the source for a model without changing existing tasks. Subscription accounts show 5-hour and weekly limits separately; an account pool warns only when every account is used up, and paused accounts are no longer counted. Claude Fable 5.2 is now recognized and supported, within the models your account actually offers. Claude Code, Codex and Pi can use the official latest or the Mira stable version, and Pi stable is updated to 1.5.2. Account availability, subscription recovery and task continuation for Codex and local Ollama and llama.cpp are also improved."
+        },
+        {
+          "id": "collaboration-browser-channels",
+          "title": "Collaboration, browser and messaging channels",
+          "text": "Answers you have filled in are kept question by question, with clear withdrawn and waiting states; pending collaboration messages can be edited, withdrawn or combined within existing permissions. Multi-step browser actions are checked more clearly with better failure feedback, along with improvements to typing on your behalf, permission explanations and voice start. Long replies in personal Feishu are split into cards at content boundaries, keeping code and tables intact; Discord adds server channel and thread settings and permissions, and existing scopes are not widened on upgrade."
+        },
+        {
+          "id": "desktop-interface",
+          "title": "A smoother desktop interface",
+          "text": "The main layout, themes and right sidebar follow the new layout and features while keeping Mira's floating input box and warm default theme. Expanding long content keeps your reading position; window transparency and restoring from maximize are more reliable on Windows, and the Mac menu bar shows Mira Menu Bar. Returning to settings pages, startup progress and file preview hints are also improved."
+        },
+        {
+          "id": "mobile-avatars",
+          "title": "Mobile avatars, notifications and everyday actions",
+          "text": "Mobile companion avatars recover better after failing to load, and the avatar information in default notifications is corrected. The mobile apps also improve undoing task archiving, favorite models, remembering remote model choices, moving tasks to projects, and the look of menus and share screens."
+        },
+        {
+          "id": "data-and-authorization",
+          "title": "Your data and permissions stay protected",
+          "text": "A problem where old instance records could interrupt moving a companion folder is fixed, with stronger handling for switching accounts, receiving remote results and older plugins. Remote Claude runs no longer pick up another sign-in from the computer. Existing permissions are not widened by new capabilities, and cross-account features still depend on service support."
+        }
+      ]
+    }
+  }
+}
