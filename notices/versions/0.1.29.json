@@ -1,0 +1,114 @@
+{
+  "version": "0.1.29",
+  "date": "2026-11-18",
+  "contributors": [],
+  "banner": {
+    "url": "https://api.heymira.online/notice/assets/v0.1.29-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "初冬晴朗午后，Mira 坐在洒满阳光的木质飘窗边剥开橙黄蜜橘，橘猫盖碗趴在旁边好奇嗅闻。",
+      "en": "On a sunny early-winter afternoon, Mira peels a mandarin orange by a sunlit wooden bay window while her orange tabby cat Gaiwan sniffs nearby."
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "这一版换上 Mira 全新视觉形象，提供可选应用图标与桌面主题包，并带来围绕项目的伙伴群协作、公开可安装的 Mira GitHub 应用联动、插件整版一次授权与手机通知直接处理。订阅账号轮换、文件恢复点提醒与 Windows 长路径兼容也一并完善。手机端需安装新版安装包。",
+      "topics": [
+        {
+          "id": "visual-identity-icons-themes",
+          "title": "全新视觉形象、可选应用图标与主题包",
+          "text": "Mira 换上全新默认形象，应用图标、Mira 伙伴默认头像、新建任务页深浅色人物插画与分享页脚一并焕新。macOS 与支持更换图标的手机新版可在外观设置中选择默认、浅色字标、深色字标、Mira 与猫四款应用图标，所选图标不会随深浅模式自动互换。桌面端新增主题包，可将配色、字体和壁纸打包切换，也能请 Mira 协助制作主题；Mira 暖灰陶土仍是默认主题。"
+        },
+        {
+          "id": "companion-groups-memory",
+          "title": "伙伴围绕项目协作，群聊与项目记忆更清楚",
+          "text": "伙伴群聊可关联项目，支持主群与话题分开跟进、语音输入，以及通过 @ 精确点名接续工作（重名时会提示确认）。群里交给 Mira 的复杂事项可另开任务卡并在完成后回到原话题回复；个人伙伴仅由本人停止，公共群助手由当次发起人停止，普通成员也可移出自己的伙伴，协同汇报在重启后可恢复且不会重复发送。项目记忆改为保存在项目目录内的 Markdown 文件，升级时保留原有内容并避免覆盖。"
+        },
+        {
+          "id": "github-app-and-pulls",
+          "title": "连接 Mira GitHub 应用，跟进合并请求与触发自动化",
+          "text": "Mira GitHub 应用现已向所有用户开放安装：在桌面端连接账号并授权仓库后，无需手动配置接收地址或密钥，即可在评审、评论或检查变化时及时刷新并唤醒正在跟进的 PR（此类跟进通知不占用每日普通 Webhook 接收次数）。自动化也可选择通过 Mira 连接，直接按已授权仓库及 PR、评审、评论、检查、Issue、代码推送、工作流运行或版本发布等事件触发。任务顶栏、伙伴卡与手机任务菜单支持查看明确关联的 GitHub PR 与 GitLab MR 状态并复制链接；同一 PR 在多个任务展示卡片时可直接跳回正在跟进的任务。"
+        },
+        {
+          "id": "plugin-permissions-browsers",
+          "title": "插件整版一次授权，连接更多常用浏览器",
+          "text": "安装或更新插件时，可在一张权限卡中集中查看并一次确认工作目录、网络访问、已有凭据引用、只读订阅用量、界面入口与控制能力；已安装的插件无需重装或重新批准，也不会因新版增加能力而自动获得未批准的权限。支持的插件可在侧栏、任务菜单和设置页提供入口，并支持保存状态的互动卡片与远程电脑插件页面。配合新版 Mira Chrome 插件，桌面端补充 Tabbit、ego lite 及 Arc、Vivaldi、Opera、360、QQ 等浏览器的连接与自动重连支持，可用范围取决于浏览器和所在系统。"
+        },
+        {
+          "id": "mobile-notifications-badges-haptics",
+          "title": "手机支持通知直接处理、图标角标与触觉反馈",
+          "text": "在系统通知上可直接回答问题、回复消息或确认权限；在一台设备上处理完后，登录同一账号的其他设备会自动清除对应提醒。手机桌面图标可显示待处理与未读任务数量，锁屏与实时活动计数更准确，并增加日常操作触觉反馈（取决于系统权限与设备支持）。伙伴近况入口、多电脑列表、数学公式与问答卡片的移动端展示也更清晰易读。"
+        },
+        {
+          "id": "accounts-branches-models",
+          "title": "订阅账号公平轮换，分支切换与多电脑模型更顺手",
+          "text": "多个订阅账号按实际剩余额度公平轮换，响应较慢的账号不会拖慢已就绪账号；单个账号额度用尽时，若有其他可用账号或已配置备用来源可继续工作。新建任务支持直接切换分支或创建独立 worktree，切换前会检查未提交改动；模型组可区分不同电脑上的来源，借用远程电脑的模型供应商时直接显示运行电脑的可用模型。发送大图或多图时自动压缩请求副本并保留原图，同时补充 MiMo 思考控制与闲置任务可撤销自动归档。"
+        },
+        {
+          "id": "restore-point-notice",
+          "title": "文件恢复点未能保存时任务内提醒",
+          "text": "当某一轮未能保存文件恢复点时，任务内会给出一次明确提醒：项目文件仍然完好，只是这一轮改动可能无法恢复到修改前，下一轮将继续按原流程尝试保存。桌面端与手机端查看同一任务时提醒保持一致。"
+        },
+        {
+          "id": "windows-long-paths-migration",
+          "title": "Windows 长路径与资料迁移兼容修复",
+          "text": "修复 Windows 长路径下插件资料库读写、备份及存储目录迁移不可用的问题，改善已有目录非覆盖合并迁移的稳定性，并补齐 Windows 原生运行依赖。同时修复升级至新目录命名时的旧资料读取兼容与去重问题。"
+        },
+        {
+          "id": "remote-schedule-mobile-fixes",
+          "title": "远程回退中转、定时收尾与日常交互修复",
+          "text": "远程连接在直连不可用时自动改走中转通道，修复同页面跳转误取消远程发送的问题，并改善远程音视频播放、拖动与资源释放。修复定时任务收尾时偶发遗漏排队消息、覆盖原始报错原因或误发手机提醒的问题，语音润色卡住时也能恢复识别原文并保留手动修改。手机分屏边缘手势、内嵌卡片滚动与键盘避让、选图后焦点恢复、弱网创建任务及插件更新匹配等问题也一并修复。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "This release brings Mira's new visual identity, selectable app icons and desktop theme packages, alongside project-based companion groups, public Mira GitHub App integration, one-step plugin permissions and direct actions from mobile notifications. Subscription rotation, file restore-point notices and Windows long-path support are also improved. Mobile users need to install the new app build.",
+      "topics": [
+        {
+          "id": "visual-identity-icons-themes",
+          "title": "New visual identity, selectable app icons and theme packages",
+          "text": "Mira adopts a new default portrait across the app icon, default Mira companion avatar, light and dark new-task illustrations and shared image footers. On macOS and new mobile builds on devices that support icon switching, Appearance settings let you choose from four app icons—Default, Light wordmark, Dark wordmark and Mira with her cat—without swapping automatically when changing light or dark mode. Desktop also adds theme packages that bundle colors, fonts and wallpapers, with Mira's help to create custom themes while keeping Mira's warm gray and terracotta palette as the default."
+        },
+        {
+          "id": "companion-groups-memory",
+          "title": "Project-based companion groups and clearer project memory",
+          "text": "Companion group chats can link to a project, keep main group chat and threads separate, accept voice input and use exact @ mentions to hand off work (prompting when names overlap). Complex requests to Mira in a group can open a task card and reply in the original thread once finished; personal companions are stopped only by their owner, shared group assistants by the person who started the request, members can remove their own companions, and collaboration reports recover cleanly after a restart without duplicate delivery. Project memory now lives as Markdown files inside the project folder while preserving existing notes without overwriting on upgrade."
+        },
+        {
+          "id": "github-app-and-pulls",
+          "title": "Connect the Mira GitHub App for pull requests and automations",
+          "text": "The Mira GitHub App is now open for everyone to install: after connecting your account on desktop and authorizing repositories, Mira refreshes and wakes active PR follow-ups promptly when reviews, comments or checks change without manual receiver URLs or secrets (and without counting against daily Webhook deliveries). Automations can also connect through Mira to trigger directly from authorized repositories and selected events including pull requests, reviews, comments, checks, issues, pushes, workflow runs and releases. The task header, companion cards and mobile task menu show explicitly linked GitHub PR and GitLab MR statuses with link copying, and PR cards shared across tasks can jump straight to the task actively following that PR."
+        },
+        {
+          "id": "plugin-permissions-browsers",
+          "title": "One-step plugin permissions and broader browser support",
+          "text": "Installing or updating a plugin now presents a single permission card covering working directory access, network origins, existing credential references, read-only subscription usage, interface entries and runtime controls; installed plugins need no reinstall or re-approval and never gain unapproved permissions automatically on update. Supported plugins can add entries in the sidebar, task menu and settings, and render stateful interactive cards as well as plugin views from remote computers. Paired with the updated Mira Chrome plugin, desktop adds connection and auto-reconnect support for Tabbit, ego lite, and browsers including Arc, Vivaldi, Opera, 360 and QQ, depending on browser and operating system support."
+        },
+        {
+          "id": "mobile-notifications-badges-haptics",
+          "title": "Direct notification actions, app badges and haptics on mobile",
+          "text": "System notifications let you answer questions, send replies or approve permissions directly, and handling a notification on one device clears matching alerts on your other devices signed in to the same account. The mobile app icon can show the count of tasks waiting for you or containing unread updates, alongside more accurate lock-screen and Live Activity counts and everyday haptic feedback (depending on system permissions and device support). Companion updates, computer lists, math formulas and question cards are also clearer to read on mobile."
+        },
+        {
+          "id": "accounts-branches-models",
+          "title": "Fairer subscription rotation, branch switching and multi-computer models",
+          "text": "Multiple subscription accounts rotate fairly by remaining allowance so a slow account no longer holds back ready ones, and work can continue if another account or a configured backup source is available when a limit is reached. Starting a task supports switching branches or creating an isolated worktree after checking uncommitted changes, while model groups distinguish sources across computers and show model lists from the remote computer whose provider actually runs them. Large or multi-image requests automatically compress request copies while keeping original images intact, alongside MiMo thinking controls and undoable auto-archiving for idle tasks."
+        },
+        {
+          "id": "restore-point-notice",
+          "title": "Task notice when a file restore point cannot be saved",
+          "text": "When a file restore point cannot be saved for a turn, the task shows a one-time notice that your project files are still intact, changes from that turn may not be reversible, and the next turn will try saving again as usual. The notice appears consistently when viewing the same task on desktop and mobile."
+        },
+        {
+          "id": "windows-long-paths-migration",
+          "title": "Windows long-path support and storage migration fixes",
+          "text": "Fixed plugin library database access, backups and storage folder migration under long paths on Windows, improved non-overwriting folder merge stability, and completed Windows native runtime dependencies. Also fixed legacy data compatibility and deduplication when upgrading to new folder paths."
+        },
+        {
+          "id": "remote-schedule-mobile-fixes",
+          "title": "Remote relay fallback, scheduled runs and interaction fixes",
+          "text": "Remote connections automatically fall back to relay transport when a direct connection is unavailable, alongside fixes for same-page navigation canceling remote sends and smoother remote audio and video playback, seeking and cleanup. Fixed scheduled runs occasionally dropping queued messages, overwriting the original failure reason or sending unintended mobile alerts, and allowed voice input to recover the original transcription when refinement stalls while keeping manual edits. Mobile split-pane edge gestures, embedded card scrolling and keyboard avoidance, input focus after picking photos, weak-network task creation and plugin update matching are also fixed."
+        }
+      ]
+    }
+  }
+}
