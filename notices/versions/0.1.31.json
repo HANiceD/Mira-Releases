@@ -1,0 +1,114 @@
+{
+  "version": "0.1.31",
+  "date": "2026-11-23",
+  "contributors": [],
+  "banner": {
+    "url": "https://api.heymira.online/notice/assets/v0.1.31-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "初冬早晨，Mira 坐在成都社区公园的长凳上，手里的望远镜放到腿上，抬眼看低枝上的小鸟。",
+      "en": "On an early winter morning in a Chengdu neighborhood park, Mira lowers her binoculars to her lap and watches a small bird on a low branch."
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "插件引擎现在可以在提问时停下来等你回答，也能用于伙伴和派工。新版还带回桌面排队消息，加入 GLM-5.4 支持与 ZCode 同账号跨电脑工作区，并改善文件预览、收件箱和远程连接。手机端需安装新版应用。",
+      "topics": [
+        {
+          "id": "plugin-engine-questions",
+          "title": "插件引擎会停下来等你回答",
+          "text": "DeepSeek、Antigravity 和 ZCode 引擎需要你做决定时，会弹出提问卡并暂停，等你选择或填写答案后再继续。协同任务里也能直接跳到正在等回答的成员。"
+        },
+        {
+          "id": "buddies-and-model-routing",
+          "title": "伙伴和派工可选插件引擎",
+          "text": "可以把已安装且可用的插件引擎设为伙伴的默认模型，也能在派工、定时执行和调整分工时选用。伙伴也支持模型组。"
+        },
+        {
+          "id": "same-account-workspaces",
+          "title": "用 ZCode 处理另一台电脑上的工作区",
+          "text": "两台电脑登录同一 Mira 账号后，可从当前设备发起 ZCode 任务，在另一台电脑的工作区读写文件、运行命令。运行引擎的电脑需要安装并登录 ZCode。"
+        },
+        {
+          "id": "model-catalog",
+          "title": "新增 GLM-5.4 支持",
+          "text": "模型列表可显示所连接服务提供的 GLM-5.4。临时断网或刷新失败时，Mira 会保留已验证的本机订阅模型，并在额度用完时说明原因。"
+        },
+        {
+          "id": "engine-plugin-updates",
+          "title": "三款引擎更新，两款可选插件加入",
+          "text": "Antigravity 引擎 0.4.3 新增三款 Orchestrator 模型说明，支持自定义安装路径，并修复多张大图发送问题。DeepSeek 引擎 0.2.1 和 ZCode 引擎 0.2.2 支持提问卡。Herdr 0.1.115 可查看本机终端工作区，AgentCompass 0.6.1 可分派工作并汇总结果，其启动子任务功能使用最高权限。"
+        },
+        {
+          "id": "desktop-queue",
+          "title": "桌面排队消息恢复显示，收件箱更好整理",
+          "text": "修复 0.1.30 起桌面端看不到排队消息的问题。伙伴主对话和置顶任务会出现在对应的收件箱分区，标为完成后立即选中下一项。"
+        },
+        {
+          "id": "file-browser",
+          "title": "在桌面侧栏浏览和预览文件",
+          "text": "右侧栏可浏览目录、看缩略图，并就地打开文件预览。Windows 的预览组件换用 Mira 名称，打开预览时也不会再意外弹出控制台窗口。"
+        },
+        {
+          "id": "mobile-native-update",
+          "title": "手机连接更稳，Android 表格选字更顺畅",
+          "text": "手机连接电脑时启动和恢复更快，换网时更容易保持连接。Android 修复对话表格里连续选字被打断的问题，iOS 回到前台时会用完整任务状态更新实时活动。两端均需安装新版应用。"
+        },
+        {
+          "id": "remote-desktop",
+          "title": "手机远程控制电脑更顺手",
+          "text": "手机点进受控 Mac 的输入框时更容易唤起键盘，折叠屏远程键盘与触摸板新增冰蓝复古样式。部分中转连接失效时，Mira 会自动尝试其他连接方式。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "Plugin engines can now pause for your answer, and you can use them with buddies and delegated work. This release also restores visible message queues on desktop, adds GLM-5.4 support and ZCode workspaces across your computers, and improves file previews, the inbox and remote connections. Mobile users need to install the new app build.",
+      "topics": [
+        {
+          "id": "plugin-engine-questions",
+          "title": "Plugin engines can pause for your answer",
+          "text": "DeepSeek, Antigravity and ZCode can show a question card and pause while you choose an option or write your own answer. In a collaborative session, you can jump straight to the worker that’s waiting."
+        },
+        {
+          "id": "buddies-and-model-routing",
+          "title": "Plugin engines for buddies and delegated work",
+          "text": "Set an available plugin engine model as a buddy’s default, or choose one when delegating, scheduling or reassigning work. Buddies also support model groups."
+        },
+        {
+          "id": "same-account-workspaces",
+          "title": "Use ZCode with a workspace on another computer",
+          "text": "Start a ZCode session from your current device to read and edit files or run commands in a workspace on another computer signed into the same Mira account. The computer running the engine needs ZCode installed and signed in."
+        },
+        {
+          "id": "model-catalog",
+          "title": "GLM-5.4 support",
+          "text": "The model list can show GLM-5.4 when your connected service offers it. Mira retains verified local subscription models during temporary outages or failed refreshes, and explains when a quota runs out."
+        },
+        {
+          "id": "engine-plugin-updates",
+          "title": "Three engine updates and two optional plugins",
+          "text": "Antigravity Engine 0.4.3 adds descriptions for three Orchestrator models, supports a custom install path and fixes sending multiple large images. DeepSeek Engine 0.2.1 and ZCode Engine 0.2.2 support question cards. Herdr 0.1.115 shows local terminal workspaces, while AgentCompass 0.6.1 routes work and collects results. Its action for starting child sessions uses the highest permission level."
+        },
+        {
+          "id": "desktop-queue",
+          "title": "Queued messages are visible again, and the inbox is easier to manage",
+          "text": "Desktop shows queued messages again, fixing an issue introduced in 0.1.30. Buddy chats and pinned sessions appear in the relevant inbox sections, and marking a session done immediately selects the next one."
+        },
+        {
+          "id": "file-browser",
+          "title": "Browse and preview files in the desktop sidebar",
+          "text": "Browse folders, see thumbnails and open file previews directly in the sidebar. On Windows, the preview helper now carries the Mira name and no longer opens an unexpected console window."
+        },
+        {
+          "id": "mobile-native-update",
+          "title": "Steadier mobile connections and smoother Android text selection",
+          "text": "Mobile connects to your computer faster and is more likely to stay connected when you switch networks. Android fixes interrupted text selection in chat tables, and iOS refreshes Live Activities with the full session status when returning to the app. Install the new app build on either platform to get these changes."
+        },
+        {
+          "id": "remote-desktop",
+          "title": "Easier remote control from your phone",
+          "text": "Tapping a text field on a controlled Mac brings up the phone keyboard more reliably. Foldable devices get an ice-blue retro keyboard and trackpad, and Mira can automatically try another route when a relay connection fails."
+        }
+      ]
+    }
+  }
+}
