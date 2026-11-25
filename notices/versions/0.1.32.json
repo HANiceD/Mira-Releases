@@ -1,0 +1,124 @@
+{
+  "version": "0.1.32",
+  "date": "2026-11-25",
+  "contributors": [],
+  "banner": {
+    "url": "https://api.heymira.online/notice/assets/v0.1.32-4x1.webp",
+    "altByLocale": {
+      "zh-CN": "冬日午后，Mira 在成都居民楼晒台上叠一条灰蓝色围巾",
+      "en": "Mira folds a blue-gray scarf on a sunny Chengdu rooftop in winter"
+    }
+  },
+  "contentByLocale": {
+    "zh-CN": {
+      "intro": "DeepSeek 和 ZCode 插件引擎支持在一台电脑上使用多个账号。模型组、个人聊天渠道和定时任务有了更细的设置，任务在同账号的电脑与手机之间也更容易接续。请安装新版手机应用，以获得 iOS 锁屏实时活动和两端小组件的原生更新。",
+      "topics": [
+        {
+          "id": "plugin-engines-and-accounts",
+          "title": "插件引擎与账号",
+          "text": "DeepSeek 和 ZCode 可以在一台电脑上添加自己的多个账号，并按账号查看额度。Antigravity 伙伴可以在 Mira 里提问。"
+        },
+        {
+          "id": "quota-usage-and-pricing",
+          "title": "额度、用量与价格",
+          "text": "Mac 菜单栏、手机小组件和模型选择器显示 Antigravity 额度。Mac 菜单栏也会统计插件引擎任务，并显示智谱 GLM Coding Plan 的余量。"
+        },
+        {
+          "id": "models-groups-and-providers",
+          "title": "模型、模型组与供应商",
+          "text": "模型组新增用完再换、余量最多的先用和按权重三种选法，也支持按星期和时段设例外。符合条件的 ChatGPT 订阅可以重新出图。"
+        },
+        {
+          "id": "buddies-and-messaging-channels",
+          "title": "伙伴与个人聊天渠道",
+          "text": "个人飞书渠道可按群设置项目、模型和访问范围。iMessage 的原图和回复交付更完整，个人 Discord 和微信也修复了消息显示问题。"
+        },
+        {
+          "id": "devices-and-remote-connections",
+          "title": "同账号设备与远程连接",
+          "text": "被移除的设备仍有效登录时，可在该设备上重新加入。连接会在可用的直连和中继之间选择，同账号远程任务也更容易恢复。"
+        },
+        {
+          "id": "scheduling-collaboration-and-tasks",
+          "title": "定时任务、协作与任务管理",
+          "text": "定时任务和协同工作可选模型组，也可以按设定频率跟进 GitLab 合并请求。经授权的任务导出可保存到你选的目录。"
+        },
+        {
+          "id": "plugin-market-and-file-actions",
+          "title": "插件市场、表单与文件打开",
+          "text": "市场改进分类和安装来源提示。插件表单、文件打开和在同账号电脑打开任务都按各自授权使用，设备模拟器与 163 邮箱也有修复。"
+        },
+        {
+          "id": "desktop-controls-and-permissions",
+          "title": "桌面操作与系统权限",
+          "text": "Windows 增加托盘悬浮卡片开关并修复截图，桌面对话可以选更宽的版面。手动上传日志时可以只同意本次。"
+        },
+        {
+          "id": "mobile-tasks-images-and-widgets",
+          "title": "手机任务、图片与小组件",
+          "text": "新版手机应用更新 iOS 锁屏实时活动和两端小组件。Android 图片预览可以保存原图，大屏竖屏任务页更容易打开列表。"
+        },
+        {
+          "id": "reliability-recovery-and-compatibility",
+          "title": "稳定性、恢复与兼容",
+          "text": "待发消息和失败提示在重开任务后更容易找回。Mira 会把确认超时和主动拒绝说明清楚，插件卡片加载与离线回看也有改进。"
+        }
+      ]
+    },
+    "en": {
+      "intro": "DeepSeek and ZCode now support multiple accounts on one computer. Model groups, personal messaging channels, and scheduled tasks offer more control, and it is easier to resume work across devices signed in to the same account. Install the new mobile app to get the native Lock Screen Live Activity changes on iOS and widget updates on both platforms.",
+      "topics": [
+        {
+          "id": "plugin-engines-and-accounts",
+          "title": "Plugin engines and accounts",
+          "text": "Use several of your own accounts on one computer with DeepSeek and ZCode and check each account’s quota. Antigravity buddies can ask questions in Mira."
+        },
+        {
+          "id": "quota-usage-and-pricing",
+          "title": "Quota, usage, and pricing",
+          "text": "See Antigravity quota in the Mac menu bar, mobile widgets, and the model picker. The Mac menu bar also includes plugin-engine tasks in its totals and shows remaining GLM Coding Plan quota."
+        },
+        {
+          "id": "models-groups-and-providers",
+          "title": "Models, model groups, and providers",
+          "text": "Model groups can keep using one source, prefer the most remaining quota, or distribute by weight, with exceptions by day and time. Eligible ChatGPT subscriptions can generate images again."
+        },
+        {
+          "id": "buddies-and-messaging-channels",
+          "title": "Buddies and personal messaging channels",
+          "text": "Configure the project, model, and access level separately for each group in a personal Feishu channel. iMessage handles original images and replies more reliably, and personal Discord and WeChat have message fixes."
+        },
+        {
+          "id": "devices-and-remote-connections",
+          "title": "Devices and remote connections on the same account",
+          "text": "Rejoin from a removed device while you’re still signed in there. Mira chooses between available direct and relayed connections, with better recovery for remote tasks on the same account."
+        },
+        {
+          "id": "scheduling-collaboration-and-tasks",
+          "title": "Scheduling, collaboration, and task management",
+          "text": "Use model groups for scheduled tasks and collaboration, or set up scheduled GitLab merge request checks. Authorized exports can go to a folder you select."
+        },
+        {
+          "id": "plugin-market-and-file-actions",
+          "title": "Plugin market, forms, and file opening",
+          "text": "The market makes categories and install sources clearer. Plugin forms, file opening, and opening tasks on your computers follow their own approvals. Device Simulator and 163 Mail have fixes."
+        },
+        {
+          "id": "desktop-controls-and-permissions",
+          "title": "Desktop controls and system permissions",
+          "text": "Windows adds a tray hover card switch and fixes screenshot issues. Desktop offers a wider conversation layout, and a manual log upload can be approved for just that upload."
+        },
+        {
+          "id": "mobile-tasks-images-and-widgets",
+          "title": "Mobile tasks, images, and widgets",
+          "text": "The new mobile app updates iOS Lock Screen Live Activities and widgets on both platforms. Save original images on Android and open the task list more easily on larger phones in portrait."
+        },
+        {
+          "id": "reliability-recovery-and-compatibility",
+          "title": "Reliability, recovery, and compatibility",
+          "text": "Queued messages and send-blocking notices remain available when reopening tasks. Mira distinguishes a confirmation timeout from a denial and improves plugin card loading and offline viewing."
+        }
+      ]
+    }
+  }
+}
